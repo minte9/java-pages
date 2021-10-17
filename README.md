@@ -1,2 +1,3 @@
 # java-pages
-Java code examples - minte9.com
+Java code examples
+https://www.minte9.com/java
