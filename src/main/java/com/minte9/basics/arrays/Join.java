@@ -3,7 +3,7 @@
  * String.join() method (since JDK 1.8)
  */
 
-package com.minte9.basics.arrays;
+package com.minte9.basics.arrays; //
 
 public class Join {
     public static void main(String[] args) {
