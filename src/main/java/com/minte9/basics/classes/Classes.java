@@ -1,6 +1,6 @@
 /**
- * In Java, everything goes into a class (.java file).
- * Compilation generate a .class file.
+ * In Java, everything goes into a class (.java file)
+ * Compilation generate a .class file
  * 
  * The program starts in main()
  * 
