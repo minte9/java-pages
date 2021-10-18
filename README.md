@@ -1,5 +1,5 @@
 ## Java
-Java code examples - [minte9.com/java](https://www.minte9.com/java)
+Java code repository - [minte9.com/java](https://www.minte9.com/java)
 
 ## 1.1 Basics
   * classes/
