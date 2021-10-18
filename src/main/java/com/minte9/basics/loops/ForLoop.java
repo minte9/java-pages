@@ -1,8 +1,8 @@
 /**
- * For loop can be used when you know ...
+ * For loop can be used when you know ... //
  * how many times you want to loop.
  * 
- * Those three expressions in the for loop are optional ... 
+ * Those three expressions in the for loop are optional ...
  * but this form is not recommended.
  */
 package com.minte9.basics.loops;
