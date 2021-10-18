@@ -1,9 +1,8 @@
 /**
- * In Java, everything goes into a class.
- * The class file must have .java extension.
- * After compilation a new file .class is created.
+ * In Java, everything goes into a class (.java file).
+ * Compilation generate a .class file.
  * 
- * The main() method is where your program starts running.
+ * The program starts in main()
  * 
  * The return type void means there is no returned value.
  * Every statement must end in semicolon.
