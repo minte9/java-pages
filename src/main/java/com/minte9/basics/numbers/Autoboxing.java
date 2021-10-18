@@ -1,6 +1,5 @@
 /**
- * Primitives types {{cannot}} be used in Collections or Generics.	
- * 
+ * Primitives types cannot be used in Collections or Generics.	
  * Java compiler makes automatic convertions to primitives. 
  */
 
