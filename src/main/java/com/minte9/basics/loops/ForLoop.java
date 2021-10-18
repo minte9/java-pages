@@ -12,7 +12,7 @@ public class ForLoop {
         
         for (int i=0; i<10; i++) {
             System.out.println(i); 
-                // 0 1 2 .. 9 
+                // 0 1 2 .. 9
         }
 
         int i=0; for ( ;; ) { // infinite loop
