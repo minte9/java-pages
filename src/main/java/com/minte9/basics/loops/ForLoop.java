@@ -3,7 +3,7 @@
  * how many times you want to loop.
  * 
  * Those three expressions in the for loop are optional ... 
- * but this form is not recommended. 
+ * but this form is not recommended.
  */
 package com.minte9.basics.loops;
 

@@ -1,5 +1,5 @@
 /**
- * With Enhanced For Loop you don't need a loop index 
+ * With Enhanced For Loop you don't need a loop index
  */
 package com.minte9.basics.loops;
 
