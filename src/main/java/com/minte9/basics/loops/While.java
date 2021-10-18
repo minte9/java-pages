@@ -10,6 +10,7 @@ public class While {
         
         int i = 0;
         while(i<10) {
+            
             System.out.println(i); 
                 // 0 1 2 ... 9
             i++;
