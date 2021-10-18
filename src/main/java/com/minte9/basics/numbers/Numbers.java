@@ -1,6 +1,4 @@
 /**
- * Java provides wrapper classes for each primitive data types.
- * 
  * All of the numberic wrapper classes are subclasses of ...
  * the abstract class Number.
  * 
