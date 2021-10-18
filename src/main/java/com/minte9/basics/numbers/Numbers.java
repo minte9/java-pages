@@ -2,7 +2,10 @@
  * Java provides wrapper classes for each primitive data types.
  * 
  * All of the numberic wrapper classes are subclasses of ...
- * the abstract class Number
+ * the abstract class Number.
+ * 
+ * Effective Java (Item 49): 
+ * Prefer primitive types to boxed primitives. 
  */
 
 package com.minte9.basics.numbers;
