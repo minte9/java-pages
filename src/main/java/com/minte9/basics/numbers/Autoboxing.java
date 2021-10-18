@@ -13,12 +13,12 @@ public class Autoboxing {
         
         List<Integer> li = new ArrayList<>();
 
-        /**
-         * You add int to the Integer object ...
-         * and still the code compiles
-         */
-        for (int i=0; i<10; i++) {
+        for (int i=0; i<10; i++) { 
             li.add(i);
+                // i is primitive
         }
+
+        System.out.println(li.get(0).getClass().getName());
+            // java.lang.Integer
     }
 }
