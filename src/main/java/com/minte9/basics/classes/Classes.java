@@ -1,5 +1,5 @@
 /**
- * In Java, everything goes into a class
+ * In Java, everything goes into a class.
  * The class file must have .java extension.
  * After compilation a new file .class is created.
  * 
