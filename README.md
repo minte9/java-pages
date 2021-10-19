@@ -25,4 +25,4 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Break.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/loops/Break.java)
   * numbers/
     * [Numbers.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Numbers.java)
-    * [Autoboxing.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Autoboxing.java)
+    * [Autoboxing.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Autoboxing.java) 
