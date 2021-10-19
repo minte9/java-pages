@@ -1,6 +1,6 @@
 /**
  * super() method is used to call parent constructor
- * super() method must be the first statement in each controller
+ * It must be the first statement in each controller
  */
 
 package com.minte9.oop.inheritance;
