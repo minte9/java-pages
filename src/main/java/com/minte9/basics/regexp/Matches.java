@@ -1,5 +1,5 @@
 /**
- * In Java the match() must be for all string to return true
+ * The Pattern matches() if all the string match the pattern
  * 
  * To check only parts of the string find() is used
  */
