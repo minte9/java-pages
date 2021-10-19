@@ -17,11 +17,8 @@ class A extends ParentClass {
     }
 
     /*
-    public void A(String s) {
+    public void A(String s) { // Wrong, void is first statement
         super(s);
-        
-        // Error: Call to super must be the first statement
-        // void is the first statement
     }
     */
 }
