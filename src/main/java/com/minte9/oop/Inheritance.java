@@ -1,7 +1,7 @@
 /**
  * Inheritance means that a subclass extends a super class.
  * Superclasses defines what subclasses have in common ...
- * then abstract those features.
+ * then abstract those features. 
  */
 
 package com.minte9.oop;
