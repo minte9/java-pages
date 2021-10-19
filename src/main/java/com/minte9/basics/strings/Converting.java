@@ -1,6 +1,6 @@
 /**
- * To convert String to Number use valueOf()
- * To convert Number to String use toString()
+ * To convert String to int use valueOf()
+ * To convert int to String use toString()
  */
 
 package com.minte9.basics.strings;
