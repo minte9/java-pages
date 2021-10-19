@@ -11,7 +11,7 @@ public class PassedByValueTest {
         int x = 3;
         obj.init(x);
         assertEquals(x, 3);     // pass
-        assertTrue(x != 0);    // pass
+        assertTrue(x != 0);     // pass
     }
 
     @Test public void staticTest() {
@@ -19,7 +19,7 @@ public class PassedByValueTest {
         String y = "aaa";
         MyClass.set(y);
         assertEquals(MyClass.y, "zzz");         // pass
-        assertTrue(! MyClass.y.equals("aaa"));   // pass
+        assertTrue(! MyClass.y.equals("aaa"));  // pass
     }
 }
 
