@@ -6,20 +6,27 @@ import org.junit.Test;
 public class PassedByValueTest {
 
     @Test public void objectTest() {
+
         MyClass obj = new MyClass();
+
         int x = 3;
         obj.init(x);
 
-        assertEquals(3, x); // pass
-        assertFalse(x == 0); // pass
+        assertEquals(x, 3); 
+            // pass
+        assertFalse(x == 0); 
+            // pass
     }
 
     @Test public void staticTest() {
+
         String y = "aaa";
         MyClass.set(y);
 
-        assertEquals(MyClass.y, "zzz"); // pass
-        assertFalse(MyClass.y.equals("aaa")); // pass
+        assertEquals(MyClass.y, "zzz"); 
+            // pass
+        assertFalse(MyClass.y.equals("aaa")); 
+            // pass
     }
 }
 
