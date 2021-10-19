@@ -5,7 +5,9 @@
  */
 
 package com.minte9.basics.regexp;
-import java.util.regex.*;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Matches {
     public static void main(String[] args) {
