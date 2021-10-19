@@ -13,13 +13,14 @@ public class Annotation {
 
 abstract class MyAbstractClass {
     abstract public void setName();
-    abstract public void setAction();
 }
 
 class MyClass extends MyAbstractClass {
 
-    public void setNames() {} // wrong method & no Override
+    // Wrong method name - with no Override annotation)
+    public void setNames() {}
 
+    // Correct - with Override annotation
     @Override 
-    public void setAction() {}
+    public void setName() {}
 }
