@@ -17,7 +17,8 @@ class A extends ParentClass {
     }
 
     /*
-    public void A(String s) { // Wrong, void is first statement
+    public void A(String s) { 
+            // Wrong, void is the first statement
         super(s);
     }
     */
