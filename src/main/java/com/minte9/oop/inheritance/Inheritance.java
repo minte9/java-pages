@@ -2,6 +2,9 @@
  * Inheritance means that a subclass extends a super class.
  * Superclasses defines what subclasses have in common ...
  * then abstract those features. 
+ * 
+ * Every class in Java extends class Object.
+ * Object is the only class that has no superclass.
  */
 
 package com.minte9.oop.inheritance;
