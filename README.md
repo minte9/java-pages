@@ -36,3 +36,9 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Replace](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Replace.java)
     * [Split](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Split.java)
     * [Lookaround](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Lookaround.java)
+
+## OOP
+  * inheritance/
+    * [Inheritance](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Inheritance.java)
+    * [Annotation](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Annotation.java)
+    * [Super](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Super.java)
