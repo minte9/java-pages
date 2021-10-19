@@ -4,7 +4,7 @@
  * then abstract those features. 
  */
 
-package com.minte9.oop;
+package com.minte9.oop.inheritance;
 
 public class Inheritance {
     public static void main(String[] args) {
