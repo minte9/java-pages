@@ -18,13 +18,11 @@ public class Split {
                 
         for (String s : ss) {
             System.out.println(s);
-            /*
-                one
-                two
-                alpha9
-                12
-                done
-            */
+            // one
+            // two
+            // alpha9
+            // 12
+            // done
         }
 
         /**
