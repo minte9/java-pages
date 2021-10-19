@@ -7,7 +7,7 @@
 
 package com.minte9.basics.variables;
 
-class PassedByValue {
+public class PassedByValue {
 
     public static void main(String[] args) {
         

@@ -8,7 +8,7 @@
 
 package com.minte9.basics.variables;
 
-class Parameters {
+public class Parameters {
     public static void main(String[] args) {
     
         Math math = new Math();

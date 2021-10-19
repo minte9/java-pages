@@ -7,7 +7,7 @@
  */
 package com.minte9.basics.variables;
 
-class DefaultValues {
+public class DefaultValues {
     public static void main(String[] args) {
 
         Values obj = new Values();  
