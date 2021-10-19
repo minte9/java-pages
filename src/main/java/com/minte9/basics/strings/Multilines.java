@@ -1,7 +1,6 @@
 /**
- * Java does not permit strings to span lines.
- * 
  * To span strings on multiple lines, use:
+ * 
  * a) concatenation operator +
  * b) String.join()
  * c) Text Block """ (starting with JDK15)
