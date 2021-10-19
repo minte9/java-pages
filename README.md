@@ -24,5 +24,5 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [While.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/loops/While.java)
     * [Break.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/loops/Break.java)
   * numbers/
-    * [Autoboxing.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Autoboxing.java)
     * [Numbers.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Numbers.java)
+    * [Autoboxing.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Autoboxing.java)
