@@ -1,6 +1,6 @@
 package basics;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 public class PassedByValueTest {
@@ -11,7 +11,7 @@ public class PassedByValueTest {
         int x = 3;
         obj.init(x);
         assertEquals(x, 3);     // pass
-        assertFalse(x == 0);    // pass
+        assertTrue(x != 0);    // pass
     }
 
     @Test public void staticTest() {
@@ -19,7 +19,7 @@ public class PassedByValueTest {
         String y = "aaa";
         MyClass.set(y);
         assertEquals(MyClass.y, "zzz");         // pass
-        assertFalse(MyClass.y.equals("aaa"));   // pass
+        assertTrue(! MyClass.y.equals("aaa"));   // pass
     }
 }
 
