@@ -6,7 +6,7 @@
  */
 package com.minte9.basics.arrays;
 
-class Types {
+public class Types {
     public static void main(String[] args) {
     
         Dog[] dogs = new Dog[4]; // array of Dogs
