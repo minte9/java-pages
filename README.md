@@ -14,7 +14,8 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Join.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/arrays/Join.java)
   * variables/
     * [Parameters.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/variables/Parameters.java)
-    * [PassedByValue.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/variables/PassedByValue.java)
+    * [PassedByValue.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/variables/PassedByValue.java), 
+      [PassedByValueTest.java](https://github.com/minte9/java-pages/tree/main/src/test/java/basics/PassedByValueTest.java)
     * [Setter.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/variables/Setter.java)
     * [DefaultValues.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/variables/DefaultValues.java)
   * loops/
@@ -28,7 +29,8 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Autoboxing.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/numbers/Autoboxing.java) 
   * strings/
     * [Multilines.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Multilines.java)
-    * [Converting.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Converting.java)
+    * [Converting.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Converting.java), 
+      [ConvertingTest.java](https://github.com/minte9/java-pages/tree/main/src/test/java/basics/ConvertingTest.java)
     * [Padding.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Padding.java)
   * regexp/
     * [Matches.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Matches.java)
