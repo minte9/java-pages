@@ -15,7 +15,6 @@ public class Split {
          */
         Pattern p = Pattern.compile("[ ,.!]");
         String ss[] = p.split("one two,alpha9 12!done.");
-                
         for (String s : ss) {
             System.out.println(s);
             // one
