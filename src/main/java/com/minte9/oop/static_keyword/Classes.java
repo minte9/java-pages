@@ -1,6 +1,5 @@
 /**
  * Only nested classes can be static.
- * 
  * You can use the nested class without an instance for outer class.
  */
 
