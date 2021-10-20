@@ -22,7 +22,7 @@ public class Parameter {
 class Item {
     protected String type;
     public void open() {
-        System.out.println(type + " opened"); // Polymorphism
+        System.out.println(type + " opened"); // PO
     }
 }
 
