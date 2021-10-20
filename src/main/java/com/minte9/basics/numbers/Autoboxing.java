@@ -1,4 +1,7 @@
 /**
+ * Autoboxing is the automatic conversion that Java compiler makes.
+ * It converts between the primites and the corresponding object wrapper classes.
+ * 
  * Primitives types cannot be used in Collections or Generics.	
  * Java compiler makes automatic convertions to primitives. 
  * 
