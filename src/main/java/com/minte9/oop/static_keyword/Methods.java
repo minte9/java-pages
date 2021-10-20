@@ -1,6 +1,5 @@
 /**
  * Static methods belong to the class and not every instance of the class.
- * 
  * Example: Java.lang.Math has a round() static method.
  */
 
