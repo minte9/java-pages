@@ -24,4 +24,3 @@ public class Methods {
         return Math.round(n);
     }
 }
-    
