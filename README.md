@@ -45,7 +45,7 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
   * polymorphism/
     * [Casting.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop//polymorphism/Casting.java)
     * [Parameter.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/polymorphism/Parameter.java)
-  * static_keyword/
+  * static keyword/
     * [Variables.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/static_keyword/Variables.java)
     * [Methods.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/static_keyword/Methods.java)
     * [Classes.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/static_keyword/Classes.java)
