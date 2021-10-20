@@ -7,7 +7,6 @@
 package com.minte9.oop.static_keyword;
 
 public class Classes {
-    
     static int a = 10;
 
     public static void main(String[] args) {
