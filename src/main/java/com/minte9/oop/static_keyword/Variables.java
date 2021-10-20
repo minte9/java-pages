@@ -5,7 +5,7 @@
  * It can be called without object instantiation.
  */
 
-package com.minte9.oop.statics;
+package com.minte9.oop.static_keyword;
 
 public class Variables {
     public static void main(String[] args) {
