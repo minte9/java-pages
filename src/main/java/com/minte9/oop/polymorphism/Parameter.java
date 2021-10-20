@@ -1,6 +1,8 @@
 /**
+ * Polymorphism and Dependency Injection
+ * 
  * Using polymorphism we can pass object as parameters ...
- * and call object's super methods  
+ * and call object's super methods. 
  */
 
 package com.minte9.oop.polymorphism;
@@ -17,24 +19,27 @@ public class Parameter {
     }
 }
 
-abstract class Item {
-    abstract public void open();
+class Item {
+    protected String type;
+    public void open() {
+        System.out.println(type + " opened"); // Polymorphism
+    }
 }
 
 class Csv extends Item {
-    public void open() {
-        System.out.println("Csv opened"); 
+    public Csv() {
+        type = "CSV";
     }
 }
 
 class Xml extends Item {
-    public void open() {
-        System.out.println("Xml opened"); 
+    public Xml() {
+        type = "XML";
     }
 }
 
 class File {
-    public void open(Item item) {
+    public void open(Item item) { // DI
         item.open();
     }
 }
