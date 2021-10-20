@@ -42,3 +42,6 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Inheritance](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Inheritance.java)
     * [Annotation](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Annotation.java)
     * [Super](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Super.java)
+  * polymorphism/
+    * [Casting.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop//polymorphism/Casting.java)
+    * [Parameter.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/polymorphism/Parameter.java)
