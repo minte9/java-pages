@@ -16,6 +16,7 @@ public class Classes {
         static int a = 10;
     
         static class InnerClass {
+            
             public static void run() {
                 System.out.println(a); // field from Outer Class
             }
