@@ -1,9 +1,7 @@
 /**
- * An abstract class means ...
- * the class must be extended.
+ * An abstract class means ... the class must be extended.
  * 
- * An abstract method means ...
- * the method must be overridden.
+ * An abstract method means ... the method must be overridden.
  */
 
 package com.minte9.oop.abstract_keyword;
