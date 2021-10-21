@@ -9,7 +9,7 @@ package com.minte9.oop.interfaces;
 
 public class Legacy {
     public static void main(String[] args) {
-        
+
         new ClassA().setvalue();
         new ClassA().settype();
         new ClassB().settype();
@@ -37,7 +37,7 @@ class NewClass implements B {
     }
 }
 
-interface B extends A {
+interface B extends A { // Look Here
     public void settype();
 }
 

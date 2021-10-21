@@ -1,8 +1,5 @@
 /**
- * When you add methods to an interface, current related classes will break.
- * You'll need to create more interfaces that extend initial interface.
- * 
- * Where is possible, it is better to createa a new interface.
+ * For default interface methods you must provide an implementation.
  */
 
 package com.minte9.oop.interfaces;
@@ -36,7 +33,7 @@ class ClassB implements C {
 
 interface C {
     void setvalue();
-    default void settype() {
+    default void settype() { // Look Here
         System.out.println("New interface method - settype");
     };
 }
