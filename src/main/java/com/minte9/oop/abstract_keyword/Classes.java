@@ -7,7 +7,7 @@
 
 package com.minte9.oop.abstract_keyword;
 
-public class Instantiation {
+public class Classes {
     public static void main(String[] args) {
         
         new Dog("gray");
