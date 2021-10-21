@@ -50,4 +50,11 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Methods.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/static_keyword/Methods.java)
     * [Classes.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/static_keyword/Classes.java)
     * [Import.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/static_keyword/Import.java)
+  * abstract_keyword/
+    * [Classes.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/abstract_keyword/Classes.java)
+    * [Methods.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/abstract_keyword/Methods.java)
+  * interfaces/
+    * [Contract.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/interfaces/Contract.java)
+    * [Legacy.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/interfaces/Legacy.java)
+    * [Default.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/interfaces/Default.java)
 
