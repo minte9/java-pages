@@ -1,5 +1,5 @@
 /**
- * Using default keyword allows you to add implementation in interfaces.
+ * Default keyword allows you to add implementation in interfaces.
  * 
  * Other methods (non default) must be all define as abstract.
  */
