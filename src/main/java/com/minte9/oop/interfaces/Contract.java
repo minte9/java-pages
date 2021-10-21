@@ -40,4 +40,3 @@ interface Canine {
 interface Feline {
     public abstract void play();
 }
-
