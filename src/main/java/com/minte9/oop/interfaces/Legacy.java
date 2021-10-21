@@ -9,6 +9,7 @@ package com.minte9.oop.interfaces;
 
 public class Legacy {
     public static void main(String[] args) {
+        
         new ClassA().setvalue();
         new ClassA().settype();
         new ClassB().settype();
