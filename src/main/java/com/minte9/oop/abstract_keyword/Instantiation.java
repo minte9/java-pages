@@ -1,5 +1,5 @@
 /**
- * By marking the class as abstract, you can prevent instantiation.
+ * By marking the class abstract, you can prevent instantiation.
  * 
  * What exactly is an Animal object, what color, what size?
  * We don't know, so the class must be defined as abstract.
