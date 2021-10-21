@@ -27,11 +27,9 @@ class Dog implements Canine {
 
 interface Canine { 
         // no class keyword
-    
     public abstract void play();
     public void eat(); 
         // abstract by default
-
     // public void move() {}; 
         // Error: Interface methods cannot have body
 }
