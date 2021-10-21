@@ -1,5 +1,7 @@
 /**
- * For default interface methods you must provide an implementation.
+ * Using default keyword allows you to add implementation in interfaces.
+ * 
+ * Other methods (non default) must be all define as abstract.
  */
 
 package com.minte9.oop.interfaces;
