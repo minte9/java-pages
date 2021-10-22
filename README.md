@@ -1,4 +1,3 @@
-## Java
 Java code repository - [minte9.com/java](https://www.minte9.com/java)
 
 ## Java / Basics
