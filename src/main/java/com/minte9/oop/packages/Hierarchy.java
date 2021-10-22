@@ -1,6 +1,7 @@
 /**
- * Importing java.uitl.* imports all of the types in the java.util package ...
- * but it does not import java.util.regex package.
+ * Importing java.uitl.* imports all of the types ...
+ * in the java.util package but it does not import ...
+ * java.util.regex package
  */
 
 package com.minte9.oop.packages;
