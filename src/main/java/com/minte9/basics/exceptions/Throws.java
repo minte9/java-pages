@@ -1,7 +1,6 @@
 /**
  * Using "throws Exception" forces the developer ...
  * to wrap the code with try/catch.
- * 
  * It will know that you are using a risky method.
  */
 
