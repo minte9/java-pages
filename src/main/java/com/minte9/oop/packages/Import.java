@@ -3,6 +3,7 @@
  * your type goes in an unnamed package.
  * 
  * Java compiler automaticaly imports three packages:
+ * 
  * (1) the package with no name
  * (2) the java.lang package
  * (3) the current package
