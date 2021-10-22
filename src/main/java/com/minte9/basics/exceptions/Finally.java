@@ -1,6 +1,6 @@
 /**
- * The code inside finally block is exectuted ...
- * if there is an exception or not.
+ * The code inside finally block is always executed
+ * (is an exception or not)
  */
 
 package com.minte9.basics.exceptions;
