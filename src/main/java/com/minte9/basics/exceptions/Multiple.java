@@ -1,11 +1,13 @@
 /**
  * A method can throw multiple exceptions.
+ * If you don't want to handle an exception, you can declaring it.
  */
 
 package com.minte9.basics.exceptions;
 
 public class Multiple {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+        throws NullPointerException { // Look Here
 
         try {
 
@@ -15,7 +17,7 @@ public class Multiple {
             System.out.println(args[2]);
                 // Exception: Index 2 out of bounds ... 
 
-        } catch (ArrayIndexOutOfBoundsException ex) {
+        } catch (ArrayIndexOutOfBoundsException ex) { // Look Here
             System.out.println(ex.getMessage());
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
