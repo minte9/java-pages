@@ -1,5 +1,6 @@
 /**
- * If you do not use a package statement, your type goes in an unnamed package.
+ * If you do not use a package statement ...
+ * your type goes in an unnamed package.
  * 
  * Java compiler automaticaly imports three packages:
  * (1) the package with no name
