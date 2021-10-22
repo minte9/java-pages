@@ -9,11 +9,11 @@ public class Multiple {
 
         try {
 
-            test(-10);      // Exception: Positive number required!
-            
-            System.out.println(
-                args[2]     // Index 2 out of bounds ...
-            ); 
+            test(-10);      
+                // Exception: Positive number required!
+
+            System.out.println(args[2]);
+                // Index 2 out of bounds ... 
 
         } catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println(ex.getMessage());
