@@ -17,15 +17,15 @@ class A {
 }
 
 final class B extends A {
-    /*
-        public void getName() {
-            // Error: override final method
-        } 
-    */
+/*
+    public void getName() {
+        // Error: override final method
+    } 
+*/
 }
 
 /*
-    class C extends B { 
-        // C cannot subtype finalclass B
-    }
+class C extends B { 
+    // C cannot subtype finalclass B
+}
 */
