@@ -11,11 +11,13 @@ public class Final {
     }
 }
 class Animal {    
-    public Animal() {}
-    public final void getName() {} // Look Here
+    public final void getName() { // Look Here
+
+    }
 }
 
 class Dog extends Animal {
-    public Dog() {}
-    //public void getName() {} // Error: override final method
+    /*
+        public void getName() {} // Error: override final method
+    */
 }
