@@ -1,5 +1,5 @@
 /**
- * A final class can't be exended and ...
+ * A final class can't be exended.
  * A final method can't be overriden.
  */
 
@@ -7,17 +7,25 @@ package com.minte9.oop.final_keyword;
 
 public class Final {
     public static void main(String[] args) {
-        new Dog();
+        new B();
     }
 }
-class Animal {    
+class A {    
     public final void getName() { // Look Here
 
     }
 }
 
-class Dog extends Animal {
+final class B extends A {
     /*
-        public void getName() {} // Error: override final method
+        public void getName() {
+            // Error: override final method
+        } 
     */
 }
+
+/*
+    class C extends B { 
+        // C cannot subtype finalclass B
+    }
+*/
