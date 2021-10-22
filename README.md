@@ -57,4 +57,14 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Contract.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/interfaces/Contract.java)
     * [Legacy.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/interfaces/Legacy.java)
     * [Default.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/interfaces/Default.java)
+  * constructors/
+    * [Constructors.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/constructors/Constructors.java)
+    * [This.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/constructors/This.java)
+  * [nested_classes/
+    * [Encapsulation.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java)
+    * [Static.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/nested_classes/Static.java)
+  * final_keyword/
+    * [Constants.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/final_keyword/Constants.java)
+    * [Final.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/final_keyword/Final.java)
+
 
