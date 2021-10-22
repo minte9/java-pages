@@ -1,6 +1,8 @@
+## Java 
+
 Java code repository - [minte9.com/java](https://www.minte9.com/java)
 
-## Java / Basics
+## Basics
   * classes/
     * [Classes](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/classes/Classes.java)
     * [Blueprint](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/classes/Blueprint.java)
@@ -40,7 +42,7 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Split](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Split.java)
     * [Lookaround](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Lookaround.java)
 
-## Java / OOP
+## OOP
   * inheritance/
     * [Inheritance](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Inheritance.java)
     * [Annotation](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/inheritance/Annotation.java)
