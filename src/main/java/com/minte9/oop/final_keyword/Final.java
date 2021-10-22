@@ -1,6 +1,6 @@
 /**
- * A final class can't be exended.
- * A final method can't be overriden.
+ * A final class cannot be exended.
+ * A final method cannot be overriden.
  */
 
 package com.minte9.oop.final_keyword;
