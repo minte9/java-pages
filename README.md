@@ -30,6 +30,10 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Multilines](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Multilines.java)
     * [Converting](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Converting.java)
     * [Padding](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/strings/Padding.java)
+  * exceptions/
+    * [Finally.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/exceptions/Finally.java)
+    * [Multiple.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/exceptions/Multiple.java)
+    * [Throws.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/exceptions/Throws.java)
   * regexp/
     * [Matches](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Matches.java)
     * [Greedy](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/basics/regexp/Greedy.java)
