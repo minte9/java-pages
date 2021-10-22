@@ -60,6 +60,9 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
   * constructors/
     * [Constructors.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/constructors/Constructors.java)
     * [This.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/constructors/This.java)
+  * packages/
+    * [Hierarchy.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/packages/Hierarchy.java)
+    * [Import.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/packages/Import.java)
   * nested_classes/
     * [Encapsulation.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java)
     * [Static.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/nested_classes/Static.java)
