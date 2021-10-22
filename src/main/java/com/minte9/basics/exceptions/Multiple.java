@@ -1,5 +1,5 @@
 /**
- * Multiple exceptions can be thrown.
+ * A method can throw multiple exceptions.
  */
 
 package com.minte9.basics.exceptions;
