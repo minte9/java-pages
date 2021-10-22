@@ -6,9 +6,9 @@
 
 package com.minte9.oop.packages;
 
-import java.util.*;
-import java.util.regex.Pattern;
+//import java.util.*; // not used
 //import java.util.regex.Matcher; // Look Here
+import java.util.regex.Pattern;
 
 public class Hierarchy {
     public static void main(String[] args) {
