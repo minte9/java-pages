@@ -27,7 +27,7 @@ class Song implements Comparable<Song>{
     
     @Override public boolean equals(Object o) {
         Song s = (Song) o;
-        return title.equals(s.title); // // no duplicates - by title
+        return title.equals(s.title); // no duplicates - by title
     }
 
     @Override public int hashCode() {
