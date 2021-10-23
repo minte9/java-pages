@@ -17,6 +17,13 @@ public class Hashsets {
         
         System.out.println(mySet); // [A:2, B:3, C:1]
             // no duplicates
+            // hash code
+            /*
+                65
+                67
+                66
+                66
+            */
     }
 }
 
@@ -27,18 +34,11 @@ class Song implements Comparable<Song>{
     
     @Override public boolean equals(Object o) {
         Song s = (Song) o;
-        return title.equals(s.title); // no duplicates - by title
+        return title.equals(s.title); // Look Here
     }
 
     @Override public int hashCode() {
-        System.out.println(title.hashCode());
-        /*
-            65
-            67
-            66
-            66
-        */
-        return title.hashCode(); // no duplicates
+        return title.hashCode();  // Look Here
     }
     
     @Override public int compareTo(Song s) {
