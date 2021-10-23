@@ -14,14 +14,9 @@ public class Loop {
     public static void main(String[] args) {
         
         ArrayList<String> myList = new ArrayList<String>();
-
-        String x = "a";
-        String y = "b";
-        String z = "c";
-
-        myList.add(x);
-        myList.add(y);
-        myList.add(0, z); // add to first position
+        myList.add("a");
+        myList.add("b");
+        myList.add(0, "c"); // add to first position
 
         for(String v:myList) {
             System.out.println(v); // c a b
