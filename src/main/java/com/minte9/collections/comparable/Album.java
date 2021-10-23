@@ -54,6 +54,6 @@ class ArtistComparator implements Comparator<Song> {
     @Override public int compare(Song first, Song second) {
 
         return first.artist.compareTo(second.artist); // Look Here
-            // second compartions using Comparator
+            // second comparison using Comparator
     }
 }
