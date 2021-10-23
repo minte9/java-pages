@@ -77,10 +77,10 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
 
 ## Collections
   * arraylist/
-    * [Loop.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/arraylist/Loop.java)
     * [Size.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/arraylist/Size.java)
+    * [Loop.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/arraylist/Loop.java)
   * comparable/
-    * [Album.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Album.java)
     * [Sort.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Sort.java)
+    * [Album.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Album.java)
 
 
