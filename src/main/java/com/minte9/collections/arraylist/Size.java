@@ -1,6 +1,5 @@
 /**
  * ArrayList class is a resizable array,
- * 
  * ArrayList don't need an index and are parameterized.
  */
 
