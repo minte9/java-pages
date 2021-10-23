@@ -13,8 +13,7 @@ public class Size {
         String[] myList = new String[2]; // Corect, with dimension
         System.out.println(myList.length); // 2
 
-        // myList = new String[]; 
-            // Error: must provide dimension
+        // myList = new String[]; // Error: must provide dimension
 
         ArrayList<String> myArrayList;
         myArrayList = new ArrayList<>(); // no dimension needed
