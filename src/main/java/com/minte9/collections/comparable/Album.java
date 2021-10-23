@@ -27,7 +27,9 @@ class Song implements Comparable<Song> {
     String title;
     
     @Override public int compareTo(Song s) {
+
         return title.compareTo(s.title); // Look Here
+        
             // Uses overrided method toString()
     }
     
