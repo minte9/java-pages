@@ -75,4 +75,12 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Constants.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/final_keyword/Constants.java)
     * [Final.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/oop/final_keyword/Final.java)
 
+## collections
+  * arraylist/
+    * [Loop.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/arraylist/Loop.java)
+    * [Size.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/arraylist/Size.java)
+  * comparable/
+    * [Album.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Album.java)
+    * [Sort.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Sort.java)
+
 
