@@ -6,7 +6,7 @@ package com.minte9.collections.sets;
 
 import java.util.HashSet;
 
-public class Hashsets {            
+public class HashSets {            
     public static void main(String[] args) {     
 
         HashSet<Song> mySet = new HashSet<Song>();
