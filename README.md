@@ -96,4 +96,7 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Config.java](/src/main/java/com/minte9/properties/Config.java)
     * [List.java](/src/main/java/com/minte9/properties/List.java)
     * [SystemProperties.java](/src/main/java/com/minte9/properties/SystemProperties.java)
-
+  * streams/
+    * [Streams.java](/src/main/java/com/minte9/streams/Streams.java)
+    * [Declarative.java](/src/main/java/com/minte9/streams/Declarative.java)
+    * [Anonimous.java](/src/main/java/com/minte9/streams/Anonimous.java)
