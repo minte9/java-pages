@@ -3,7 +3,7 @@
  * ArrayList don't need an index and are parameterized.
  */
 
-package com.minte9.collections.arraylist;
+package com.minte9.collections.lists;
 
 import java.util.ArrayList;
 
