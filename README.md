@@ -77,16 +77,16 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
 
 ## Collections
   * lists/
-    * [Size.java](/src/main/java/com/minte9/collections/lists/Size.java)
-    * [Loop.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/lists/Loop.java)
+    * [Size.java]       (/src/main/java/com/minte9/collections/lists/Size.java)
+    * [Loop.java]       (/src/main/java/com/minte9/collections/lists/Loop.java)
   * comparable/
-    * [Sort.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Sort.java)
-    * [Album.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Album.java)
+    * [Sort.java]       (/src/main/java/com/minte9/collections/comparable/Sort.java)
+    * [Album.java]      (/src/main/java/com/minte9/collections/comparable/Album.java)
   * sets/
-    * [HashSets.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/sets/HashSets.java)
-    * [TreeSets.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/sets/TreeSets.java)
+    * [HashSets.java]   (/src/main/java/com/minte9/collections/sets/HashSets.java)
+    * [TreeSets.java]   (/src/main/java/com/minte9/collections/sets/TreeSets.java)
   * maps/
-    * [HashMaps.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/maps/HashMaps.java)
-    * [Loops.java](/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/maps/Loops.java)
+    * [HashMaps.java]   (/src/main/java/com/minte9/collections/maps/HashMaps.java)
+    * [Loops.java]      (/src/main/java/com/minte9/collections/maps/Loops.java)
 
 
