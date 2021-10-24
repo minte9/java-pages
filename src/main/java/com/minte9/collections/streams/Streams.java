@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Lists {
+public class Streams {
     public static void main(String[] args) {
         
         List<String> myList = Arrays.asList("aa", "ba", "bc");
