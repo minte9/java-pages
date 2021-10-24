@@ -3,7 +3,7 @@
  * with whatever type you pass in.
  */
 
-package com.minte9.generics;
+package com.minte9.collections.generics;
 
 public class Type {
 
