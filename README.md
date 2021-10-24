@@ -88,5 +88,9 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
   * maps/
     * [HashMaps.java](/src/main/java/com/minte9/collections/maps/HashMaps.java)
     * [Loops.java](/src/main/java/com/minte9/collections/maps/Loops.java)
+  * generics
+    * [Limitations.java](/src/main/java/com/minte9/collections/generics/Limitations.java)
+    * [Multiple.java](/src/main/java/com/minte9/collections/generics/Multiple.java)
+    * [Type.java](/src/main/java/com/minte9/collections/generics/Type.java)
 
 
