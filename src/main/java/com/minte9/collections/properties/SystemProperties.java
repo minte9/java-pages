@@ -1,3 +1,7 @@
+/**
+ * Use list() to print all System properties.
+ */
+
 package com.minte9.collections.properties;
 
 public class SystemProperties {
