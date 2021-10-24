@@ -81,7 +81,7 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Loop.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/lists/Loop.java)
   * comparable/
     * [Sort.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Sort.java)
-    * [Album.java](https://github.com/minte9/java-pages/tree/main/src/main/java/com/minte9/collections/comparable/Album.java)
+    * [Album.java](./tree/main/src/main/java/com/minte9/collections/comparable/Album.java)
   * sets/
     * [HashSets.java](./collections/sets/HashSets.java)
     * [TreeSets.java](./collections/sets/TreeSets.java)
