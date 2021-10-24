@@ -1,6 +1,14 @@
 /**
  * Properties file to store project configuration data.
  * Use getProperty() to get values.
+ *     
+ * config.properties
+ * -----------------------
+ * db.url = localhost
+ * db.user = my_user
+ * db.pass = my_password
+ * db.port = 9000
+ * -----------------------
  */
 
 package com.minte9.collections.properties;
@@ -32,10 +40,5 @@ public class Config {
 }
 
 /*
-    #config.properties
 
-    db.url = localhost
-    db.user = my_user
-    db.pass = my_password
-    db.port = 9000
 */
