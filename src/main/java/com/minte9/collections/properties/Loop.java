@@ -1,3 +1,15 @@
+/**
+ * Use Enumeration to loop through a properties file.
+ * 
+ * config.properties
+ * -----------------------
+ * db.url = localhost
+ * db.user = my_user
+ * db.pass = my_password
+ * db.port = 9000
+ * -----------------------
+ */
+
 package com.minte9.collections.properties;
 
 import java.io.FileInputStream;
