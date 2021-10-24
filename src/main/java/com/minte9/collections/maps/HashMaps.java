@@ -6,7 +6,7 @@
 package com.minte9.collections.maps;
 import java.util.HashMap;
 
-public class Hashmaps {
+public class HashMaps {
     public static void main(String[] args) {
     
         HashMap<String, Integer> scores = 
