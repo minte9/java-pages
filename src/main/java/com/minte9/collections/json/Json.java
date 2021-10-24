@@ -12,22 +12,22 @@
  * -------------------------------------------------
  * Strings, Numbers, Booleans, Arrays, Objects, null
  * 
-    {
-        "name": "Benjamin Watson",
-        "age": 31,
-        "isMarried": true,
-        "hobbies": ["Football", "Swimming"],
-        "kids": [
-            {
-                "name": "Billy",
-                "age": 5
-            }, 
-            {
-                "name": "Milly",
-                "age": 3
-            }
-        ]
-    }
+{
+    "name": "Benjamin Watson",
+    "age": 31,
+    "isMarried": true,
+    "hobbies": ["Football", "Swimming"],
+    "kids": [
+        {
+            "name": "Billy",
+            "age": 5
+        }, 
+        {
+            "name": "Milly",
+            "age": 3
+        }
+    ]
+}
  */
 
 package com.minte9.collections.json;
