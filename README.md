@@ -100,3 +100,7 @@ Java code repository - [minte9.com/java](https://www.minte9.com/java)
     * [Streams.java](/src/main/java/com/minte9/collections/streams/Streams.java)
     * [Declarative.java](/src/main/java/com/minte9/collections/streams/Declarative.java)
     * [Anonimous.java](/src/main/java/com/minte9/collections/streams/Anonimous.java)
+  * json/
+    * [Json.java](/src/main/java/com/minte9/collections/json/Json.java)
+    * [Loop.java](/src/main/java/com/minte9/collections/json/Loop.java)
+    * [Translate.java](/src/main/java/com/minte9/collections/json/Translate.java)
