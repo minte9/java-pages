@@ -1,6 +1,5 @@
 /**
- * Translate custom formats to json ...
- * for easy parsing.
+ * Translate custom formats to json for easy parsing.
  */
 
 package com.minte9.collections.json;
