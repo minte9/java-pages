@@ -30,8 +30,7 @@ public class Declarative {
                 mySquareList.add(n * n);
             }
         }
-        System.out.println(mySquareList); 
-            // [4, 16, 36, 64, 100]
+        System.out.println(mySquareList); // [4, 16, 36, 64, 100]
 
 
         // Declarative - no lambdas
@@ -50,8 +49,7 @@ public class Declarative {
                 }
             )
             .collect(Collectors.toList());
-        System.out.println(mySquareList); 
-            // [4, 16, 36, 64, 100]
+        System.out.println(mySquareList); // [4, 16, 36, 64, 100]
 
 
         // Declarative - lambdas
@@ -59,7 +57,6 @@ public class Declarative {
             .filter(x -> x % 2 == 0)
             .map(y -> y * y)
             .collect(Collectors.toList());
-        System.out.println(mySquareList); 
-            // [4, 16, 36, 64, 100]
+        System.out.println(mySquareList); // [4, 16, 36, 64, 100]
     }
 }
