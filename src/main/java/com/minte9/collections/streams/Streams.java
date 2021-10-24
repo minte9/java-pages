@@ -23,11 +23,17 @@ public class Streams {
             .forEach(System.out::println);  
                 // BA BC
 
-        Stream.of("aa", "ba", "bc")
+        Stream.of("aa", "ba", "bc") // no collection
             .filter(s -> s.startsWith("b"))
             .map(String::toUpperCase)
             .sorted()
             .forEach(System.out::println); 
                 // BA BC    
+
+        Arrays.stream(new int[] {1, 2, 3}) // primitives
+            .map(n -> n * 2)
+            .average()
+            .ifPresent(System.out::println); 
+                // 4.0
     }
 }
