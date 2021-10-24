@@ -30,3 +30,12 @@ public class Config {
         System.out.println("port: " + port); // 9000
     }
 }
+
+/*
+    #config.properties
+
+    db.url = localhost
+    db.user = my_user
+    db.pass = my_password
+    db.port = 9000
+*/
