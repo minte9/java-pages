@@ -31,7 +31,6 @@
  */
 
 package com.minte9.collections.json;
-
 import org.json.JSONObject;
 
 public class Json {
