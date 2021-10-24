@@ -1,3 +1,8 @@
+/**
+ * Primitive streams use lambdas expression and ...
+ * support aggregate operations.
+ */
+
 package com.minte9.collections.streams;
 
 import java.util.Arrays;
