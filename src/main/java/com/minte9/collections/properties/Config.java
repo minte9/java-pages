@@ -32,7 +32,7 @@ public class Config {
 }
 
 /*
-    #config.properties
+# config.properties
 
     db.url = localhost
     db.user = my_user
