@@ -23,4 +23,5 @@
 hs_err_pid*
 
 # Project
+pom.xml
 .gitignore
