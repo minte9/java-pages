@@ -8,7 +8,7 @@
  * one line of important logic.
  */
 
-package com.minte9.lambdas;
+package com.minte9.lambdas.expressions;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import java.awt.event.ActionEvent;
