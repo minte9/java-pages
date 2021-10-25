@@ -4,10 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>minte9</groupId>
-  <artifactId>m9</artifactId>
+  <groupId>com.minte9.java-pages</groupId>
+  <artifactId>java-pages</artifactId>
   <version>1.0</version>
-  <name>m9</name>
   <url>https://www.minte9.com</url>
 
   <properties>
