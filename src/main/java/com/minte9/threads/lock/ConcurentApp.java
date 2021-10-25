@@ -49,7 +49,7 @@ class ConcurentRunner implements Runnable {
         }
     }
 
-    private void sleep(int miliseconds) {
+    private void sleep(long miliseconds) {
         try {
             Thread.sleep(miliseconds); // sleep - threads take turns
         } catch (InterruptedException e) { 
