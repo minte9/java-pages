@@ -3,8 +3,7 @@
  * and it should be minimized. 
  * 
  * Having worker threads minimizes the overhead ...
- * because executor service has to create the thread pool only once ...
- * and then it can reuse the threads for executing any task.
+ * because executor service has to create the thread pool only once.
  * 
  * In a fixed thread-pool, the executor service makes sure ...
  * that the pool always has the specified number of threads running.
@@ -20,7 +19,7 @@ public class Executor {
     public static void main(String[] args) {
          
         ExecutorService service = Executors.newFixedThreadPool(2);
-            // maximum 2 thread at the same time
+            // fixed pool = 2 thread at the same time
         
         Runnable task1 = () -> { // repeat (loop)
             while(true) {
