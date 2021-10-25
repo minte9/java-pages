@@ -6,7 +6,8 @@
 package com.minte9.threads.sleep;
 
 public class Sleep {    
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) 
+        throws InterruptedException {
         
         System.out.println("Start in main");
 
