@@ -17,15 +17,19 @@ public class Lambdas {
     public static void main(String[] args) {
 
         Runnable noArgs = () -> System.out.println("Hello World");
-        new Thread(noArgs).run(); // Hello World
+        new Thread(noArgs).run(); 
+            // Hello World
 
         Runnable multiStatement = () -> {
             System.out.println("Hello");
             System.out.println("World");
         };
-        new Thread(multiStatement).run(); // Hello // World
+        new Thread(multiStatement).run(); 
+            // Hello 
+            // World
 
         BinaryOperator<Integer> op = (x, y) -> x + y;
-        System.out.println(op.apply(2, 3)); // 5
+        System.out.println(op.apply(2, 3)); 
+            // 5
     }
 }
