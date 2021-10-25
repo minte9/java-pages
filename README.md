@@ -2,10 +2,11 @@
 
 Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
- 1. [Basics](#basics) 
- 2. [OOP](#oop) 
- 3. [Collections](#collections) 
- 4. [Threads](#Threads)
+- [Basics](#basics) 
+- [OOP](#oop) 
+- [Collections](#collections) 
+- [Threads](#threads)
+
 
 ## Basics
   * classes/
