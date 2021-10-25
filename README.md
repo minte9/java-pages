@@ -129,7 +129,6 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * expressions/
     * [Anonimous.java](/src/main/java/com/minte9/lambdas/expressions/Anonimous.java)
     * [Behavior.java](/src/main/java/com/minte9/lambdas/expressions/Behavior.java)
-    * [Final.java](/src/main/java/com/minte9/lambdas/expressions/Final.java)
     * [Lambdas.java](/src/main/java/com/minte9/lambdas/expressions/Lambdas.java)
+    * [Final.java](/src/main/java/com/minte9/lambdas/expressions/Final.java)
     * [TypeInference.java](/src/main/java/com/minte9/lambdas/expressions/TypeInference.java)
-
