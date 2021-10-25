@@ -10,7 +10,6 @@
  */
 
 package com.minte9.threads.scheduler;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -29,12 +28,14 @@ public class Executor {
                 sleep(2);
             }
         };
+
         Runnable task2 = () -> { // only once
             System.out.println(
                 "Task 2 / " + Thread.currentThread().getName()
             );
             sleep(1);
         };
+        
         Runnable task3 = () -> { // loop
             while(true) {
                 System.out.println(
