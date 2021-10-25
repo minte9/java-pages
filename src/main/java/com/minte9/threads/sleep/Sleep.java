@@ -1,5 +1,7 @@
 /**
- * One of the best ways to help your threads take turns is by using sleep.
+ * One of the best ways to help your threads take turns is ...
+ * by using sleep.
+ * 
  * The main thread will became the current running tread.
  */
 
