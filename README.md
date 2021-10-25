@@ -133,3 +133,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Lambdas.java](/src/main/java/com/minte9/lambdas/expressions/Lambdas.java)
     * [FinalVariable.java](/src/main/java/com/minte9/lambdas/expressions/FinalVariable.java)
     * [TypeInference.java](/src/main/java/com/minte9/lambdas/expressions/TypeInference.java)
+  * functional_interfaces/
+    * [Custom.java](/src/main/java/com/minte9/functional_interfaces/Custom.java)
+    * [OneMethod.java](/src/main/java/com/minte9/functional_interfaces/OneMethod.java)
+    * [PredicateExamples.java](/src/main/java/com/minte9/functional_interfaces/PredicateExamples.java)  
