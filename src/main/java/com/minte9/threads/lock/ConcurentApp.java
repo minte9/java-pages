@@ -8,80 +8,53 @@
 
 package com.minte9.threads.lock;
 
-public class Concurency implements Runnable {
-
-    private BankAccount account = new BankAccount();
-    
+public class ConcurentApp {    
     public static void main(String[] args) {
     
-        Concurency runner = new Concurency();
-        
-        Thread alpha = new Thread(runner);
-        Thread beta = new Thread(runner);
-
-        alpha.setName("Alpha");
-        beta.setName("Beta");
-
-        alpha.start();
-        beta.start();
+        ConcurentRunner runner = new ConcurentRunner();
+        Thread a = new Thread(runner, "Alpha");
+        Thread b = new Thread(runner, "Beta");
+        a.start();
+        b.start();
 
         /* 
-            Account balance: 20
-            Alpha is going to sleep
-            Account balance: 20
+            Acc Balance: 20
             Beta is going to sleep
-            Alpha --- withdraw --- 10
-            Account balance: 0
-
-            Beta --- withdraw --- 10 // Not good - Look Here
-            Account balance: 0
+            Acc Balance: 20
+            Alpha is going to sleep
+            Beta --- withdraw --- 10
+            Acc Balance: 0
+            Alpha --- withdraw --- 10 // Not good! - Look Here
+            Acc Balance: 0
         */
-    }
-    
+    }    
+}
+
+class ConcurentRunner implements Runnable {
+    private int accountBalance = 20;
+
     @Override public void run() {
 
-        for (int i=0; i<2; i++) {
-            
-            System.out.println(
-                "Account balance: " + account.getBalance()
-            );            
-            makeWithdraw(10);
-        }
+        System.out.println("Acc Balance: " + accountBalance); 
+        withdraw(10);
+
+        System.out.println("Acc Balance: " + accountBalance); 
+        withdraw(10);
     }
-    
-    private void makeWithdraw(int amount) {
 
-        if (account.getBalance() >= amount) { 
-
+    private void withdraw(int amount) {
+        if (accountBalance >= amount) { 
+            
             try {
-                System.out.println(
-                    Thread.currentThread().getName() + 
-                        " is going to sleep"
-                );
-                Thread.sleep(500); // sleep for account lock
-
+                Thread.sleep(500); // sleep - threads take turns
             } catch (InterruptedException e) { 
                 e.printStackTrace(); 
             }
             
-            account.withdraw(amount);
+            accountBalance = accountBalance - amount;
+            System.out.println(
+                Thread.currentThread().getName() + " --- withdraw --- 10"
+            );
         }
     }
 }
-
-class BankAccount {
-    private int balance = 20;
-    
-    public int getBalance() {
-        return balance;
-    }
-    
-    public void withdraw(int amount) {
-        balance = balance - amount;
-        System.out.println(
-            Thread.currentThread().getName() + " --- withdraw --- 10"
-        );
-    }
-}
-
-

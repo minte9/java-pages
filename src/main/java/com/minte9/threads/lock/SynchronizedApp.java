@@ -1,83 +1,56 @@
 /**
- * With synchronized method ...
+ * With 'synchronized' method ...
  * only one thread at a time can access that method.
  */
 
 package com.minte9.threads.lock;
 
-public class Synchronized implements Runnable {
-    
-    private Acc acc = new Acc();
-    
+public class SynchronizedApp {
     public static void main(String[] args) {
     
-        Synchronized runner = new Synchronized();
-        
-        Thread alpha = new Thread(runner);
-        Thread beta = new Thread(runner);
-        
-        alpha.setName("Alpha");
-        beta.setName("Beta");
-
-        alpha.start();
-        beta.start();
+        SynchronizedRunner runner = new SynchronizedRunner();
+        Thread a = new Thread(runner, "Alpha");
+        Thread b = new Thread(runner, "Beta");
+        a.start();
+        b.start();
 
         /*
-            Account balance: 20
-            Account balance: 20
-            Alpha is going to sleep
+            Acc Balance: 20
+            Acc Balance: 20
             Alpha --- withdraw --- 10
-            Account balance: 10
-            Beta is going to sleep
-
-            Beta --- withdraw --- 10 // Correct - Look Here
-            Account balance: 0
+            Acc Balance: 10
+            Beta --- withdraw --- 10
+            Acc Balance: 0
         */
-    }
-    
-    @Override public void run() {
-
-        for (int i=0; i<2; i++) {
-
-            System.out.println(
-                "Account balance: " + acc.getBalance()
-            );
-
-            makeWithdraw(10);
-        }
-    }
-    
-    private synchronized void makeWithdraw(int amount) { // Look Here
-
-        if (acc.getBalance() >= amount) {
-
-            try {
-                System.out.println(
-                    Thread.currentThread().getName() 
-                        + " is going to sleep"
-                );
-                Thread.sleep(500); 
-
-            } catch (InterruptedException e) { 
-                e.printStackTrace();
-            }
-
-            acc.withdraw(amount);
-        }
     }
 }
 
-class Acc {
-    private int balance = 20;
-    
-    public int getBalance() {
-        return balance;
+class SynchronizedRunner implements Runnable {
+    private int accountBalance = 20;
+
+    @Override public void run() {
+
+        System.out.println("Acc Balance: " + accountBalance); 
+        withdraw(10);
+
+        System.out.println("Acc Balance: " + accountBalance); 
+        withdraw(10);
     }
-    
-    public void withdraw(int amount) {
-        balance = balance - amount;
-        System.out.println(
-            Thread.currentThread().getName() + " --- withdraw --- 10"
-        );
+
+    private synchronized void withdraw(int amount) { // Look Here
+
+        if (accountBalance >= amount) { 
+
+            try {
+                Thread.sleep(500); // sleep - threads take turns
+            } catch (InterruptedException e) { 
+                e.printStackTrace(); 
+            }
+            
+            accountBalance = accountBalance - amount;
+            System.out.println(
+                Thread.currentThread().getName() + " --- withdraw --- 10"
+            );
+        }
     }
 }
