@@ -1,6 +1,7 @@
 /**
  * In Java, everything goes into a class (.java file)
- * Compilation generate a .class file
+ * JVM compiles the file, resulting a .class file
+ * The .class file it's been used when running the program.
  * 
  * The program starts in main()
  * 
