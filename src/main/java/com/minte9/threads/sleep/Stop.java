@@ -13,8 +13,8 @@ public class Stop {
 
         System.out.println("Start main thread");
 
-        MyClass t1 = new MyClass("A");
-        MyClass t2 = new MyClass("B");
+        ThreadClass t1 = new ThreadClass("A");
+        ThreadClass t2 = new ThreadClass("B");
         
         new Thread(t1).start();
         new Thread(t2).start();
@@ -39,14 +39,16 @@ public class Stop {
     }
 }
 
-class MyClass implements Runnable {
+class ThreadClass implements Runnable {
 
     private String name;
     private Boolean exit = false;
-    public MyClass(String n) { name = n; }
 
-    @Override
-    public void run() {
+    public ThreadClass(String n) { 
+        name = n; 
+    }
+
+    @Override public void run() {
 
         while(!exit) {
             System.out.println("Thread " + name + " / Run");
