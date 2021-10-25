@@ -6,15 +6,15 @@
  * We need a lock for access.
  */
 
-package com.minte9.threads.syncronized;
+package com.minte9.threads.synchronized;
 
-public class Concurrancy implements Runnable {
+public class Concurency implements Runnable {
 
     private BankAccount account = new BankAccount();
     
     public static void main(String[] args) {
     
-        Concurrancy runner = new Concurrancy();
+        Concurency runner = new Concurency();
         
         Thread alpha = new Thread(runner);
         Thread beta = new Thread(runner);
