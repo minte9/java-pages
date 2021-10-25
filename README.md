@@ -6,6 +6,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 - [OOP](#oop) 
 - [Collections](#collections) 
 - [Threads](#threads)
+- [Lambdas](#lambdas)
 
 
 ## Basics
