@@ -1,6 +1,6 @@
 /**
  * Threads are not separate processes on the OS ...
- * (user feels is like separate processes).
+ * user feels is like separate processes.
  * 
  * A Java application starts up a main thread, ...
  * main() on the bottom of the stack.
@@ -9,8 +9,7 @@
  * run() at the botttom of the stack.
  * 
  * Threads can be created by using two mechanisms.
- * - extending Thread class
- * - implementing Runnable
+ * extending Thread class or implementing Runnable.
  */
 
 package com.minte9.threads.creation;
