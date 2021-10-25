@@ -1,8 +1,7 @@
 /**
  * There are 3 reference variables and 2 objects
  * 
- * After a overrites b ...
- * the b reference to object 2 is destroyed
+ * After a overrites b, the b reference to object 2 is destroyed
  * (eligible for Garbage Collection)
  */
 
