@@ -2,7 +2,7 @@
 
 Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
-[Basics](https://github.com/minte9/java-pages#Basics)
+[Basics](#Basics)
 
 ## Basics
   * classes/
