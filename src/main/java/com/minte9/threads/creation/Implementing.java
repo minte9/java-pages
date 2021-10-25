@@ -8,15 +8,9 @@ package com.minte9.threads.creation;
 public class Implementing {    
     public static void main(String[] args) throws InterruptedException {
 
-        System.out.println(
-            Thread.currentThread().getName()
-        ); // main
+        System.out.println(Thread.currentThread().getName()); // main
 
-
-        new Thread(
-            new MyClass()
-        ).start(); // Tread-0
-
+        new Thread(new MyClass()).start(); // Tread-0
 
         new Thread(new Runnable() {
             public void run() {
@@ -26,15 +20,21 @@ public class Implementing {
             }
         }).start(); // Thread-1
 
-
         new Thread(() -> { // Lambdas
             System.out.println(
                 Thread.currentThread().getName()
             );
         }).start(); // Thread-2
 
-
         System.out.println("Back in Main");
+
+        /* 
+            main
+            Thread-0
+            Thread-1
+            Back in Main
+            Thread-2
+        */
     }
 }
 
@@ -46,11 +46,3 @@ class MyClass implements Runnable {
         );
     }
 }
-
-/* 
-    main
-    Thread-0
-    Thread-1
-    Back in Main
-    Thread-2
-*/

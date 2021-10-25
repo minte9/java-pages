@@ -19,6 +19,15 @@ public class Extending extends Thread { // Look Here
         t1.start();
         t2.start();
         t3.start();
+
+        /* 
+            Thread-2 
+            Thread-1
+            Thread-0
+            Thread-2
+            Thread-0
+            Thread-1
+        */
     }
 
     public void run() {
@@ -34,12 +43,3 @@ public class Extending extends Thread { // Look Here
         } catch (InterruptedException ex) {}
     }
 }
-
-/* 
-    Thread-2 
-    Thread-1
-    Thread-0
-    Thread-2
-    Thread-0
-    Thread-1
-*/
