@@ -10,7 +10,7 @@ package com.minte9.lambdas.expressions;
 import java.util.Arrays;
 import javax.xml.ws.Holder;
 
-public class Final {
+public class FinalVariable {
     public static void main(String[] args) {
 
         Holder<Integer> holder = new Holder<>(0);
