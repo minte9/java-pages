@@ -15,12 +15,12 @@ public class SynchronizedApp {
         b.start();
 
         /*
-            Acc Balance: 20
-            Acc Balance: 20
+            Account Balance: 20
+            Account Balance: 20
             Alpha --- withdraw --- 10
-            Acc Balance: 10
-            Beta --- withdraw --- 10
-            Acc Balance: 0
+            Account Balance: 10
+            Beta --- withdraw --- 10 // Good!
+            Account Balance: 0
         */
     }
 }
@@ -29,26 +29,28 @@ class SynchronizedRunner implements Runnable {
     private int accountBalance = 20;
 
     @Override public void run() {
-        System.out.println("Acc Balance: " + accountBalance); 
         withdraw(10);
-        System.out.println("Acc Balance: " + accountBalance); 
         withdraw(10);
     }
 
     private synchronized void withdraw(int amount) { // Look Here
-
+        System.out.println(
+            "Account Balance: " + accountBalance
+        ); 
         if (accountBalance >= amount) { 
-
-            try {
-                Thread.sleep(500); // sleep - threads take turns
-            } catch (InterruptedException e) { 
-                e.printStackTrace(); 
-            }
-            
+            sleep(500);
             accountBalance = accountBalance - amount;
             System.out.println(
                 Thread.currentThread().getName() + " --- withdraw --- 10"
             );
+        }
+    }
+
+    private void sleep(int miliseconds) {
+        try {
+            Thread.sleep(miliseconds); // sleep - threads take turns
+        } catch (InterruptedException e) { 
+            e.printStackTrace(); 
         }
     }
 }

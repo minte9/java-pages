@@ -18,14 +18,12 @@ public class ConcurentApp {
         b.start();
 
         /* 
-            Acc Balance: 20
-            Beta is going to sleep
-            Acc Balance: 20
-            Alpha is going to sleep
+            Account Balance: 20
+            Account Balance: 20
             Beta --- withdraw --- 10
-            Acc Balance: 0
+            Account Balance: 0
             Alpha --- withdraw --- 10 // Not good!
-            Acc Balance: 0
+            Account Balance: 0
         */
     }    
 }
@@ -34,25 +32,28 @@ class ConcurentRunner implements Runnable {
     private int accountBalance = 20;
 
     @Override public void run() {
-        System.out.println("Acc Balance: " + accountBalance); 
         withdraw(10);
-        System.out.println("Acc Balance: " + accountBalance); 
         withdraw(10);
     }
 
     private void withdraw(int amount) {
+        System.out.println(
+            "Account Balance: " + accountBalance
+        ); 
         if (accountBalance >= amount) { 
-
-            try {
-                Thread.sleep(500); // sleep - threads take turns
-            } catch (InterruptedException e) { 
-                e.printStackTrace(); 
-            }
-            
+            sleep(500);
             accountBalance = accountBalance - amount;
             System.out.println(
                 Thread.currentThread().getName() + " --- withdraw --- 10"
             );
+        }
+    }
+
+    private void sleep(int miliseconds) {
+        try {
+            Thread.sleep(miliseconds); // sleep - threads take turns
+        } catch (InterruptedException e) { 
+            e.printStackTrace(); 
         }
     }
 }
