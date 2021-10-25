@@ -22,7 +22,8 @@ public class Final {
         
         final String str = "A";
         Arrays.asList("a", "b", "c").forEach((x) -> {
-            // str = str + x; // Error: final local variable cannot be assigned
+            // str = str + x; 
+            // Error: final local variable cannot be assigned
         }); 
         System.out.println(str);
             // A
