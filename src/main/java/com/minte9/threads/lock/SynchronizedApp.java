@@ -29,10 +29,8 @@ class SynchronizedRunner implements Runnable {
     private int accountBalance = 20;
 
     @Override public void run() {
-
         System.out.println("Acc Balance: " + accountBalance); 
         withdraw(10);
-
         System.out.println("Acc Balance: " + accountBalance); 
         withdraw(10);
     }
