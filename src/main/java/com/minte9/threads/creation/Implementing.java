@@ -6,7 +6,8 @@
 package com.minte9.threads.creation;
 
 public class Implementing {    
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) 
+                        throws InterruptedException {
 
         System.out.println(Thread.currentThread().getName()); // main
 
