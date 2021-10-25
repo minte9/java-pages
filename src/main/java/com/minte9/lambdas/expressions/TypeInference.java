@@ -5,7 +5,7 @@
 package com.minte9.lambdas.expressions;
 import java.util.function.Function;
 
-public class Type {
+public class TypeInference {
     public static void main(String[] args) {
 
         // Wrong - doesn't compile
