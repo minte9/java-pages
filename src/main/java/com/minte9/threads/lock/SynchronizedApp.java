@@ -15,7 +15,7 @@ public class Synchronized implements Runnable {
         
         Thread alpha = new Thread(runner);
         Thread beta = new Thread(runner);
-
+        
         alpha.setName("Alpha");
         beta.setName("Beta");
 
