@@ -1,3 +1,8 @@
+/**
+ * A functional interface has only one abstract method ...
+ * used as type for lambdas.
+ */
+
 package com.minte9.lambdas.functional_interfaces;
 import javax.swing.JButton;
 import javax.swing.JFrame;
