@@ -2,6 +2,8 @@
 
 Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
+[Basics](/#Basics)
+
 ## Basics
   * classes/
     * [Classes](/src/main/java/com/minte9/basics/classes/Classes.java)
