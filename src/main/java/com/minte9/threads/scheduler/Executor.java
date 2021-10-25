@@ -21,7 +21,7 @@ public class Executor {
         ExecutorService service = Executors.newFixedThreadPool(2);
             // fixed pool = 2 thread at the same time
         
-        Runnable task1 = () -> { // repeat (loop)
+        Runnable task1 = () -> { // loop
             while(true) {
                 System.out.println(
                     "Task 1 / " + Thread.currentThread().getName()
@@ -35,7 +35,7 @@ public class Executor {
             );
             sleep(1);
         };
-        Runnable task3 = () -> { // repeat (loop)
+        Runnable task3 = () -> { // loop
             while(true) {
                 System.out.println(
                     "Task 3 / " + Thread.currentThread().getName()
