@@ -6,7 +6,7 @@
  * We need a lock for access.
  */
 
-package com.minte9.threads.synchronized;
+package com.minte9.threads.lock;
 
 public class Concurency implements Runnable {
 
@@ -27,23 +27,13 @@ public class Concurency implements Runnable {
 
         /* 
             Account balance: 20
-            Account balance: 20
-            Beta is going to sleep
-            Alpha is going to sleep
-            Beta withdraw 10
-            Alpha withdraw 10
-            Account balance: 0
-            Account balance: 0
-
-            OR
-
-            Account balance: 20
             Alpha is going to sleep
             Account balance: 20
             Beta is going to sleep
-            Alpha withdraw 10
+            Alpha --- withdraw --- 10
             Account balance: 0
-            Beta withdraw 10
+
+            Beta --- withdraw --- 10 // Not good - Look Here
             Account balance: 0
         */
     }
@@ -82,14 +72,14 @@ public class Concurency implements Runnable {
 class BankAccount {
     private int balance = 20;
     
-    public int getBalance() { // current account balance
+    public int getBalance() {
         return balance;
     }
     
-    public void withdraw(int amount) { // withdraw from account
+    public void withdraw(int amount) {
         balance = balance - amount;
         System.out.println(
-            Thread.currentThread().getName() + " withdraw 10"
+            Thread.currentThread().getName() + " --- withdraw --- 10"
         );
     }
 }
