@@ -109,12 +109,12 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * creation/
     * [Extending.java](/src/main/java/com/minte9/threads/creation/Extending.java)
     * [Implementing.java](/src/main/java/com/minte9/threads/creation/Implementing.java)
+  * sleep/
+    * [Sleep.java](/src/main/java/com/minte9/threads/sleep/Sleep.java)
+    * [Stop.java](/src/main/java/com/minte9/threads/sleep/Stop.java)
   * lock/
     * [ConcurentApp.java](/src/main/java/com/minte9/threads/lock/ConcurentApp.java)
     * [SynchronizedApp.java](/src/main/java/com/minte9/threads/lock/SynchronizedApp.java)
   * scheduler/
     * [Executor.java](/src/main/java/com/minte9/threads/scheduler/Executor.java)
     * [Scheduled.java](/src/main/java/com/minte9/threads/scheduler/Scheduled.java)
-  * sleep/
-    * [Sleep.java](/src/main/java/com/minte9/threads/sleep/Sleep.java)
-    * [Stop.java](/src/main/java/com/minte9/threads/sleep/Stop.java)
