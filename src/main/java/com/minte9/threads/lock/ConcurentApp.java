@@ -24,7 +24,7 @@ public class ConcurentApp {
             Alpha is going to sleep
             Beta --- withdraw --- 10
             Acc Balance: 0
-            Alpha --- withdraw --- 10 // Not good! - Look Here
+            Alpha --- withdraw --- 10 // Not good!
             Acc Balance: 0
         */
     }    
