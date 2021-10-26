@@ -148,3 +148,8 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Comparing.java](/src/main/java/com/minte9/lambdas/common_operations/Comparing.java)
     * [PartitioningBy.java](/src/main/java/com/minte9/lambdas/common_operations/PartitioningBy.java)
     * [Groupingby.java](/src/main/java/com/minte9/lambdas/common_operations/GroupingBy.java)
+  * default_methods/
+    * [DefaultMethod.java](/src/main/java/com/minte9/lambdas/default_methods/DefaultMethod.java)
+    * [Functional.java](/src/main/java/com/minte9/lambdas/default_methods/Functional.java)
+    * [Object.java](/src/main/java/com/minte9/lambdas/default_methods/Object.java)
+    * [Super.java](/src/main/java/com/minte9/lambdas/default_methods/Super.java)
