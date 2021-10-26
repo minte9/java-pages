@@ -17,21 +17,18 @@ public class DefaultMethod {
 }
 
 class AC implements C {
-
     @Override public void output() {
         System.out.println("A - output");
     }
 }
 
 class BC implements C {
-
     @Override public void output() {
         System.out.println("B - output");
     }
 }
 
 interface C {
-
     void output();
 
     default void output_new() { // Look Here
