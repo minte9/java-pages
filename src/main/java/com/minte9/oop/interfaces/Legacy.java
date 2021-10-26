@@ -10,30 +10,24 @@ package com.minte9.oop.interfaces;
 public class Legacy {
     public static void main(String[] args) {
 
-        new ClassA().setvalue();
-        new ClassA().settype();
-        new ClassB().settype();
-
-        /*
-            Old class - setvalue
-            New interface method - settype
-            New interface method - settype
-        */
+        new LA().setvalue(); // LA - setvalue
+        
+        new LB().settype(); // LB - settype
     }
 }
 
-class OldClass implements A {
+class LA implements A {
     @Override public void setvalue() {
-        System.out.println("Old class - setvalue");
+        System.out.println("LA - setvalue");
     }
 }
 
-class NewClass implements B {
+class LB implements B {
     @Override public void setvalue() {
-        System.out.println("NewClass - setvalue");
+        System.out.println("LB - setvalue");
     }
     @Override public void settype() {
-        System.out.println("NewClass - settype");
+        System.out.println("LB - settype");
     }
 }
 
