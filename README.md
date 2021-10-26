@@ -68,7 +68,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * interfaces/
     * [Contract.java](/src/main/java/com/minte9/oop/interfaces/Contract.java)
     * [Legacy.java](/src/main/java/com/minte9/oop/interfaces/Legacy.java)
-    * [Default.java](/src/main/java/com/minte9/oop/interfaces/Default.java)
+    * [DefaultMethod.java](/src/main/java/com/minte9/oop/interfaces/DefaultMethod.java)
   * constructors/
     * [Constructors.java](/src/main/java/com/minte9/oop/constructors/Constructors.java)
     * [This.java](/src/main/java/com/minte9/oop/constructors/This.java)
