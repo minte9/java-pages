@@ -4,12 +4,13 @@
  */
 
 package com.minte9.lambdas.default_methods;
+
 import static org.junit.Assert.assertEquals;
 
 public class Object {
   public static void main(String[] args) {
       
-    Formula a = x -> x * 2; // lambda
+    Formula a = x -> x * 2; 
     assertEquals(4, a.calculate(2)); 
       // pass
 
