@@ -11,7 +11,6 @@ public class Legacy {
     public static void main(String[] args) {
 
         new LA().setvalue(); // LA - setvalue
-        
         new LB().settype(); // LB - settype
     }
 }
