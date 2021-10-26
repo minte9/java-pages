@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Filtering {
+public class Filter {
     public static void main(String[] args) {
 
         List<String> A, B, C;

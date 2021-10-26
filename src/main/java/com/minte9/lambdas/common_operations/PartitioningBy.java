@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Partitioning {
+public class PartitioningBy {
     public static void main(String[] args) {
 
       Map<Boolean, List<Integer>> map;

@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Grouping {
+public class GroupingBy {
     public static void main(String[] args) {
 
       Map<Object, List<String>> map;

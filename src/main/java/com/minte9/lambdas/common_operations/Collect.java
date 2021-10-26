@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import static org.junit.Assert.assertEquals;
 
-public class Collecting {
+public class Collect {
     public static void main(String[] args) {
 
         List<String> A = Stream.of("a", "b", "c")

@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.stream.Stream;
 import static java.util.Arrays.asList;
 
-public class Reducing {
+public class Reduce {
     public static void main(String[] args) {
 
         int sum = 0;

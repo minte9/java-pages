@@ -12,7 +12,7 @@ import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.toList;
 import static org.junit.Assert.assertEquals;
 
-public class Mapping {
+public class MapApp {
     public static void main(String[] args) {
 
         List<String> A, B, C;
