@@ -1,6 +1,6 @@
 /**
  * It's always better to put related methods in the same place.
- * Starting with Java 8 static methods are allowed in interfaces.
+ * Static methods are allowed in interfaces (Java 8).
  */
 
 package com.minte9.lambdas.static_methods;
