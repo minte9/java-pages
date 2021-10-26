@@ -2,8 +2,8 @@
  * Streams allow us to write collections code ...
  * at a higher level of abstraction. 
  * 
- * Iterator uses external iteration.
- * Streams are known as internal interations. 
+ * Iterator - external iteration
+ * Stream - internal interation
  */
 
 package com.minte9.lambdas.streams;
