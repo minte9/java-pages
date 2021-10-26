@@ -8,6 +8,7 @@
  */
 
 package com.minte9.lambdas.single_responsibility;
+
 import static org.junit.Assert.assertEquals;
 
 public class Primes {
