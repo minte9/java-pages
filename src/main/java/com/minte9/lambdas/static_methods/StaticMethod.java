@@ -4,9 +4,10 @@
  */
 
 package com.minte9.lambdas.static_methods;
-import static org.junit.Assert.assertEquals;
+
 import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
+import static org.junit.Assert.assertEquals;
 
 public class StaticMethod {
   public static void main(String[] args) {
