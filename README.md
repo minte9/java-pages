@@ -62,7 +62,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Methods.java](/src/main/java/com/minte9/oop/static_keyword/Methods.java)
     * [Classes.java](/src/main/java/com/minte9/oop/static_keyword/Classes.java)
     * [Import.java](/src/main/java/com/minte9/oop/static_keyword/Import.java)
-  * abstract_keyword/
+  * abstract/
     * [Classes.java](/src/main/java/com/minte9/oop/abstract_keyword/Classes.java)
     * [Methods.java](/src/main/java/com/minte9/oop/abstract_keyword/Methods.java)
   * interfaces/
@@ -78,7 +78,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * nested_classes/
     * [Encapsulation.java](/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java)
     * [Static.java](/src/main/java/com/minte9/oop/nested_classes/Static.java)
-  * final_keyword/
+  * final/
     * [Constants.java](/src/main/java/com/minte9/oop/final_keyword/Constants.java)
     * [Final.java](/src/main/java/com/minte9/oop/final_keyword/Final.java)
 
@@ -133,14 +133,14 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Lambdas.java](/src/main/java/com/minte9/lambdas/expressions/Lambdas.java)
     * [FinalVariable.java](/src/main/java/com/minte9/lambdas/expressions/FinalVariable.java)
     * [TypeInference.java](/src/main/java/com/minte9/lambdas/expressions/TypeInference.java)
-  * functional_interfaces/
+  * functional/
     * [Custom.java](/src/main/java/com/minte9/lambdas/functional_interfaces/Custom.java)
     * [OneMethod.java](/src/main/java/com/minte9/lambdas/functional_interfaces/OneMethod.java)
     * [PredicateExamples.java](/src/main/java/com/minte9/lambdas/functional_interfaces/PredicateExamples.java)
   * streams/
     * [Iterations.java](/src/main/java/com/minte9/lambdas/streams/Iterations.java)
     * [Lazy.java](/src/main/java/com/minte9/lambdas/streams/Lazy.java)
-  * common_operations/
+  * operations/
     * [Collect.java](/src/main/java/com/minte9/lambdas/common_operations/Collect.java)
     * [Map.java](/src/main/java/com/minte9/lambdas/common_operations/MapApp.java)
     * [Filter.java](/src/main/java/com/minte9/lambdas/common_operations/Filter.java)
@@ -148,11 +148,11 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Comparing.java](/src/main/java/com/minte9/lambdas/common_operations/Comparing.java)
     * [PartitioningBy.java](/src/main/java/com/minte9/lambdas/common_operations/PartitioningBy.java)
     * [Groupingby.java](/src/main/java/com/minte9/lambdas/common_operations/GroupingBy.java)
-  * default_methods/
+  * default/
     * [DefaultMethod.java](/src/main/java/com/minte9/lambdas/default_methods/DefaultMethod.java)
     * [Functional.java](/src/main/java/com/minte9/lambdas/default_methods/Functional.java)
     * [Object.java](/src/main/java/com/minte9/lambdas/default_methods/Object.java)
     * [Super.java](/src/main/java/com/minte9/lambdas/default_methods/Super.java)
-  * static_methods/
+  * static/
     * [StaticMethod.java](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java)
     * [MethodReference.java](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
