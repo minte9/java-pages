@@ -4,10 +4,10 @@
  * 
  * Primes counting App ...
  * 
- * Multiple responsabilities: counting & checking
+ * Multiple responsibilities: counting & checking
  */
 
-package com.minte9.lambdas.single_responsability;
+package com.minte9.lambdas.single_responsibility;
 import static org.junit.Assert.assertEquals;
 
 public class Primes {
