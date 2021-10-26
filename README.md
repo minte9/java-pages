@@ -75,7 +75,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * packages/
     * [Hierarchy.java](/src/main/java/com/minte9/oop/packages/Hierarchy.java)
     * [Import.java](/src/main/java/com/minte9/oop/packages/Import.java)
-  * nested_classes/
+  * nested/
     * [Encapsulation.java](/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java)
     * [Static.java](/src/main/java/com/minte9/oop/nested_classes/Static.java)
   * final/
