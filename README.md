@@ -140,3 +140,11 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * streams/
     * [Iterations.java](/src/main/java/com/minte9/lambdas/streams/Iterations.java)
     * [Lazy.java](/src/main/java/com/minte9/lambdas/streams/Lazy.java)
+  * common_operations/
+    * [Collecting.java](/src/main/java/com/minte9/lambdas/common_operations/Collecting.java)
+    * [Comparing.java](/src/main/java/com/minte9/lambdas/common_operations/Comparing.java)
+    * [Filtering.java](/src/main/java/com/minte9/lambdas/common_operations/Filtering.java)
+    * [Groupingby.java](/src/main/java/com/minte9/lambdas/common_operations/Groupingby.java)
+    * [Mapping.java](/src/main/java/com/minte9/lambdas/common_operations/Mapping.java)
+    * [Partitioning.java](/src/main/java/com/minte9/lambdas/common_operations/Partitioning.java)
+    * [Reducing.java](/src/main/java/com/minte9/lambdas/common_operations/Reducing.java)
