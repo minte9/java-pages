@@ -1,0 +1,20 @@
+/**
+ * Stream collect ...
+ */
+package com.minte9.lambdas.common_operations;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+import static org.junit.Assert.assertEquals;
+
+public class Collecting {
+    public static void main(String[] args) {
+
+        List<String> A = Stream.of("a", "b", "c")
+            .collect(Collectors.toList());
+            
+        assertEquals(Arrays.asList("a", "b", "c"), A); // pass
+    }
+}
