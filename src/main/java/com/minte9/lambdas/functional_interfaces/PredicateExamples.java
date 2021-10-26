@@ -6,7 +6,7 @@ package com.minte9.lambdas.functional_interfaces;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class Predicates {
+public class PredicateExamples {
     public static void main(String[] args) {
 
         Predicate<Integer> op1 = (x) -> (x % 2 == 0);
