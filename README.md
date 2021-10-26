@@ -136,4 +136,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * functional_interfaces/
     * [Custom.java](/src/main/java/com/minte9/lambdas/functional_interfaces/Custom.java)
     * [OneMethod.java](/src/main/java/com/minte9/lambdas/functional_interfaces/OneMethod.java)
-    * [PredicateExamples.java](/src/main/java/com/minte9/lambdas/functional_interfaces/PredicateExamples.java)  
+    * [PredicateExamples.java](/src/main/java/com/minte9/lambdas/functional_interfaces/PredicateExamples.java)
+  * streams/
+    * [Iterations.java](/src/main/java/com/minte9/lambdas/streams/Iterations.java)
+    * [Lazy.java](/src/main/java/com/minte9/lambdas/streams/Lazy.java)
