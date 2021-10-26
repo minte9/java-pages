@@ -1,6 +1,6 @@
 /**
  * Stream Comparator ...
- * 
+
  * Comparing to find minimum or maximum of an element (example)
  */
 

@@ -1,7 +1,5 @@
 /**
- * Stream map ...
- * 
- * to uppercase example
+ * Stream map, to uppercase example
  */
 
 package com.minte9.lambdas.common_operations;
