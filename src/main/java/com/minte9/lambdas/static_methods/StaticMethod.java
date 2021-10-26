@@ -4,7 +4,7 @@
  */
 
 package com.minte9.lambdas.static_methods;
-
+import static org.junit.Assert.assertEquals;
 import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
 
@@ -14,7 +14,7 @@ public class StaticMethod {
     int sum = MyStream.of(1, 2, 3)
       .reduce(0, (acc, x) -> acc + x)
     ;
-    System.out.println(sum); // 6
+    assertEquals(6, sum); // pass
   }
 }
 
