@@ -1,5 +1,6 @@
 /**
- * Default methods can be accessed only with object references! 
+ * Calling a default method in lambas without object reference ...
+ * doesn't work!
  */
 
 package com.minte9.lambdas.default_methods;
