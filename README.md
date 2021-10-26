@@ -154,5 +154,5 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Object.java](/src/main/java/com/minte9/lambdas/default_methods/Object.java)
     * [Super.java](/src/main/java/com/minte9/lambdas/default_methods/Super.java)
   * static_methods/
-    * [MethodReference.java](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
     * [StaticMethod.java](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java)
+    * [MethodReference.java](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
