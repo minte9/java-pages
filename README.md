@@ -156,3 +156,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * static/
     * [Static Method](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java)
     * [Method Reference](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
+  * single_responsibility/
+    * [Encapsulation.java](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java)
+    * [Lambdas.java](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java)
+    * [Primes.java](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
