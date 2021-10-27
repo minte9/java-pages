@@ -27,8 +27,7 @@ public class Primes {
 
                 if (i%j == 0) { // is prime
 
-                    n++;
-                    break;
+                    n++; break;
                 }
             }
         }
