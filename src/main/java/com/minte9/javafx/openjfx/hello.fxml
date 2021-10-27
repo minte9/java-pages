@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--
+    hello.fxml
+-->
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -11,7 +13,7 @@
     xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
 
     <children>
-        <Label text="Welcome World">
+        <Label text="Hello World">
             <font>
                 <Font size="18.0" />
             </font>

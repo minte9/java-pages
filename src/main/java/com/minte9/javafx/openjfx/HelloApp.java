@@ -1,7 +1,6 @@
 /**
  * HelloApp class ...
- * 
- * that calls Guin main() method 
+ * Calls Gui main() method 
  */
 
 package com.minte9.javafx.openjfx;

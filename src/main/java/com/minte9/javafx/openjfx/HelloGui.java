@@ -1,6 +1,5 @@
 /**
  * Gui launcher class ...
- * 
  * Loads and display hello.xml file generated with Scene Builder
  */
 
