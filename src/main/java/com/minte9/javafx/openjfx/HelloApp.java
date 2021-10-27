@@ -1,5 +1,5 @@
 /**
- * App class ...
+ * HelloApp class ...
  * 
  * that calls Guin main() method 
  */
