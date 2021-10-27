@@ -8,14 +8,12 @@
  */
 
 package com.minte9.lambdas.single_responsibility;
-
 import static org.junit.Assert.assertEquals;
 
 public class Primes {
     public static void main(String[] args) {
         
-        assertEquals(4, noOfPrimes(10)); 
-            // pass
+        assertEquals(4, noOfPrimes(10)); // pass
     }
 
     public static long noOfPrimes(int limit) {
