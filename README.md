@@ -162,7 +162,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Primes](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
 
 ## JavaFX
-  * [first_app/
+  * first_app/
     * [HelloApp](/src/main/java/com/minte9/javafx/first_app/HelloApp.java) / 
       [HelloGui](/src/main/java/com/minte9/javafx/first_app/HelloGui.java) / 
       [hello.fxml](/src/main/java/com/minte9/javafx/first_app/hello.fxml)
