@@ -1,3 +1,9 @@
+/**
+ * App class ...
+ * 
+ * that calls Guin main() method 
+ */
+
 package com.minte9.javafx.openjfx;
 
 public class HelloApp {
