@@ -3,7 +3,7 @@
  * one responsability and encapsulation.
  * 
  * Later, we can speeed up the time by using more CPU resources ...
- * with parallelism method, without changing any other code.
+ * with parallel method, without changing any other code.
  */
 
 package com.minte9.lambdas.single_responsibility;
