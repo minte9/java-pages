@@ -21,9 +21,9 @@ public class Primes {
     public static long noOfPrimes(int limit) {
 
         int n = 0;
-        for (int i=2; i<limit; i++) { // counting
+        for (int i=2; i<limit; i++) { // counting responsibility
 
-            for (int j=2; j<i; j++) { // checking
+            for (int j=2; j<i; j++) { // checking responsibility
 
                 if (i%j == 0) { // is prime
 
