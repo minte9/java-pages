@@ -18,7 +18,7 @@ public class Encapsulation {
     public static long countPrimes(int limit) {
 
         int n = 0;
-        for (int i=2; i<limit; i++) { // count        
+        for (int i=2; i<limit; i++) { // lopp responsibility should be elsewhere      
             if (isPrime(i)) n++;
         }
         return n;
