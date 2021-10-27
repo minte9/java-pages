@@ -157,12 +157,12 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Static Method](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java)
     * [Method Reference](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
   * single_responsibility/
-    * [Encapsulation.java](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java)
-    * [Lambdas.java](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java)
-    * [Primes.java](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
+    * [Encapsulation](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java)
+    * [Lambdas](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java)
+    * [Primes](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
 
 ## JavaFX
   * [first_app/
-    * [HelloApp.java](/src/main/java/com/minte9/javafx/first_app/HelloApp.java) / 
-      [HelloGui.java](/src/main/java/com/minte9/javafx/first_app/HelloGui.java) / 
+    * [HelloApp](/src/main/java/com/minte9/javafx/first_app/HelloApp.java) / 
+      [HelloGui](/src/main/java/com/minte9/javafx/first_app/HelloGui.java) / 
       [hello.fxml](/src/main/java/com/minte9/javafx/first_app/hello.fxml)
