@@ -1,10 +1,10 @@
 /**
- * A prime number is a natural number greater than 1 ...
- * that is not a product of two smaller natural numbers. 
- * 
  * Primes counting App ...
  * 
  * Multiple responsibilities: counting & checking
+ * 
+ * A prime number is a natural number greater than 1 ...
+ * that is not a product of two smaller natural numbers. 
  */
 
 package com.minte9.lambdas.single_responsibility;
