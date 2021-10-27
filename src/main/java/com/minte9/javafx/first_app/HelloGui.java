@@ -3,7 +3,7 @@
  * Loads and display hello.xml file generated with Scene Builder
  */
 
-package com.minte9.javafx.openjfx;
+package com.minte9.javafx.first_app;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -18,7 +18,7 @@ public class HelloGui extends Application {
     }
     
     @Override public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("hello.fxml")); // Look Here
+        Parent root = FXMLLoader.load(getClass().getResource("hello.fxml"));
 
         stage.setTitle("Hello World");
         stage.setScene(new Scene(root, 300, 300));
