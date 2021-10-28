@@ -4,7 +4,6 @@
  */
 
 package com.minte9.javafx.on_action;
-
 import javafx.fxml.FXML;
 
 public class ActionApp {

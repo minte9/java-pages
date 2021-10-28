@@ -1,3 +1,7 @@
+/**
+ * Gui class with button.xml loader. 
+ */
+
 package com.minte9.javafx.on_action;
 
 import javafx.application.Application;
