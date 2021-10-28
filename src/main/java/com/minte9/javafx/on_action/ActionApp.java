@@ -1,3 +1,8 @@
+/**
+ * FXML on action method is defined in ...
+ * Scene Builer 'on Action'
+ */
+
 package com.minte9.javafx.on_action;
 
 import javafx.fxml.FXML;
