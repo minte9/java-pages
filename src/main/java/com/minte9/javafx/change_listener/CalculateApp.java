@@ -1,9 +1,8 @@
 /**
  * CalculateApp class ...
  * 
- * with button action and slider listener
- * 
- * FXMLLoader calls initialize() to intialize the Controller
+ * Set button action and slider listener.
+ * FXMLLoader calls initialize() to intialize the Controller.
  */
 
 package com.minte9.javafx.change_listener;
