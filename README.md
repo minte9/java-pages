@@ -48,7 +48,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Greedy](/src/main/java/com/minte9/basics/regexp/Greedy.java)
     * [Replace](/src/main/java/com/minte9/basics/regexp/Replace.java)
     * [Split](/src/main/java/com/minte9/basics/regexp/Split.java)
-    * [Lookaround T](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java)
+    * [Lookaround](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java) (T_
 
 ## OOP
   * inheritance/
