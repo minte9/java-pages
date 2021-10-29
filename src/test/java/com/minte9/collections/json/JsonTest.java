@@ -13,6 +13,7 @@ public class JsonTest {
 
         assertEquals("feed", obj.getJSONObject("message").getString("type"));
             // passed
+            
         assertEquals(0, obj.getInt("error"));
             // passed
     }
