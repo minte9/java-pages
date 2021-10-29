@@ -127,6 +127,11 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Executor](/src/main/java/com/minte9/threads/scheduler/Executor.java)
     * [Scheduled](/src/main/java/com/minte9/threads/scheduler/Scheduled.java)
 
+## JUnit
+  * about/
+    * [Junit3Test.java](/src/test/java/com/minte9/about/Junit3Test.java) T
+    * [FailTest.java](/src/test/java/com/minte9/about/FailTest.java) T
+    
 ## Lambdas
   * expressions/
     * [Anonimous](/src/main/java/com/minte9/lambdas/expressions/Anonimous.java)
