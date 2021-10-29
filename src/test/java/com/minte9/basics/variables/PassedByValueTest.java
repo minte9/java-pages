@@ -1,4 +1,4 @@
-package basics;
+package com.minte9.basics.variables;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
@@ -7,7 +7,7 @@ public class PassedByValueTest {
 
     @Test public void objectTest() {
 
-        MyClass obj = new MyClass();
+        A obj = new A();
         int x = 3;
         obj.init(x);
         assertEquals(x, 3);     // pass
@@ -23,7 +23,7 @@ public class PassedByValueTest {
     }
 }
 
-class MyClass {
+class A {
 
     int x;
     public void init(int x) {

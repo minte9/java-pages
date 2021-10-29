@@ -1,4 +1,4 @@
-package basics;
+package com.minte9.basics.regex;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import java.util.regex.Matcher;
