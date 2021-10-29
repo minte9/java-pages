@@ -37,7 +37,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Autoboxing](/src/main/java/com/minte9/basics/numbers/Autoboxing.java) 
   * strings/
     * [Multilines](/src/main/java/com/minte9/basics/strings/Multilines.java)
-    * [Converting](/src/test/java/com/minte9/basics/strings/ConvertingTest.java) (T)
+    * [Converting](/src/test/java/com/minte9/basics/strings/ConvertingTest.java) T
     * [Padding](/src/main/java/com/minte9/basics/strings/Padding.java)
   * exceptions/
     * [Finally](/src/main/java/com/minte9/basics/exceptions/Finally.java)
@@ -47,8 +47,8 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Matches](/src/main/java/com/minte9/basics/regexp/Matches.java)
     * [Greedy](/src/main/java/com/minte9/basics/regexp/Greedy.java)
     * [Replace](/src/main/java/com/minte9/basics/regexp/Replace.java)
-    * [Split](/src/main/java/com/minte9/basics/regexp/Split.java)
-    * [Lookaround](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java) (T)
+    * [Split](/src/main/java/com/minte9/basics/regexp/Split.java)   
+    * [Lookaround](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java) T
 
 ## OOP
   * inheritance/
