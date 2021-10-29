@@ -2,7 +2,7 @@
  * JUnit 3 style:
  * 
  * The test class that extends TestCase.
- * The methods must start with the word test.
+ * The methods must start with the word test (not @Test annotation)
  */
 
 package com.minte9.junit.about;
