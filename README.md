@@ -37,7 +37,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Autoboxing](/src/main/java/com/minte9/basics/numbers/Autoboxing.java) 
   * strings/
     * [Multilines](/src/main/java/com/minte9/basics/strings/Multilines.java)
-    * [Converting](/src/main/java/com/minte9/basics/strings/Converting.java)
+    * [Converting](/src/test/java/com/minte9/basics/strings/ConvertingTest.java) (T)
     * [Padding](/src/main/java/com/minte9/basics/strings/Padding.java)
   * exceptions/
     * [Finally](/src/main/java/com/minte9/basics/exceptions/Finally.java)
