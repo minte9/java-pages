@@ -25,7 +25,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Parameters](/src/main/java/com/minte9/basics/variables/Parameters.java)
     * [Passed By Value](/src/main/java/com/minte9/basics/variables/PassedByValue.java)
     * [Setter](/src/main/java/com/minte9/basics/variables/Setter.java)
-    * [DefaultV alues](/src/main/java/com/minte9/basics/variables/DefaultValues.java)
+    * [Default Values](/src/main/java/com/minte9/basics/variables/DefaultValues.java)
   * loops/
     * [ForLoop](/src/main/java/com/minte9/basics/loops/ForLoop.java)
     * [Enhanced For](/src/main/java/com/minte9/basics/loops/EnhancedFor.java)
