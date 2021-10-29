@@ -23,7 +23,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Join](/src/main/java/com/minte9/basics/arrays/Join.java)
   * variables/
     * [Parameters](/src/main/java/com/minte9/basics/variables/Parameters.java)
-    * [Passed By Value](/src/main/java/com/minte9/basics/variables/PassedByValue.java)
+    * [Passed By Value](/src/test/java/com/minte9/basics/variables/PassedByValueTest.java) T
     * [Setter](/src/main/java/com/minte9/basics/variables/Setter.java)
     * [Default Values](/src/main/java/com/minte9/basics/variables/DefaultValues.java)
   * loops/

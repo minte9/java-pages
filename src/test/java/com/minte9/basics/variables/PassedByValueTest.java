@@ -17,9 +17,9 @@ public class PassedByValueTest {
     @Test public void staticTest() {
 
         String y = "aaa";
-        MyClass.set(y);
-        assertEquals(MyClass.y, "zzz");         // pass
-        assertTrue(! MyClass.y.equals("aaa"));  // pass
+        A.set(y);
+        assertEquals(A.y, "zzz");         // pass
+        assertTrue(! A.y.equals("aaa"));  // pass
     }
 }
 
@@ -32,6 +32,6 @@ class A {
     
     static String y;
     public static void set(String y) {
-        MyClass.y = "zzz";
+        A.y = "zzz";
     }
 }
