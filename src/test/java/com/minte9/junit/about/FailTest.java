@@ -1,5 +1,7 @@
 /**
- * Test methods start with Test annotation.
+ * Junit4 style:
+ * 
+ * Test methods start with @Test annotation.
  * 
  * You might need to add hamcrest to Referenced Libraries.
 */
