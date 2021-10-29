@@ -129,8 +129,8 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
 ## Junit
   * about/
-    * [Junit3Test.java](/src/test/java/com/minte9/about/Junit3Test.java) T
-    * [FailTest.java](/src/test/java/com/minte9/about/FailTest.java) T
+    * [Junit3Test.java](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
+    * [FailTest.java](/src/test/java/com/minte9/junit/about/FailTest.java) T
     
 ## Lambdas
   * expressions/
