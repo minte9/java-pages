@@ -1,3 +1,7 @@
+/**
+ * CalculateGui launcher which loads the fxml file
+ */
+
 package com.minte9.javafx.change_listener;
 
 import javafx.application.Application;
