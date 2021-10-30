@@ -1,5 +1,5 @@
 /**
- * SuiteTest class - running A and B classes @Tests
+ * SuiteTest - running A and B classes @Tests
  * 
  * Test suites help to grouping and executing tests in bulk.
  * Executing tests separately is expensive (db connect exemple).

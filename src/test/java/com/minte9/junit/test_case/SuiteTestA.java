@@ -1,5 +1,5 @@
 /**
- * SuiteTest A class - used in SuiteTest
+ * SuiteTest A - used in SuiteTest
  */
 
 package com.minte9.junit.test_case;
