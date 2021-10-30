@@ -2,11 +2,11 @@
  * SuiteTest A - used in SuiteTest
  */
 
-package com.minte9.junit.test_case;
+package com.minte9.junit.test_suite;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class SuiteTestA {
+public class ATest {
 
     @BeforeClass static public void before() {
         if(System.getProperty("resource_loaded") == "1") {

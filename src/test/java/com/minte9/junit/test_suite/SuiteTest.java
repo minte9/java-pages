@@ -5,7 +5,7 @@
  * Executing tests separately is expensive (db connect exemple).
  */
 
-package com.minte9.junit.test_case;
+package com.minte9.junit.test_suite;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -14,7 +14,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class) 
-@SuiteClasses({SuiteTestA.class, SuiteTestB.class}) // Look Here
+@SuiteClasses({ATest.class, BTest.class}) // Look Here
 public class SuiteTest {
     
     @BeforeClass static public void before() {
