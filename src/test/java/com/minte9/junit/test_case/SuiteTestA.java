@@ -2,7 +2,7 @@ package com.minte9.junit.test_case;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class SuiteA {
+public class SuiteTestA {
 
     @BeforeClass static public void before() {
         if(System.getProperty("resource_loaded") == "1") {

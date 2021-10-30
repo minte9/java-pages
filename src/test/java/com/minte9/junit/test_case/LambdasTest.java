@@ -1,7 +1,5 @@
 /**
  * Test Case - AssertEquals Lambdas Example
- * 
- * AAA (Arrange, Act, Assert)
  */
 
 package com.minte9.junit.test_case;
