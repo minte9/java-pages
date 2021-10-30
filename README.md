@@ -135,10 +135,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [CaseTest.java](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
     * [GenericsTest.java](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
     * [LambdasTest.java](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
-    * [SuiteTest.java](/src/test/java/com/minte9/junit/test_case/SuiteTest.java) T
-    * [SuiteTestA.java](/src/test/java/com/minte9/junit/test_case/SuiteTestA.java) T
-    * [SuiteTestB.java](/src/test/java/com/minte9/junit/test_case/SuiteTestB.java) T
-
+    * [SuiteTest.java](/src/test/java/com/minte9/junit/suite_test/) T
     
 ## Lambdas
   * expressions/
