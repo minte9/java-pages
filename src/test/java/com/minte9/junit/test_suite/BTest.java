@@ -1,5 +1,5 @@
 /**
- * SuiteTest B - used in SuiteTest
+ * B Test - used in SuiteTest
  */
 
 package com.minte9.junit.test_suite;
