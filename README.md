@@ -141,6 +141,9 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [After](/src/test/java/com/minte9/junit/annotations/AfterApp.java) T
     * [Before](/src/test/java/com/minte9/junit/annotations/BeforeApp.java) T
     * [BeforeClass](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java) T
+  * exceptions/
+    * [Expected](/src/test/java/com/minte9/junit/exceptions/Expected.java) T
+    * [NoArgs](/src/test/java/com/minte9/junit/exceptions/NoArgs.java) T
 
 ## Lambdas
   * expressions/
