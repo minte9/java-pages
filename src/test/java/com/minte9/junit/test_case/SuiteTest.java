@@ -1,4 +1,6 @@
 /**
+ * SuiteTest class - running TestA and TestB
+ * 
  * Test suites help to grouping and executing tests in bulk.
  * Executing tests separately is expensive (db connect exemple).
  */
