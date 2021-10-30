@@ -1,3 +1,7 @@
+/**
+ * Testing an application with no argumets in main()
+ */
+
 package com.minte9.junit.exceptions;
 import org.junit.Test;
 
