@@ -135,8 +135,13 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [CaseTest](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
     * [GenericsTest](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
     * [LambdasTest](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
+  * suite_test/
     * [SuiteTest](/src/test/java/com/minte9/junit/suite_test/) T
-    
+  * annotations/
+    * [AfterApp](/src/test/java/com/minte9/junit/annotations/AfterApp.java) T
+    * [BeforeApp](/src/test/java/com/minte9/junit/annotations/BeforeApp.java) T
+    * [BeforeClassApp](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java) T
+
 ## Lambdas
   * expressions/
     * [Anonimous](/src/main/java/com/minte9/lambdas/expressions/Anonimous.java)
