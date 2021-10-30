@@ -129,13 +129,13 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
 ## Junit
   * about/
-    * [Junit3Test.java](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
-    * [FailTest.java](/src/test/java/com/minte9/junit/about/FailTest.java) T
+    * [Junit3Test](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
+    * [FailTest](/src/test/java/com/minte9/junit/about/FailTest.java) T
   * test_case/
-    * [CaseTest.java](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
-    * [GenericsTest.java](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
-    * [LambdasTest.java](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
-    * [SuiteTest.java](/src/test/java/com/minte9/junit/suite_test/) T
+    * [CaseTest](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
+    * [GenericsTest](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
+    * [LambdasTest](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
+    * [SuiteTest](/src/test/java/com/minte9/junit/suite_test/) T
     
 ## Lambdas
   * expressions/
