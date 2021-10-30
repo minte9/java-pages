@@ -1,3 +1,7 @@
+/**
+ * SuiteTest A class - used in SuiteTest
+ */
+
 package com.minte9.junit.test_case;
 import org.junit.BeforeClass;
 import org.junit.Test;
