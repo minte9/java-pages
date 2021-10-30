@@ -138,9 +138,9 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * suite_test/
     * [SuiteTest](/src/test/java/com/minte9/junit/suite_test/) T
   * annotations/
-    * [AfterApp](/src/test/java/com/minte9/junit/annotations/AfterApp.java) T
-    * [BeforeApp](/src/test/java/com/minte9/junit/annotations/BeforeApp.java) T
-    * [BeforeClassApp](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java) T
+    * [After](/src/test/java/com/minte9/junit/annotations/AfterApp.java) T
+    * [Before](/src/test/java/com/minte9/junit/annotations/BeforeApp.java) T
+    * [BeforeClass](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java) T
 
 ## Lambdas
   * expressions/
