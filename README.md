@@ -130,10 +130,10 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
 ## Effective
   * constructors/
-    * [StaticFactory.java](/src/main/java/com/minte9/effective/constructors/StaticFactory.java)
-    * [Telescoping.java](/src/main/java/com/minte9/effective/constructors/Telescoping.java)
-    * [Javabeans.java](/src/main/java/com/minte9/effective/constructors/Javabeans.java)
-    * [BuilderApp.java](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
+    * [StaticFactory](/src/main/java/com/minte9/effective/constructors/StaticFactory.java)
+    * [Telescoping](/src/main/java/com/minte9/effective/constructors/Telescoping.java)
+    * [Javabeans](/src/main/java/com/minte9/effective/constructors/Javabeans.java)
+    * [BuilderApp](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
 
 ## Junit
   * about/
