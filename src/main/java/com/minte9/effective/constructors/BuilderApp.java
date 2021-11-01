@@ -2,7 +2,7 @@
  * Consider a builder when faced with many constructor parameters
  */
 
-package com.minte9.effective;
+package com.minte9.effective.constructors;
 
 public class BuilderApp {
     public static void main(String[] args) {

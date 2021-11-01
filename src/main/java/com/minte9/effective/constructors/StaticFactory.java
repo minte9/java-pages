@@ -7,7 +7,7 @@
  * Second, you don't need to create an object every time.
  */
 
-package com.minte9.effective;
+package com.minte9.effective.constructors;
 
 public class StaticFactory {
     public static void main(String[] args) {

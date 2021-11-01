@@ -3,7 +3,7 @@
  * may be in an inconsistent state
  */
 
-package com.minte9.effective;
+package com.minte9.effective.constructors;
 
 public class Javabeans {
     public static void main(String[] args) {

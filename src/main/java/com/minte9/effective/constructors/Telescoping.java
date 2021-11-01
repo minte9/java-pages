@@ -3,7 +3,7 @@
  * it is hard to write and hard to read.
  */
 
-package com.minte9.effective;
+package com.minte9.effective.constructors;
 
 public class Telescoping {
 
