@@ -128,6 +128,13 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Executor](/src/main/java/com/minte9/threads/scheduler/Executor.java)
     * [Scheduled](/src/main/java/com/minte9/threads/scheduler/Scheduled.java)
 
+## Effective
+  * constructors/
+    * [StaticFactory.java](/src/main/java/com/minte9/effective/constructors/StaticFactory.java)
+    * [Telescoping.java](/src/main/java/com/minte9/effective/constructors/Telescoping.java)
+    * [Javabeans.java](/src/main/java/com/minte9/effective/constructors/Javabeans.java)
+    * [BuilderApp.java](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
+
 ## Junit
   * about/
     * [Junit3Test](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
