@@ -136,8 +136,8 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Javabeans](/src/main/java/com/minte9/effective/constructors/Javabeans.java)
     * [BuilderApp](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
   * dependency_injection/
-    * [Resource](/src/main/java/com/minte9/dependency_injection/ResourceApp.java)
-    * [Static](/src/main/java/com/minte9/dependency_injection/StaticApp.java)
+    * [Resource](/src/main/java/com/minte9/effective/dependency_injection/ResourceApp.java)
+    * [Static](/src/main/java/com/minte9/effective/dependency_injection/StaticApp.java)
 
 ## Junit
   * about/
