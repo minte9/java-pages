@@ -47,43 +47,18 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * json/ [Json](/src/test/java/com/minte9/collections/json/JsonTest.java), [Loop](/src/main/java/com/minte9/collections/json/Loop.java), [Translate](/src/main/java/com/minte9/collections/json/Translate.java)
 
 ## Threads
-  * creation/
-    * [Extending](/src/main/java/com/minte9/threads/creation/Extending.java)
-    * [Implementing](/src/main/java/com/minte9/threads/creation/Implementing.java)
-  * sleep/
-    * [Sleep](/src/main/java/com/minte9/threads/sleep/Sleep.java)
-    * [Stop](/src/main/java/com/minte9/threads/sleep/Stop.java)
-  * lock/
-    * [Concurent](/src/main/java/com/minte9/threads/lock/ConcurentApp.java)
-    * [Synchronized](/src/main/java/com/minte9/threads/lock/SynchronizedApp.java)
-  * scheduler/
-    * [Executor](/src/main/java/com/minte9/threads/scheduler/Executor.java)
-    * [Scheduled](/src/main/java/com/minte9/threads/scheduler/Scheduled.java)
+  * creation/ [Extending](/src/main/java/com/minte9/threads/creation/Extending.java), [Implementing](/src/main/java/com/minte9/threads/creation/Implementing.java)
+  * sleep/ [Sleep](/src/main/java/com/minte9/threads/sleep/Sleep.java), [Stop](/src/main/java/com/minte9/threads/sleep/Stop.java)
+  * lock/ [Concurent](/src/main/java/com/minte9/threads/lock/ConcurentApp.java), [Synchronized](/src/main/java/com/minte9/threads/lock/SynchronizedApp.java)
+  * scheduler/ [Executor](/src/main/java/com/minte9/threads/scheduler/Executor.java), [Scheduled](/src/main/java/com/minte9/threads/scheduler/Scheduled.java)
 
 ## Effective
-  * constructors/
-    * [StaticFactory](/src/main/java/com/minte9/effective/constructors/StaticFactory.java)
-    * [Telescoping](/src/main/java/com/minte9/effective/constructors/Telescoping.java)
-    * [Javabeans](/src/main/java/com/minte9/effective/constructors/Javabeans.java)
-    * [BuilderApp](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
-  * dependency_injection/
-    * [Resource](/src/main/java/com/minte9/effective/dependency_injection/ResourceApp.java)
-    * [Static](/src/main/java/com/minte9/effective/dependency_injection/StaticApp.java)
-  * composition/
-    * [Composition](/src/main/java/com/minte9/effective/composition/Composition.java)
-    * [Inheritance](/src/main/java/com/minte9/effective/composition/Inheritance.java)
-  * interfaces_default/
-    * [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java)
-    * [Default Methods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
-  * enums/
-    * [Constants](/src/main/java/com/minte9/effective/enums/Constants.java)
-    * [Classes](/src/main/java/com/minte9/effective/enums/Classes.java)
-    * [TypeSafety](/src/main/java/com/minte9/effective/enums/TypeSafety.java)
-  * lambdas/
-    * [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java)
-    * [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java)
-    * [Enums No Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java)
-    * [Enum Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
+  * constructors/ [StaticFactory](/src/main/java/com/minte9/effective/constructors/StaticFactory.java), [Telescoping](/src/main/java/com/minte9/effective/constructors/Telescoping.java), [Javabeans](/src/main/java/com/minte9/effective/constructors/Javabeans.java), [BuilderApp](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
+  * dependency_injection/ [Resource](/src/main/java/com/minte9/effective/dependency_injection/ResourceApp.java), [Static](/src/main/java/com/minte9/effective/dependency_injection/StaticApp.java)
+  * composition/ [Composition](/src/main/java/com/minte9/effective/composition/Composition.java), [Inheritance](/src/main/java/com/minte9/effective/composition/Inheritance.java)
+  * interfaces_default/ [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java), [Default Methods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
+  * enums/ [Constants](/src/main/java/com/minte9/effective/enums/Constants.java), [Classes](/src/main/java/com/minte9/effective/enums/Classes.java), [TypeSafety](/src/main/java/com/minte9/effective/enums/TypeSafety.java)
+  * lambdas/ [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java), [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java), [Enums No Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java), [Enum Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
     
 ## Junit
   * about_junit/
