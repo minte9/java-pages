@@ -15,44 +15,15 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
 
 ## Basics
-  * classes/
-    * [Classes](/src/main/java/com/minte9/basics/classes/Classes.java)
-    * [Blueprint](/src/main/java/com/minte9/basics/classes/Blueprint.java)
-  * objects/
-    * [Objects](/src/main/java/com/minte9/basics/objects/Objects.java)
-    * [References](/src/main/java/com/minte9/basics/objects/References.java)
-  * arrays/
-    * [Arrays](/src/main/java/com/minte9/basics/arrays/Arrays.java)
-    * [Types](/src/main/java/com/minte9/basics/arrays/Types.java)
-    * [Join](/src/main/java/com/minte9/basics/arrays/Join.java)
-  * variables/
-    * [Parameters](/src/main/java/com/minte9/basics/variables/Parameters.java)
-    * [Passed By Value](/src/test/java/com/minte9/basics/variables/PassedByValueTest.java) T
-    * [Setter](/src/main/java/com/minte9/basics/variables/Setter.java)
-    * [Default Values](/src/main/java/com/minte9/basics/variables/DefaultValues.java)
-  * loops/
-    * [ForLoop](/src/main/java/com/minte9/basics/loops/ForLoop.java)
-    * [Enhanced For](/src/main/java/com/minte9/basics/loops/EnhancedFor.java)
-    * [ForEach](/src/main/java/com/minte9/basics/loops/ForEach.java)
-    * [While](/src/main/java/com/minte9/basics/loops/While.java)
-    * [Break](/src/main/java/com/minte9/basics/loops/Break.java)
-  * numbers/
-    * [Numbers](/src/main/java/com/minte9/basics/numbers/Numbers.java)
-    * [Autoboxing](/src/main/java/com/minte9/basics/numbers/Autoboxing.java) 
-  * strings/
-    * [Multilines](/src/main/java/com/minte9/basics/strings/Multilines.java)
-    * [Converting](/src/test/java/com/minte9/basics/strings/ConvertingTest.java) T
-    * [Padding](/src/main/java/com/minte9/basics/strings/Padding.java)
-  * exceptions/
-    * [Finally](/src/main/java/com/minte9/basics/exceptions/Finally.java)
-    * [Multiple](/src/main/java/com/minte9/basics/exceptions/Multiple.java)
-    * [Throws](/src/main/java/com/minte9/basics/exceptions/Throws.java)
-  * regexp/
-    * [Matches](/src/main/java/com/minte9/basics/regexp/Matches.java)
-    * [Greedy](/src/main/java/com/minte9/basics/regexp/Greedy.java)
-    * [Replace](/src/main/java/com/minte9/basics/regexp/Replace.java)
-    * [Split](/src/main/java/com/minte9/basics/regexp/Split.java)   
-    * [Lookaround](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java) T
+  * classes/ [Classes](/src/main/java/com/minte9/basics/classes/Classes.java), [Blueprint](/src/main/java/com/minte9/basics/classes/Blueprint.java)
+  * objects/ [Objects](/src/main/java/com/minte9/basics/objects/Objects.java), [References](/src/main/java/com/minte9/basics/objects/References.java)
+  * arrays/ [Arrays](/src/main/java/com/minte9/basics/arrays/Arrays.java), [Types](/src/main/java/com/minte9/basics/arrays/Types.java), [Join](/src/main/java/com/minte9/basics/arrays/Join.java)
+  * variables/ [Parameters](/src/main/java/com/minte9/basics/variables/Parameters.java), [PassedByValue](/src/test/java/com/minte9/basics/variables/PassedByValueTest.java), [Setter](/src/main/java/com/minte9/basics/variables/Setter.java), [DefaultValues](/src/main/java/com/minte9/basics/variables/DefaultValues.java)
+  * loops/ [ForLoop](/src/main/java/com/minte9/basics/loops/ForLoop.java), [EnhancedFor](/src/main/java/com/minte9/basics/loops/EnhancedFor.java), [ForEach](/src/main/java/com/minte9/basics/loops/ForEach.java). [While](/src/main/java/com/minte9/basics/loops/While.java), [Break](/src/main/java/com/minte9/basics/loops/Break.java)
+  * numbers/ [Numbers](/src/main/java/com/minte9/basics/numbers/Numbers.java), [Autoboxing](/src/main/java/com/minte9/basics/numbers/Autoboxing.java) 
+  * strings/ [Multilines](/src/main/java/com/minte9/basics/strings/Multilines.java), [Converting](/src/test/java/com/minte9/basics/strings/ConvertingTest.java), [Padding](/src/main/java/com/minte9/basics/strings/Padding.java)
+  * exceptions/ [Finally](/src/main/java/com/minte9/basics/exceptions/Finally.java), [Multiple](/src/main/java/com/minte9/basics/exceptions/Multiple.java), [Throws](/src/main/java/com/minte9/basics/exceptions/Throws.java)
+  * regexp/ [Matches](/src/main/java/com/minte9/basics/regexp/Matches.java), [Greedy](/src/main/java/com/minte9/basics/regexp/Greedy.java), [Replace](/src/main/java/com/minte9/basics/regexp/Replace.java), [Split](/src/main/java/com/minte9/basics/regexp/Split.java), [Lookaround](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java)
 
 ## OOP
   * inheritance/
