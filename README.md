@@ -148,9 +148,9 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Default Methods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
 
 ## Junit
-  * about/
-    * [Junit3](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
-    * [Fail](/src/test/java/com/minte9/junit/about/FailTest.java) T
+  * about_junit/
+    * [Junit3](/src/test/java/com/minte9/junit/about_junit/Junit3Test.java) T
+    * [Fail](/src/test/java/com/minte9/junit/about_junit/FailTest.java) T
   * test_case/
     * [Case Test](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
     * [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
