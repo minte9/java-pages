@@ -140,6 +140,13 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * dependency_injection/
     * [Resource](/src/main/java/com/minte9/effective/dependency_injection/ResourceApp.java)
     * [Static](/src/main/java/com/minte9/effective/dependency_injection/StaticApp.java)
+  * composition/
+    * [Composition](/src/main/java/com/minte9/effective/composition/Composition.java)
+    * [Inheritance](/src/main/java/com/minte9/effective/composition/Inheritance.java)
+  * interfaces_default/
+    * [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java)
+    * [DefaultMethods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
+
 
 ## Junit
   * about/
