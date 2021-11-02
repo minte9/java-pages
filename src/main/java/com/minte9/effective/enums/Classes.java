@@ -25,7 +25,7 @@ public class Classes {
 }
 
 
-enum Planet { 
+enum Planet {  
     MERCURY, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE 
 }
 

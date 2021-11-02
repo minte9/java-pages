@@ -12,7 +12,7 @@ public class Constants {
             Utils.Color.ANSI_RESET
         );
     }
-}
+} 
 
 class Utils {
 

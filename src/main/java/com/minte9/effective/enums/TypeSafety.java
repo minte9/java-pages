@@ -1,5 +1,5 @@
 /**
- * Enum type safety ...
+ * Enum type safety ... 
  * 
  * The primary advantage of using enum vs constants is type safety.
  * With enum only the applicable values can be used. 
