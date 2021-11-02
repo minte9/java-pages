@@ -56,14 +56,14 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * constructors/ [StaticFactory](/src/main/java/com/minte9/effective/constructors/StaticFactory.java), [Telescoping](/src/main/java/com/minte9/effective/constructors/Telescoping.java), [Javabeans](/src/main/java/com/minte9/effective/constructors/Javabeans.java), [BuilderApp](/src/main/java/com/minte9/effective/constructors/BuilderApp.java)
   * dependency_injection/ [Resource](/src/main/java/com/minte9/effective/dependency_injection/ResourceApp.java), [Static](/src/main/java/com/minte9/effective/dependency_injection/StaticApp.java)
   * composition/ [Composition](/src/main/java/com/minte9/effective/composition/Composition.java), [Inheritance](/src/main/java/com/minte9/effective/composition/Inheritance.java)
-  * interfaces_default/ [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java), [Default Methods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
+  * interfaces_default/ [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java), [DefaultMethods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
   * enums/ [Constants](/src/main/java/com/minte9/effective/enums/Constants.java), [Classes](/src/main/java/com/minte9/effective/enums/Classes.java), [TypeSafety](/src/main/java/com/minte9/effective/enums/TypeSafety.java)
-  * lambdas/ [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java), [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java), [Enums No Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java), [Enum Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
+  * lambdas/ [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java), [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java), [EnumsNoLambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java), [EnumLambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
     
 ## Junit
   * about_junit/ [Junit3](/src/test/java/com/minte9/junit/about_junit/Junit3Test.java), [Fail](/src/test/java/com/minte9/junit/about_junit/FailTest.java)
-  * test_case/ [Case Test](/src/test/java/com/minte9/junit/test_case/CaseTest.java), [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java),  [Lambdas](/src/test/java/com/minte9/junit/test_case/LambdasTest.java)
-  * suite_test/ [Suite Test](/src/test/java/com/minte9/junit/suite_test/)
+  * test_case/ [CaseTest](/src/test/java/com/minte9/junit/test_case/CaseTest.java), [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java),  [Lambdas](/src/test/java/com/minte9/junit/test_case/LambdasTest.java)
+  * suite_test/ [SuiteTest](/src/test/java/com/minte9/junit/suite_test/)
   * annotations/ [After](/src/test/java/com/minte9/junit/annotations/AfterApp.java), [Before](/src/test/java/com/minte9/junit/annotations/BeforeApp.java),  [BeforeClass](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java)
   * exceptions/ [Expected](/src/test/java/com/minte9/junit/exceptions/Expected.java), [NoArgs](/src/test/java/com/minte9/junit/exceptions/NoArgs.java)
 
@@ -73,7 +73,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * streams/ [Iterations](/src/main/java/com/minte9/lambdas/streams/Iterations.java), [Lazy](/src/main/java/com/minte9/lambdas/streams/Lazy.java)
   * operations/ [Collect](/src/main/java/com/minte9/lambdas/common_operations/Collect.java), [Map](/src/main/java/com/minte9/lambdas/common_operations/MapApp.java), [Filter](/src/main/java/com/minte9/lambdas/common_operations/Filter.java), [Reduce](/src/main/java/com/minte9/lambdas/common_operations/Reduce.java), [Comparing](/src/main/java/com/minte9/lambdas/common_operations/Comparing.java), [PartitioningBy](/src/main/java/com/minte9/lambdas/common_operations/PartitioningBy.java), [GroupingBy](/src/main/java/com/minte9/lambdas/common_operations/GroupingBy.java)
   * default/ [DefaultMethod](/src/main/java/com/minte9/lambdas/default_methods/DefaultMethod.java), [Functional](/src/main/java/com/minte9/lambdas/default_methods/Functional.java), [Object](/src/main/java/com/minte9/lambdas/default_methods/Object.java), [Super](/src/main/java/com/minte9/lambdas/default_methods/Super.java)
-  * static/ [Static Method](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java), [Method Reference](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
+  * static/ [StaticMethod](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java), [MethodReference](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
   * single_responsibility/ [Encapsulation](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java), [Lambdas](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java), [Primes](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
 
 ## JavaFX
