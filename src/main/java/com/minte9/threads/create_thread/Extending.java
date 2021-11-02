@@ -12,7 +12,7 @@
  * or implementing Runnable.
  */
 
-package com.minte9.threads.creation;
+package com.minte9.threads.create_thread;
 
 public class Extending extends Thread { // Look Here
     public static void main(String[] args) {

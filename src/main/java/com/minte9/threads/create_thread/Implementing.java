@@ -3,7 +3,7 @@
  * Using lambdas the code is more concise and easy to read.
  */
 
-package com.minte9.threads.creation;
+package com.minte9.threads.create_thread;
 
 public class Implementing {    
     public static void main(String[] args) 
