@@ -77,11 +77,6 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * single_responsibility/ [Encapsulation](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java), [Lambdas](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java), [Primes](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
 
 ## JavaFX
-  * [Hello World](/src/main/java/com/minte9/javafx/first_app/)
-  * [On Action](/src/main/java/com/minte9/javafx/on_action/)
-  * [Chnage Listener](/src/main/java/com/minte9/javafx/change_listener/)
-
-## JavaFX
 * first_app/ [HelloApp.java](/src/main/java/com/minte9/javafx/first_app/HelloApp.java), [HelloGui.java](/src/main/java/com/minte9/javafx/first_app/HelloGui.java), [hello.fxml](/src/main/java/com/minte9/javafx/first_app/hello.fxml)
 * on_action/ [ActionApp.java](/src/main/java/com/minte9/javafx/on_action/ActionApp.java), [ActionAppGui.java](/src/main/java/com/minte9/javafx/on_action/ActionAppGui.java), [button.fxml](/src/main/java/com/minte9/javafx/on_action/button.fxml)
 * change_listener/ [CalculateApp.java](/src/main/java/com/minte9/javafx/change_listener/CalculateApp.java), [CalculateGui.java](/src/main/java/com/minte9/javafx/change_listener/CalculateGui.java), [tipcalculator.fxml](/src/main/java/com/minte9/javafx/change_listener/tipcalculator.fxml)
