@@ -150,7 +150,12 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Constants](/src/main/java/com/minte9/effective/enums/Constants.java)
     * [Classes](/src/main/java/com/minte9/effective/enums/Classes.java)
     * [TypeSafety](/src/main/java/com/minte9/effective/enums/TypeSafety.java)
-
+  * lambdas/
+    * [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java)
+    * [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java)
+    * [Enums No Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java)
+    * [Enum Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
+    
 ## Junit
   * about_junit/
     * [Junit3](/src/test/java/com/minte9/junit/about_junit/Junit3Test.java) T
