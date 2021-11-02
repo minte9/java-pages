@@ -47,7 +47,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * json/ [Json](/src/test/java/com/minte9/collections/json/JsonTest.java), [Loop](/src/main/java/com/minte9/collections/json/Loop.java), [Translate](/src/main/java/com/minte9/collections/json/Translate.java)
 
 ## Threads
-  * creation/ [Extending](/src/main/java/com/minte9/threads/creation/Extending.java), [Implementing](/src/main/java/com/minte9/threads/creation/Implementing.java)
+  * create_thread/ [Extending](/src/main/java/com/minte9/threads/create_thread/Extending.java), [Implementing](/src/main/java/com/minte9/threads/create_thread/Implementing.java)
   * sleep/ [Sleep](/src/main/java/com/minte9/threads/sleep/Sleep.java), [Stop](/src/main/java/com/minte9/threads/sleep/Stop.java)
   * lock/ [Concurent](/src/main/java/com/minte9/threads/lock/ConcurentApp.java), [Synchronized](/src/main/java/com/minte9/threads/lock/SynchronizedApp.java)
   * scheduler/ [Executor](/src/main/java/com/minte9/threads/scheduler/Executor.java), [Scheduled](/src/main/java/com/minte9/threads/scheduler/Scheduled.java)
