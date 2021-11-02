@@ -147,9 +147,9 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java)
     * [Default Methods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
   * enums/
-    * [Constants](/src/main/java/com/minte9/effectiveenums/Constants.java)
-    * [Classes](/src/main/java/com/minte9/effectiveenums/Classes.java)
-    * [TypeSafety](/src/main/java/com/minte9/effectiveenums/TypeSafety.java)
+    * [Constants](/src/main/java/com/minte9/effective/enums/Constants.java)
+    * [Classes](/src/main/java/com/minte9/effective/enums/Classes.java)
+    * [TypeSafety](/src/main/java/com/minte9/effective/enums/TypeSafety.java)
 
 ## Junit
   * about_junit/
