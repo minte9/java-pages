@@ -30,7 +30,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * polymorphism/ [Casting](/src/main/java/com/minte9/oop//polymorphism/Casting.java), [Parameter](/src/main/java/com/minte9/oop/polymorphism/Parameter.java), 
   * static/ [Variables](/src/main/java/com/minte9/oop/static_keyword/Variables.java), [Methods](/src/main/java/com/minte9/oop/static_keyword/Methods.java), [Classes](/src/main/java/com/minte9/oop/static_keyword/Classes.java), [Import](/src/main/java/com/minte9/oop/static_keyword/Import.java)
   * abstract/ [Classes](/src/main/java/com/minte9/oop/abstract_keyword/Classes.java), [Methods](/src/main/java/com/minte9/oop/abstract_keyword/Methods.java)
-  * interfaces/ [Contract](/src/main/java/com/minte9/oop/interfaces/Contract.java), [Legacy](/src/main/java/com/minte9/oop/interfaces/Legacy.java), [Default Method](/src/main/java/com/minte9/oop/interfaces/DefaultMethod.java)
+  * interfaces/ [Contract](/src/main/java/com/minte9/oop/interfaces/Contract.java), [Legacy](/src/main/java/com/minte9/oop/interfaces/Legacy.java), [DefaultMethod](/src/main/java/com/minte9/oop/interfaces/DefaultMethod.java)
   * constructors/ [Constructors](/src/main/java/com/minte9/oop/constructors/Constructors.java), [This](/src/main/java/com/minte9/oop/constructors/This.java)
   * packages/ [Hierarchy](/src/main/java/com/minte9/oop/packages/Hierarchy.java), [Import](/src/main/java/com/minte9/oop/packages/Import.java)
   * nested/ [Encapsulation](/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java), [Static](/src/main/java/com/minte9/oop/nested_classes/Static.java)
@@ -61,57 +61,20 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * lambdas/ [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java), [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java), [Enums No Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java), [Enum Lambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
     
 ## Junit
-  * about_junit/
-    * [Junit3](/src/test/java/com/minte9/junit/about_junit/Junit3Test.java) T
-    * [Fail](/src/test/java/com/minte9/junit/about_junit/FailTest.java) T
-  * test_case/
-    * [Case Test](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
-    * [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
-    * [Lambdas](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
-  * suite_test/
-    * [Suite Test](/src/test/java/com/minte9/junit/suite_test/) T
-  * annotations/
-    * [After](/src/test/java/com/minte9/junit/annotations/AfterApp.java) T
-    * [Before](/src/test/java/com/minte9/junit/annotations/BeforeApp.java) T
-    * [BeforeClass](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java) T
-  * exceptions/
-    * [Expected](/src/test/java/com/minte9/junit/exceptions/Expected.java) T
-    * [NoArgs](/src/test/java/com/minte9/junit/exceptions/NoArgs.java) T
+  * about_junit/ [Junit3](/src/test/java/com/minte9/junit/about_junit/Junit3Test.java), [Fail](/src/test/java/com/minte9/junit/about_junit/FailTest.java)
+  * test_case/ [Case Test](/src/test/java/com/minte9/junit/test_case/CaseTest.java), [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java),  [Lambdas](/src/test/java/com/minte9/junit/test_case/LambdasTest.java)
+  * suite_test/ [Suite Test](/src/test/java/com/minte9/junit/suite_test/)
+  * annotations/ [After](/src/test/java/com/minte9/junit/annotations/AfterApp.java), [Before](/src/test/java/com/minte9/junit/annotations/BeforeApp.java),  [BeforeClass](/src/test/java/com/minte9/junit/annotations/BeforeClassApp.java)
+  * exceptions/ [Expected](/src/test/java/com/minte9/junit/exceptions/Expected.java), [NoArgs](/src/test/java/com/minte9/junit/exceptions/NoArgs.java)
 
 ## Lambdas
-  * expressions/
-    * [Anonimous](/src/main/java/com/minte9/lambdas/expressions/Anonimous.java)
-    * [Behavior](/src/main/java/com/minte9/lambdas/expressions/Behavior.java)
-    * [Lambdas](/src/main/java/com/minte9/lambdas/expressions/Lambdas.java)
-    * [Final Variable](/src/main/java/com/minte9/lambdas/expressions/FinalVariable.java)
-    * [Type Inference](/src/main/java/com/minte9/lambdas/expressions/TypeInference.java)
-  * functional/
-    * [Custom](/src/main/java/com/minte9/lambdas/functional_interfaces/Custom.java)
-    * [One Method](/src/main/java/com/minte9/lambdas/functional_interfaces/OneMethod.java)
-    * [Predicate](/src/main/java/com/minte9/lambdas/functional_interfaces/PredicateExamples.java)
-  * streams/
-    * [Iterations](/src/main/java/com/minte9/lambdas/streams/Iterations.java)
-    * [Lazy](/src/main/java/com/minte9/lambdas/streams/Lazy.java)
-  * operations/
-    * [Collect](/src/main/java/com/minte9/lambdas/common_operations/Collect.java)
-    * [Map](/src/main/java/com/minte9/lambdas/common_operations/MapApp.java)
-    * [Filter](/src/main/java/com/minte9/lambdas/common_operations/Filter.java)
-    * [Reduce](/src/main/java/com/minte9/lambdas/common_operations/Reduce.java)
-    * [Comparing](/src/main/java/com/minte9/lambdas/common_operations/Comparing.java)
-    * [Partitioning By](/src/main/java/com/minte9/lambdas/common_operations/PartitioningBy.java)
-    * [Grouping By](/src/main/java/com/minte9/lambdas/common_operations/GroupingBy.java)
-  * default/
-    * [Default Method](/src/main/java/com/minte9/lambdas/default_methods/DefaultMethod.java)
-    * [Functional](/src/main/java/com/minte9/lambdas/default_methods/Functional.java)
-    * [Object](/src/main/java/com/minte9/lambdas/default_methods/Object.java)
-    * [Super](/src/main/java/com/minte9/lambdas/default_methods/Super.java)
-  * static/
-    * [Static Method](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java)
-    * [Method Reference](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
-  * single_responsibility/
-    * [Encapsulation](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java)
-    * [Lambdas](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java)
-    * [Primes](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
+  * expressions/ [Anonimous](/src/main/java/com/minte9/lambdas/expressions/Anonimous.java), [Behavior](/src/main/java/com/minte9/lambdas/expressions/Behavior.java), [Lambdas](/src/main/java/com/minte9/lambdas/expressions/Lambdas.java), [FinalVariable](/src/main/java/com/minte9/lambdas/expressions/FinalVariable.java), [TypeInference](/src/main/java/com/minte9/lambdas/expressions/TypeInference.java)
+  * functional/ [Custom](/src/main/java/com/minte9/lambdas/functional_interfaces/Custom.java), [OneMethod](/src/main/java/com/minte9/lambdas/functional_interfaces/OneMethod.java), [Predicate](/src/main/java/com/minte9/lambdas/functional_interfaces/PredicateExamples.java)
+  * streams/ [Iterations](/src/main/java/com/minte9/lambdas/streams/Iterations.java), [Lazy](/src/main/java/com/minte9/lambdas/streams/Lazy.java)
+  * operations/ [Collect](/src/main/java/com/minte9/lambdas/common_operations/Collect.java), [Map](/src/main/java/com/minte9/lambdas/common_operations/MapApp.java), [Filter](/src/main/java/com/minte9/lambdas/common_operations/Filter.java), [Reduce](/src/main/java/com/minte9/lambdas/common_operations/Reduce.java), [Comparing](/src/main/java/com/minte9/lambdas/common_operations/Comparing.java), [PartitioningBy](/src/main/java/com/minte9/lambdas/common_operations/PartitioningBy.java), [GroupingBy](/src/main/java/com/minte9/lambdas/common_operations/GroupingBy.java)
+  * default/ [DefaultMethod](/src/main/java/com/minte9/lambdas/default_methods/DefaultMethod.java), [Functional](/src/main/java/com/minte9/lambdas/default_methods/Functional.java), [Object](/src/main/java/com/minte9/lambdas/default_methods/Object.java), [Super](/src/main/java/com/minte9/lambdas/default_methods/Super.java)
+  * static/ [Static Method](/src/main/java/com/minte9/lambdas/static_methods/StaticMethod.java), [Method Reference](/src/main/java/com/minte9/lambdas/static_methods/MethodReference.java)
+  * single_responsibility/ [Encapsulation](/src/main/java/com/minte9/lambdas/single_responsibility/Encapsulation.java), [Lambdas](/src/main/java/com/minte9/lambdas/single_responsibility/Lambdas.java), [Primes](/src/main/java/com/minte9/lambdas/single_responsibility/Primes.java)
 
 ## JavaFX
   * [Hello World](/src/main/java/com/minte9/javafx/first_app/)
