@@ -42,7 +42,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * sets/ [HashSets](/src/main/java/com/minte9/collections/sets/HashSets.java), [TreeSets](/src/main/java/com/minte9/collections/sets/TreeSets.java)
   * maps/ [HashMaps](/src/main/java/com/minte9/collections/maps/HashMaps.java), [Loops](/src/main/java/com/minte9/collections/maps/Loops.java)
   * generics/ [Type](/src/main/java/com/minte9/collections/generics/Type.java), [Multiple](/src/main/java/com/minte9/collections/generics/Multiple.java),  [Limitations](/src/main/java/com/minte9/collections/generics/Limitations.java)
-  * properties/ [Config](/src/main/java/com/minte9/collections/properties/Config.java), [List](/src/main/java/com/minte9/collections/properties/List.java),  [System Properties](/src/main/java/com/minte9/collections/properties/SystemProperties.java)
+  * properties/ [Config](/src/main/java/com/minte9/collections/properties/Config.java), [List](/src/main/java/com/minte9/collections/properties/List.java),  [SystemProperties](/src/main/java/com/minte9/collections/properties/SystemProperties.java)
   * streams/ [Streams](/src/main/java/com/minte9/collections/streams/Streams.java), [Declarative](/src/main/java/com/minte9/collections/streams/Declarative.java),  [Anonimous](/src/main/java/com/minte9/collections/streams/Anonimous.java)
   * json/ [Json](/src/test/java/com/minte9/collections/json/JsonTest.java), [Loop](/src/main/java/com/minte9/collections/json/Loop.java), [Translate](/src/main/java/com/minte9/collections/json/Translate.java)
 
