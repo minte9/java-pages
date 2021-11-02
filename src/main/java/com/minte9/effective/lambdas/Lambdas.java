@@ -25,7 +25,7 @@ public class Lambdas {
 
 
         // Example 1
-        Collections.sort(words, // Look Here
+        Collections.sort(words,
             (s1, s2) -> Integer.compare(s1.length(), s2.length())
         );
         words.forEach(System.out::println); 
@@ -33,7 +33,7 @@ public class Lambdas {
 
 
         // Example 2
-        words.sort( // Look Here
+        words.sort(
             (s1, s2) -> Integer.compare(s1.length(), s2.length())
         );
         words.forEach(System.out::println); 
