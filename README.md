@@ -60,7 +60,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * enums/ [Constants](/src/main/java/com/minte9/effective/enums/Constants.java), [Classes](/src/main/java/com/minte9/effective/enums/Classes.java), [TypeSafety](/src/main/java/com/minte9/effective/enums/TypeSafety.java)
   * lambdas/ [Anonymous](/src/main/java/com/minte9/effective/lambdas/Anonymous.java), [Lambdas](/src/main/java/com/minte9/effective/lambdas/Lambdas.java), [EnumsNoLambdas](/src/main/java/com/minte9/effective/lambdas/EnumsNoLambdas.java), [EnumLambdas](/src/main/java/com/minte9/effective/lambdas/EnumLambdas.java)
     
-## Junit
+## JUnit
   * about_junit/ [Junit3](/src/test/java/com/minte9/junit/about_junit/Junit3Test.java), [Fail](/src/test/java/com/minte9/junit/about_junit/FailTest.java)
   * test_case/ [CaseTest](/src/test/java/com/minte9/junit/test_case/CaseTest.java), [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java),  [Lambdas](/src/test/java/com/minte9/junit/test_case/LambdasTest.java)
   * suite_test/ [SuiteTest](/src/test/java/com/minte9/junit/suite_test/)
