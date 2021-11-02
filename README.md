@@ -154,7 +154,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * test_case/
     * [Case Test](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
     * [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
-    * [Lambdas(/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
+    * [Lambdas](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
   * suite_test/
     * [Suite Test](/src/test/java/com/minte9/junit/suite_test/) T
   * annotations/
