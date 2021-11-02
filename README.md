@@ -26,37 +26,15 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
   * regexp/ [Matches](/src/main/java/com/minte9/basics/regexp/Matches.java), [Greedy](/src/main/java/com/minte9/basics/regexp/Greedy.java), [Replace](/src/main/java/com/minte9/basics/regexp/Replace.java), [Split](/src/main/java/com/minte9/basics/regexp/Split.java), [Lookaround](/src/test/java/com/minte9/basics/regexp/LookaroundTest.java)
 
 ## OOP
-  * inheritance/
-    * [Inheritance](/src/main/java/com/minte9/oop/inheritance/Inheritance.java)
-    * [Annotation](/src/main/java/com/minte9/oop/inheritance/Annotation.java)
-    * [Super](/src/main/java/com/minte9/oop/inheritance/Super.java)
-  * polymorphism/
-    * [Casting](/src/main/java/com/minte9/oop//polymorphism/Casting.java)
-    * [Parameter](/src/main/java/com/minte9/oop/polymorphism/Parameter.java)
-  * static/
-    * [Variables](/src/main/java/com/minte9/oop/static_keyword/Variables.java)
-    * [Methods](/src/main/java/com/minte9/oop/static_keyword/Methods.java)
-    * [Classes](/src/main/java/com/minte9/oop/static_keyword/Classes.java)
-    * [Import](/src/main/java/com/minte9/oop/static_keyword/Import.java)
-  * abstract/
-    * [Classes](/src/main/java/com/minte9/oop/abstract_keyword/Classes.java)
-    * [Methods](/src/main/java/com/minte9/oop/abstract_keyword/Methods.java)
-  * interfaces/
-    * [Contract](/src/main/java/com/minte9/oop/interfaces/Contract.java)
-    * [Legacy](/src/main/java/com/minte9/oop/interfaces/Legacy.java)
-    * [Default Method](/src/main/java/com/minte9/oop/interfaces/DefaultMethod.java)
-  * constructors/
-    * [Constructors](/src/main/java/com/minte9/oop/constructors/Constructors.java)
-    * [This](/src/main/java/com/minte9/oop/constructors/This.java)
-  * packages/
-    * [Hierarchy](/src/main/java/com/minte9/oop/packages/Hierarchy.java)
-    * [Import](/src/main/java/com/minte9/oop/packages/Import.java)
-  * nested/
-    * [Encapsulation](/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java)
-    * [Static](/src/main/java/com/minte9/oop/nested_classes/Static.java)
-  * final/
-    * [Constants](/src/main/java/com/minte9/oop/final_keyword/Constants.java)
-    * [Final](/src/main/java/com/minte9/oop/final_keyword/Final.java)
+  * inheritance/ [Inheritance](/src/main/java/com/minte9/oop/inheritance/Inheritance.java), [Annotation](/src/main/java/com/minte9/oop/inheritance/Annotation.java), [Super](/src/main/java/com/minte9/oop/inheritance/Super.java)
+  * polymorphism/ [Casting](/src/main/java/com/minte9/oop//polymorphism/Casting.java), [Parameter](/src/main/java/com/minte9/oop/polymorphism/Parameter.java), 
+  * static/ [Variables](/src/main/java/com/minte9/oop/static_keyword/Variables.java), [Methods](/src/main/java/com/minte9/oop/static_keyword/Methods.java), [Classes](/src/main/java/com/minte9/oop/static_keyword/Classes.java), [Import](/src/main/java/com/minte9/oop/static_keyword/Import.java)
+  * abstract/ [Classes](/src/main/java/com/minte9/oop/abstract_keyword/Classes.java), [Methods](/src/main/java/com/minte9/oop/abstract_keyword/Methods.java)
+  * interfaces/ [Contract](/src/main/java/com/minte9/oop/interfaces/Contract.java), [Legacy](/src/main/java/com/minte9/oop/interfaces/Legacy.java), [Default Method](/src/main/java/com/minte9/oop/interfaces/DefaultMethod.java)
+  * constructors/ [Constructors](/src/main/java/com/minte9/oop/constructors/Constructors.java), [This](/src/main/java/com/minte9/oop/constructors/This.java)
+  * packages/ [Hierarchy](/src/main/java/com/minte9/oop/packages/Hierarchy.java), [Import](/src/main/java/com/minte9/oop/packages/Import.java)
+  * nested/ [Encapsulation](/src/main/java/com/minte9/oop/nested_classes/Encapsulation.java), [Static](/src/main/java/com/minte9/oop/nested_classes/Static.java)
+  * final/ [Constants](/src/main/java/com/minte9/oop/final_keyword/Constants.java), [Final](/src/main/java/com/minte9/oop/final_keyword/Final.java)
 
 ## Collections
   * lists/
