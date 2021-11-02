@@ -147,17 +147,16 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
     * [Contract](/src/main/java/com/minte9/effective/interfaces_default/Contract.java)
     * [Default Methods](/src/main/java/com/minte9/effective/interfaces_default/DefaultMethods.java)
 
-
 ## Junit
   * about/
-    * [Junit3Test](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
-    * [FailTest](/src/test/java/com/minte9/junit/about/FailTest.java) T
+    * [Junit3](/src/test/java/com/minte9/junit/about/Junit3Test.java) T
+    * [Fail](/src/test/java/com/minte9/junit/about/FailTest.java) T
   * test_case/
-    * [CaseTest](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
-    * [GenericsTest](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
-    * [LambdasTest](/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
+    * [Case Test](/src/test/java/com/minte9/junit/test_case/CaseTest.java) T
+    * [Generics](/src/test/java/com/minte9/junit/test_case/GenericsTest.java) T
+    * [Lambdas(/src/test/java/com/minte9/junit/test_case/LambdasTest.java) T
   * suite_test/
-    * [SuiteTest](/src/test/java/com/minte9/junit/suite_test/) T
+    * [Suite Test](/src/test/java/com/minte9/junit/suite_test/) T
   * annotations/
     * [After](/src/test/java/com/minte9/junit/annotations/AfterApp.java) T
     * [Before](/src/test/java/com/minte9/junit/annotations/BeforeApp.java) T
