@@ -25,7 +25,6 @@ public class Lambdas {
 
 
         // Example 1
-
         Collections.sort(words, // Look Here
             (s1, s2) -> Integer.compare(s1.length(), s2.length())
         );
@@ -34,7 +33,6 @@ public class Lambdas {
 
 
         // Example 2
-
         words.sort( // Look Here
             (s1, s2) -> Integer.compare(s1.length(), s2.length())
         );
