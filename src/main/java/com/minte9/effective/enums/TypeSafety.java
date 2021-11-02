@@ -16,10 +16,10 @@ public class TypeSafety {
         Tools.print("This text is purple underline!", "\033[4;35m"); // allowed
             // This text is purple underline!
 
-        Tools.print2("This text is purple!", ColorEnum.PURPLE);
+        Tools.output("This text is purple!", ColorEnum.PURPLE);
             // This text is purple!
 
-        //Tools.print2("This text is purple!", "\033[4;35m"); // Look Here
+        // Tools.output("This text is purple!", "\033[4;35m"); // Look Here
             // not applicable for the arguments
     }
 }
@@ -30,7 +30,7 @@ class Tools {
         System.out.println(color + message + Color.RESET);
     }
 
-    public static void print2(String message, ColorEnum color) { // Look Here
+    public static void output(String message, ColorEnum color) { // Look Here
         System.out.println(color + message + Color.RESET);
     }
 }
