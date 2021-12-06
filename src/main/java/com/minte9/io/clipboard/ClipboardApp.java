@@ -40,11 +40,10 @@ public class ClipboardApp {
 
         try {
             if (t.isDataFlavorSupported(DataFlavor.stringFlavor)) {
-                String text = t.getTransferData(DataFlavor.stringFlavor).toString();
-                return text;
+                return t.getTransferData(DataFlavor.stringFlavor).toString();
             }
         } catch (UnsupportedFlavorException | IOException ex) {}
-        
+
         return null;
     }
 }
