@@ -22,12 +22,14 @@ public class ClipboardApp {
         cp.setContents(ss, null);
 
         while(true) {
-            String text = getFromClipboard();
+            String text = CP.getFromClipboard();
             System.out.println(text);
             Thread.sleep(2000);
         }
     }
+}
 
+class CP {
     public static void copyToClipboard(String text) {
         Toolkit.getDefaultToolkit().getSystemClipboard()
             .setContents(new StringSelection(text), null);
@@ -35,8 +37,9 @@ public class ClipboardApp {
 
     public static String getFromClipboard() {
 
-        Transferable t = Toolkit.getDefaultToolkit().getSystemClipboard()
-            .getContents(null);
+        Transferable t = 
+            Toolkit.getDefaultToolkit().getSystemClipboard()
+                .getContents(null);
 
         try {
             if (t.isDataFlavorSupported(DataFlavor.stringFlavor)) {
