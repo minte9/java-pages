@@ -1,7 +1,7 @@
 /**
  * Clipboard app:
  * Use Ctrl-C to copy text in clipboard
- * The text will be display real time on console.
+ * The clipboard text will be displayed on runtime.
  */
 package com.minte9.io.clipboard;
 
