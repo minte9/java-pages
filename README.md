@@ -84,10 +84,10 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 ## Repo
 
 ~~~sh
-# Install repo
+# Install
 git clone https://github.com/minte9/java-pages.git
 
-# Update repo
+# Update
 git pull origin main
 ~~~
 
