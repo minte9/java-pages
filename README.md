@@ -81,6 +81,15 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 * on_action/ [ActionApp.java](/src/main/java/com/minte9/javafx/on_action/ActionApp.java), [ActionAppGui.java](/src/main/java/com/minte9/javafx/on_action/ActionAppGui.java), [button.fxml](/src/main/java/com/minte9/javafx/on_action/button.fxml)
 * change_listener/ [CalculateApp.java](/src/main/java/com/minte9/javafx/change_listener/CalculateApp.java), [CalculateGui.java](/src/main/java/com/minte9/javafx/change_listener/CalculateGui.java), [tipcalculator.fxml](/src/main/java/com/minte9/javafx/change_listener/tipcalculator.fxml)
 
+## Repo
+
+~~~sh
+# Install repo
+git clone https://github.com/minte9/java-pages.git
+
+# Update repo
+git pull origin main
+~~~
 
 ##
 
