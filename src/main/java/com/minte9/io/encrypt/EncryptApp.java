@@ -6,16 +6,14 @@
  */
 package com.minte9.io.encrypt;
 
-import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Base64;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
 public class EncryptApp {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         String key = "YXZyYHNaWA=";
         String plainText = "mypassword";
@@ -30,7 +28,7 @@ public class EncryptApp {
 
 class AES {
 
-    public static String encrypt(String plainText, String key) {
+    public static String encrypt(String plainText, String key) throws Exception  {
 
         try {
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
@@ -45,39 +43,25 @@ class AES {
         return null;
     }
 
-    public static String decrypt(String encryptedText, String key) {
+    public static String decrypt(String encryptedText, String key) throws Exception  {
         
-        try {
-            Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
-            cipher.init(Cipher.DECRYPT_MODE, getKey(key));
+        Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+        cipher.init(Cipher.DECRYPT_MODE, getKey(key));
 
-            return new String(cipher.doFinal(
-                Base64.getDecoder().decode(encryptedText)
-            ));
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+        return new String(cipher.doFinal(
+            Base64.getDecoder().decode(encryptedText)
+        ));
     }
 
-    public static SecretKeySpec getKey(String myKey) {
+    public static SecretKeySpec getKey(String myKey) throws Exception {
 
-        try {
-            MessageDigest sha = MessageDigest.getInstance("SHA-1");
-            byte[] key;
+        MessageDigest sha = MessageDigest.getInstance("SHA-1");
+        byte[] key;
 
-            key = myKey.getBytes("UTF-8");
-            key = sha.digest(key);
-            key = Arrays.copyOf(key, 16);
+        key = myKey.getBytes("UTF-8");
+        key = sha.digest(key);
+        key = Arrays.copyOf(key, 16);
 
-            return new SecretKeySpec(key, "AES");
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return new SecretKeySpec(key, "AES");
     }
 }
