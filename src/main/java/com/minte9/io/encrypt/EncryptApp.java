@@ -3,6 +3,10 @@
  * 
  * ECB (Electronic Codebook) is essentially the first generation of the AES.
  * It is the most basic form of block cipher encryption.
+ * 
+ * AES encryption is used by U.S ...
+ * for securing sensitive but unclassified material, ...
+ * so we can say it is enough secure.
  */
 package com.minte9.io.encrypt;
 
