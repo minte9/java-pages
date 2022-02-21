@@ -14,7 +14,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class EncryptApp {
     public static void main(String[] args) 
-        throws Exception {
+            throws Exception {
 
         String key = "YXZyYHNaWA=";
         String plainText = "mypassword";
@@ -30,7 +30,7 @@ public class EncryptApp {
 class AES {
 
     public static String encrypt(String plainText, String key) 
-        throws Exception  {
+            throws Exception  {
 
         try {
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
@@ -46,7 +46,7 @@ class AES {
     }
 
     public static String decrypt(String encryptedText, String key) 
-        throws Exception  {
+            throws Exception  {
         
         Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
         cipher.init(Cipher.DECRYPT_MODE, getKey(key));
@@ -57,7 +57,7 @@ class AES {
     }
 
     public static SecretKeySpec getKey(String myKey) 
-        throws Exception {
+            throws Exception {
 
         MessageDigest sha = MessageDigest.getInstance("SHA-1");
         byte[] key;
