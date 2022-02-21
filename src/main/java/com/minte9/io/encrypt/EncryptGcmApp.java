@@ -42,7 +42,6 @@ class AES_GCM {
         
         SecretKey secretKey = AES_GCM.getSecretKey(key);
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-        
         cipher.init(
             Cipher.ENCRYPT_MODE, secretKey, new GCMParameterSpec(128, iv)
         );
@@ -57,7 +56,6 @@ class AES_GCM {
         
         SecretKey secretKey = AES_GCM.getSecretKey(key);
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-
         cipher.init(
             Cipher.DECRYPT_MODE, secretKey, new GCMParameterSpec(128, iv)
         );
