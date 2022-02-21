@@ -1,7 +1,7 @@
 /**
  * Encrypt AES simple
  * 
- * dvanced Encryption Standard which is a symmetric encryption algorithm
+ * Advanced Encryption Standard which is a symmetric encryption algorithm
  * 
  * ECB (Electronic Codebook) is essentially the first generation of the AES.
  * It is the most basic form of block cipher encryption.
