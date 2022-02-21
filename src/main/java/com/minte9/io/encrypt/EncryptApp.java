@@ -1,5 +1,8 @@
 /**
- * Encrypt AES/ECB
+ * Encrypt AES simple
+ * 
+ * ECB (Electronic Codebook) is essentially the first generation of the AES.
+ * It is the most basic form of block cipher encryption.
  */
 package com.minte9.io.encrypt;
 
