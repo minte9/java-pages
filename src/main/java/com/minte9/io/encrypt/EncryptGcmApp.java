@@ -40,10 +40,17 @@ class AES_GCM {
     public static String encrypt(String plainText, String key, byte[] iv)
             throws Exception {
         
-        byte[] decoded = Base64.getDecoder().decode(key);
-        SecretKey secretKey = new SecretKeySpec(decoded, 0, decoded.length, "AES");
+        byte[] decoded;
+        SecretKey secretKey;
+
+        decoded = Base64.getDecoder().decode(key);
+        secretKey = new SecretKeySpec(decoded, 0, decoded.length, "AES");
+
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-        cipher.init(Cipher.ENCRYPT_MODE, secretKey, new GCMParameterSpec(128, iv));
+        cipher.init(
+            Cipher.ENCRYPT_MODE, secretKey, new GCMParameterSpec(128, iv)
+        );
+
         return Base64.getEncoder().encodeToString(
             cipher.doFinal(plainText.getBytes("UTF-8"))
         );
@@ -52,10 +59,17 @@ class AES_GCM {
     public static String decrypt(String encryptedText, String key, byte[] iv)
             throws Exception {
         
-        byte[] decoded = Base64.getDecoder().decode(key);
-        SecretKey secretKey = new SecretKeySpec(decoded, 0, decoded.length, "AES");
+        byte[] decoded;
+        SecretKey secretKey;
+
+        decoded = Base64.getDecoder().decode(key);
+        secretKey = new SecretKeySpec(decoded, 0, decoded.length, "AES");
+
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
-        cipher.init(Cipher.DECRYPT_MODE, secretKey, new GCMParameterSpec(128, iv));
+        cipher.init(
+            Cipher.DECRYPT_MODE, secretKey, new GCMParameterSpec(128, iv)
+        );
+        
         return new String(cipher.doFinal(
             Base64.getDecoder().decode(encryptedText)
         ));
