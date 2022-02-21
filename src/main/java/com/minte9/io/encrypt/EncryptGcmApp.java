@@ -1,73 +1,73 @@
 /**
- * Encrypt AES simple
+ * Encrypt AES GCM
  * 
- * ECB (Electronic Codebook) is essentially the first generation of the AES.
- * It is the most basic form of block cipher encryption.
+ * The ECB can leak information about the plaintext.
+ * 
+ * GCM is proven secure in the concrete security model.
+ * The use of shorter authentication tags with GCM is discouraged.
  */
 package com.minte9.io.encrypt;
 
-import java.io.UnsupportedEncodingException;
-import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
+import java.security.SecureRandom;
 import java.util.Base64;
 import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
 public class EncryptGcmApp {
     public static void main(String[] args) throws Exception {
 
-        String key = "YXZyYHNaWA=";
+        String key = "7+yiPzdGfziX86hAKLVPu1iM6CjHdsnuKNlguueUH8Y=";
         String plainText = "mypassword";
+            //System.out.println(AES_GCM.getKey(256));
 
-        String encrypted = AES.encrypt(plainText, key);
-        String decrypted = AES.decrypt(encrypted, key);
+        byte[] iv = new byte[12];
+        new SecureRandom().nextBytes(iv);
 
-        System.out.println(encrypted);
-        System.out.println(decrypted);
+        String encrypted = AES_GCM.encrypt(plainText, key, iv);
+        String decrypted = AES_GCM.decrypt(encrypted, key, iv);
+
+        System.out.println(encrypted); // KElnr/KLZle16HwtmQ6vMFE2N/a1OmI3GlU=
+        System.out.println(decrypted); // mypassword
     }
 }
 
-class AES2 {
+class AES_GCM {
 
-    private static final String ENCRYPT_ALGO = "AES/GCM/NoPadding";
-
-    public static String encrypt(String plainText, String key) throws Exception {
-
-        Cipher cipher = Cipher.getInstance(ENCRYPT_ALGO);
-        cipher.init(Cipher.ENCRYPT_MODE, getKey(key));
-
+    public static String encrypt(String plainText, String key, byte[] iv)
+            throws Exception {
+        
+        byte[] decoded = Base64.getDecoder().decode(key);
+        SecretKey secretKey = new SecretKeySpec(decoded, 0, decoded.length, "AES");
+        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+        cipher.init(Cipher.ENCRYPT_MODE, secretKey, new GCMParameterSpec(128, iv));
         return Base64.getEncoder().encodeToString(
-                cipher.doFinal(plainText.getBytes("UTF-8")));
+            cipher.doFinal(plainText.getBytes("UTF-8"))
+        );
     }
 
-    public static String decrypt(String encryptedText, String key) throws Exception  {
+    public static String decrypt(String encryptedText, String key, byte[] iv)
+            throws Exception {
         
-        Cipher cipher = Cipher.getInstance(ENCRYPT_ALGO);
-        cipher.init(Cipher.DECRYPT_MODE, getKey(key));
-
+        byte[] decoded = Base64.getDecoder().decode(key);
+        SecretKey secretKey = new SecretKeySpec(decoded, 0, decoded.length, "AES");
+        Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+        cipher.init(Cipher.DECRYPT_MODE, secretKey, new GCMParameterSpec(128, iv));
         return new String(cipher.doFinal(
             Base64.getDecoder().decode(encryptedText)
         ));
     }
 
-    public static SecretKeySpec getKey(String myKey) {
+    public static String getKey(int size)
+            throws NoSuchAlgorithmException {
 
-        try {
-            MessageDigest sha = MessageDigest.getInstance("SHA-1");
-            byte[] key;
-
-            key = myKey.getBytes("UTF-8");
-            key = sha.digest(key);
-            key = Arrays.copyOf(key, 16);
-
-            return new SecretKeySpec(key, "AES");
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-        return null;
+        KeyGenerator keyGen = KeyGenerator.getInstance("AES");
+        keyGen.init(256);
+        SecretKey secretKey = keyGen.generateKey();
+        return Base64.getEncoder().encodeToString(secretKey.getEncoded());
     }
+
 }
