@@ -1,10 +1,13 @@
 /**
  * Encrypt AES GCM
  * 
+ * GCM is proven secure in the concrete security model.
  * The ECB can leak information about the plaintext.
  * 
- * GCM is proven secure in the concrete security model.
- * The use of shorter authentication tags with GCM is discouraged.
+ * Don’t reuse IV with the same key!
+ * 
+ * Generate a new one every single time you encrypt ...
+ * and just store it alongside the ciphertext, not with the key.
  */
 package com.minte9.io.encrypt;
 
@@ -20,26 +23,28 @@ import javax.crypto.spec.SecretKeySpec;
 public class EncryptGcmApp {
     public static void main(String[] args) throws Exception {
 
-        String key = "7+yiPzdGfziX86hAKLVPu1iM6CjHdsnuKNlguueUH8Y=";
         String plainText = "mypassword";
-            //System.out.println(AES_GCM.getKey(256));
-
-        byte[] iv = new byte[12];
-        new SecureRandom().nextBytes(iv);
+        String key = "AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=";
+        String iv = "DnGotRRpb6xlzeu5";
+            // key = AES_GCM.createKey(256);
+            // iv = AES_GCM.createIv();
 
         String encrypted = AES_GCM.encrypt(plainText, key, iv);
         String decrypted = AES_GCM.decrypt(encrypted, key, iv);
 
-        System.out.println(encrypted); // KElnr/KLZle16HwtmQ6vMFE2N/a1OmI3GlU=
-        System.out.println(decrypted); // mypassword
+        System.out.println(key);
+        System.out.println(iv);
+        System.out.println(encrypted);
+        System.out.println(decrypted);
     }
 }
 
 class AES_GCM {
 
-    public static String encrypt(String plainText, String key, byte[] iv)
+    public static String encrypt(String plainText, String key, String ivStr)
             throws Exception {
         
+        byte[] iv = Base64.getDecoder().decode(ivStr);
         SecretKey secretKey = AES_GCM.getSecretKey(key);
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
         cipher.init(
@@ -51,9 +56,10 @@ class AES_GCM {
         );
     }
 
-    public static String decrypt(String encryptedText, String key, byte[] iv)
+    public static String decrypt(String encryptedText, String key, String ivStr)
             throws Exception {
         
+        byte[] iv = Base64.getDecoder().decode(ivStr);
         SecretKey secretKey = AES_GCM.getSecretKey(key);
         Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
         cipher.init(
@@ -65,7 +71,7 @@ class AES_GCM {
         ));
     }
 
-    public static String getKey(int size)
+    public static String createKey(int size)
             throws NoSuchAlgorithmException {
 
         KeyGenerator keyGen = KeyGenerator.getInstance("AES");
@@ -74,8 +80,13 @@ class AES_GCM {
         return Base64.getEncoder().encodeToString(secretKey.getEncoded());
     }
 
-    public static SecretKey getSecretKey(String key) {
+    public static String createIv() {
+        byte[] iv = new byte[12];
+        new SecureRandom().nextBytes(iv);
+        return Base64.getEncoder().encodeToString(iv);
+    }
 
+    public static SecretKey getSecretKey(String key) {
         byte[] decoded = Base64.getDecoder().decode(key);
         return new SecretKeySpec(decoded, 0, decoded.length, "AES");
     }
