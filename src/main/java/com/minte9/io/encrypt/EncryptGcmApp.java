@@ -26,6 +26,7 @@ public class EncryptGcmApp {
         String plainText = "mypassword";
         String key = "AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=";
         String iv = "DnGotRRpb6xlzeu5";
+        
             // key = AES_GCM.createKey(256);
             // iv = AES_GCM.createIv();
 
