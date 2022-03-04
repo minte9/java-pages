@@ -16,9 +16,9 @@ public class Replace {
             // Match: abc, (zero or more), ungreedy, space
 
         while(m.find()) {
-            String r = m.replaceAll("XXX "); // Look Here
+            String r = m.replaceAll("AAA "); // Look Here
             System.out.println(r);
-                // XXX XXX bcd cef
+                // AAA AAA bcd cef
         }
     }
 }
