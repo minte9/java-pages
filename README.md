@@ -12,6 +12,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 - [Threads](#threads)
 - [Lambdas](#lambdas)
 - [JavaFX](#javafx)
+- [Maven](https://github.com/minte9/maven-pages)
 
 
 ## Basics
