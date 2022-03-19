@@ -13,7 +13,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 - [Lambdas](/src/main/java/com/minte9/lambdas/)
 - [JavaFX](/src/main/java/com/minte9/javafx/)
 - [Maven](https://github.com/minte9/maven-pages)
-- [Spring-Boot](https://github.com/minte9/spring-boot-pages)
+- [Spring Boot](https://github.com/minte9/spring-boot-pages)
 
 ##
 
