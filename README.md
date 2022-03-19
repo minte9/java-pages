@@ -24,7 +24,3 @@ git clone https://github.com/minte9/java-pages.git
 # Update
 git pull origin main
 ~~~
-
-##
-
-More on [minte9.com/java](https://www.minte9.com/java)
