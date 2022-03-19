@@ -8,12 +8,12 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 - [OOP](/src/main/java/com/minte9/oop/) 
 - [Collections](/src/main/java/com/minte9/collections/) 
 - [Effective](/src/main/java/com/minte9/effective/)
-- [JUnit](/src/main/java/com/minte9/junit/)
+- [JUnit](/src/test/java/com/minte9/junit/)
 - [Threads](/src/main/java/com/minte9/threads/)
 - [Lambdas](/src/main/java/com/minte9/lambdas/)
 - [JavaFX](/src/main/java/com/minte9/javafx/)
 - [Maven](https://github.com/minte9/maven-pages)
-- [Spring-Boot](https://github.com/minte9/sprin-boot-pages)
+- [Spring-Boot](https://github.com/minte9/spring-boot-pages)
 
 ##
 
