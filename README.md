@@ -4,7 +4,7 @@ Learn and Remember - [minte9.com/java](https://www.minte9.com/java)
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/minte9/java-pages)
 
-- [Basics](./main/basics) 
+- [Basics](/src/main/java/com/minte9/basics/) 
 - [OOP](#oop) 
 - [Collections](#collections) 
 - [Effective](#effective)
