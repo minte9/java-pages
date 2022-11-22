@@ -1,6 +1,6 @@
 /**
- * When you are sorting objects, the compiler doesn't know what to sort.
- * The object by we sort needs to implements Comparable.
+ * When you are sorting objects, the compiler doesn't know what to sort
+ * We need to implements Comparable
  * 
  * Comparator is external to the element type you're comparing ...
  * it is a separate class.
