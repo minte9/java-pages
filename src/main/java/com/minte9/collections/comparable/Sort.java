@@ -2,7 +2,7 @@
  * ArrayList doesn't have a sort method.
  * 
  * There is a sort method in the Collections class ...
- * that takes a List as argument.
+ * that takes a List as argument
  */
 
 package com.minte9.collections.comparable;
@@ -18,7 +18,7 @@ public class Sort {
         myList.add("BC");
         myList.add("AD");
 
-        Collections.sort(myList); // Look Here
+        Collections.sort(myList);   // Look Here
         System.out.println(myList); // [AB, AD, BC]
     }
 }
