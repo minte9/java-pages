@@ -13,19 +13,16 @@ public class Setter {
         Dog dog = new Dog();  
         dog.setName("Rex");
         
-        System.out.println(
-            dog.getName() // Rex
-        );
+        System.out.println(dog.getName()); // Rex
     }
 }
 
 class Dog {
-
     private String name;
+
     public void setName(String x) {
         name = x;
     }
-
     public String getName() {
         return name;
     }

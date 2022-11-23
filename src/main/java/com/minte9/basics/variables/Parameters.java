@@ -1,9 +1,6 @@
 /**
  * The variables passed as method's parameters ...
- * has to match the type.
- * 
- * Trying to pass String as parameter won't compile
- * Error: incompatible types
+ * has to match the type
  */
 
 package com.minte9.basics.variables;
@@ -25,4 +22,3 @@ class Math {
         return n1 + n2;
     }
 }
-

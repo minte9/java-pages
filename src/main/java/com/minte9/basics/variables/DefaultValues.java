@@ -1,9 +1,6 @@
 /**
- * Class instance variables always have ...
- * a default value based on type.
- * 
- * Local variables (declared within a method) ...
- * must be initialized before use.
+ * Class instance variables always have default value
+ * Local variables must be initialized before use
  */
 package com.minte9.basics.variables;
 
@@ -17,7 +14,7 @@ public class DefaultValues {
 
 class Values {
     
-    int a;
+    int a; // default value 0
     float b;
     boolean c;
     Values v;
@@ -28,6 +25,7 @@ class Values {
         System.out.println(c); // false
         System.out.println(v); // null
 
-        //int x; //local variable not initialized (not 0)
+        String a = "a"; // local variable, no default value
+        System.out.println(a); // a
     }
 }
