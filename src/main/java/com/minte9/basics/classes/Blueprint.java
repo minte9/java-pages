@@ -1,8 +1,8 @@
 /**
- * A class is a blueprint for an object.
+ * A class is a blueprint for an object
  * 
- * Instance variables (fields) is what an object knows.
- * Methods is what an object does.
+ * Instance variables (fields) is what an object knows
+ * Methods is what an object does
  */
 
 package com.minte9.basics.classes;
@@ -13,8 +13,7 @@ public class Blueprint {
         MyClass obj = new MyClass();
         obj.setName("John");
 
-        System.out.println("Hello " + obj.name); 
-            // Hello John
+        System.out.println("Hello " + obj.name); // Hello John
     }
 }
 
