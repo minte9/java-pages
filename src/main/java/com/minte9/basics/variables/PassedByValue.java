@@ -18,12 +18,12 @@ class MyClass {
 
     public MyClass() {
         x = 7; // 00000111
-        go(x); // x bits are copied
+        go(x); // x bits are copied in z
     }
 
     public void go(int z) {
         System.out.println(x == z); // true
-        
+
         z = 0; // x doesn't change
         System.out.println(x == z); // false
     }
