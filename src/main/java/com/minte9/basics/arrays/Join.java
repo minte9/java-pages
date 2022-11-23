@@ -8,10 +8,10 @@ package com.minte9.basics.arrays;
 public class Join {
     public static void main(String[] args) {
         
-        String[] letters = new String[] {"a", "b", "c"};
+        String[] A = new String[] {"a", "b", "c"};
         System.out.println(
 
-            String.join(", ", letters) // a, b, c
+            String.join(", ", A) // a, b, c
         );  
     }
 }
