@@ -1,5 +1,5 @@
 /**
- * There are 3 reference variables and 2 objects
+ * A reference to an object can be overridden
  * 
  * After a overrites b, the b reference to object 2 is destroyed
  * (eligible for Garbage Collection)
@@ -13,13 +13,13 @@ public class References {
         
         Book a = new Book("A");
         Book b = new Book("B");
-        System.out.printf("%s %s \n", a, b); // A B
+        System.out.printf("%s%s /", a, b); // AB
 
-        Book c = b; // refc / objB
-        System.out.printf("%s %s %s \n", a, b, c); // A B B
+        Book c = b; // refc, objB
+        System.out.printf("%s%s%s /", a, b, c); // ABB
 
-        b = a; // refb / objA
-        System.out.printf("%s %s %s \n", a, b, c); // A A B
+        b = a; // refb, objA, objB destroyed
+        System.out.printf("%s%s%s /", a, b, c); // AAB
     }
 }
 
