@@ -1,39 +1,27 @@
 /**
- * Use Pattern split() to break the string in parts ...
- * using regex pattern 
+ * Pattern, String split()
+ * Break the string in parts using regex pattern 
+ * Split by char
+ * Split by camer case
  */
 
 package com.minte9.basics.regexp;
-
 import java.util.regex.Pattern;
 
 public class Split {
     public static void main(String[] args) {
 
-        /**
-         * Split by char
-         */
+        String[] words;
+
         Pattern p = Pattern.compile("[ ,.!]");
-        String ss[] = p.split("one two,alpha9 12!done.");
-        for (String s : ss) {
-            System.out.println(s);
-            // one
-            // two
-            // alpha9
-            // 12
-            // done
+        words = p.split("one two,alpha9 12!done.");
+        for (String w:words) {
+            System.out.println(w); // one two alpha9 12 done
         }
 
-        /**
-         * Split by camel case
-         */
-        String s = "AbCdEf";
-        String[] words = s.split("(?=[A-Z])"); // Look Ahead
-        for(String word:words) {
-            System.out.println(word);
-                // Ab
-                // Cd
-                // Ef
+        words = "AbCdEf".split("(?=[A-Z])"); // Look Ahead
+        for(String w:words) {
+            System.out.println(w); // Ab Cd Ef
         }
     }
 }
