@@ -4,6 +4,7 @@
  * ForEach, loop over a Collection, ofthen used with ...
  * lambdas or  method reference
  */
+
 package com.minte9.basics.loops;
 import java.util.Arrays;
 import java.util.List;
