@@ -17,10 +17,10 @@ public class Break {
         A: for (int i=0; i<numbers.length; i++) {
             B: for (int j=0; j<numbers[i].length; j++) {
 
-                System.out.println("i=" + i + " / j=" + j);
+                System.out.print(i + ":" + j + " ");
                 
                 if (numbers[i][j] == 4) {
-                    System.out.println("Break from B \n");
+                    System.out.println("Break from B");
                     break B;
                 }
 
@@ -29,18 +29,9 @@ public class Break {
                     break A;
                 }
                 
-                /**
-                i=0 / j=0
-                i=0 / j=1
-                i=0 / j=2
-                i=1 / j=0
-                Break from B 
-
-                i=2 / j=0
-                Break from A
-                */
+                // 0:0 0:1 0:2 1:0 Break from B 
+                // 2:0 Break from A
             }    
         }
     }
 }
-
