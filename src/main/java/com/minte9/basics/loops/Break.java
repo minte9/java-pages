@@ -1,6 +1,5 @@
 /**
- * To exit a for loop use break statement.
- * 
+ * Break statement, to exit from a loop
  * For multiple loops use labels 
  */
 
@@ -12,38 +11,37 @@ public class Break {
         int[][] numbers = { 
             {1,2,8}, 
             {4,5,6}, 
-            {7,8,9} 
+            {7,8,9},
         };
 
-        a: for (int i=0; i<numbers.length; i++) {
-            b: for (int j=0; j<numbers[i].length; j++) {
+        A: for (int i=0; i<numbers.length; i++) {
+            B: for (int j=0; j<numbers[i].length; j++) {
 
                 System.out.println("i=" + i + " / j=" + j);
                 
                 if (numbers[i][j] == 4) {
-                    System.out.println("Found 4 at " + i + ":" + j);
-                    System.out.println("Break from b loop");
-                    break b;
+                    System.out.println("Break from B \n");
+                    break B;
                 }
 
                 if (numbers[i][j] == 7) {
-                    System.out.println("Found 7 at " + i + ":" + j);
-                    System.out.println("Break from a loop");
-                    break a;
+                    System.out.println("Break from A");
+                    break A;
                 }
+
+
             }    
         }
     }
 }
 
-/*
-    i=0 / j=0
-    i=0 / j=1
-    i=0 / j=2
-    i=1 / j=0
-    Found 4 at 1:0
-    Break from b loop
-    i=2 / j=0
-    Found 7 at 2:0
-    Break from a loop
+/**
+i=0 / j=0
+i=0 / j=1
+i=0 / j=2
+i=1 / j=0
+Break from B 
+
+i=2 / j=0
+Break from A
 */
