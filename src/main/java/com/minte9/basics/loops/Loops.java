@@ -9,7 +9,7 @@ package com.minte9.basics.loops;
 import java.util.Arrays;
 import java.util.List;
 
-public class ForLoop {            
+public class Loops {            
     public static void main(String[] args) {
         
         for (int i=0; i<3; i++) {
