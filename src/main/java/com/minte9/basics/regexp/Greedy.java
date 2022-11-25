@@ -1,11 +1,8 @@
 /**
- * In the followingcode you might have expect two matches: 
- * "extend" and "end"
+ * Greedy, Ungreedy
  * 
- * This is call GREEDY behavior ...
- * which match the longest sequence.
- * 
- * Use "?" modifier for UNGREEDY behavior
+ * Greedy behavior match the longest sequence
+ * Use "?" modifier for ungreedy behavior
  */
 
 package com.minte9.basics.regexp;
@@ -16,23 +13,22 @@ import java.util.regex.Pattern;
 public class Greedy {
     public static void main(String[] args) {
 
-        // greedy
-        Pattern p = Pattern.compile("e.+d");
+        Pattern p = Pattern.compile("e.+d"); // Greedy
         Matcher m = p.matcher("extend cup end table");
-
         while(m.find()) {
-            System.out.println(m.group());
-                // extend cup end
+            System.out.println(m.group()); // extend cup end
         }
 
-        // ungreedy
-        Pattern p2 = Pattern.compile("e.+?d"); // Look Here
-        Matcher m2 = p2.matcher("extend cup end table");
+        p = Pattern.compile("e.+?d"); // Ungreedy
+        m = p.matcher("extend cup end table");
+        while(m.find()) {
+            System.out.println(m.group()); // extend, end
+        }
 
-        while(m2.find()) {
-            System.out.println(m2.group());
-                // extend
-                // end
+        p = Pattern.compile("Java ?(8|SE)"); // Ungreedy
+        m = p.matcher("Java 8 Java SE");
+        while(m.find()) {
+            System.out.println(m.group()); // Java 8 , Java SE
         }
     }
 }
