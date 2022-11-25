@@ -14,20 +14,20 @@ public class LookaroundTest {
     } 
     
     @Test public void lookBehind() {
-        assertTrue(find("axyz", "(?<=a)xyz")); // pass
-        assertFalse(find("axyz", "(?<=b)xyz")); // pass
+        assertTrue(find("axyz", "(?<=a)xyz"));  // true
+        assertFalse(find("axyz", "(?<=b)xyz")); // false
     }
 
     @Test public void lookAhead() {
-        assertTrue(find("axyz", "(?=x)xyz")); // pass
-        assertFalse(find("axyz", "(?=x)axyz")); // pass
+        assertTrue(find("axyz", "(?=x)xyz"));   // true
+        assertFalse(find("axyz", "(?=x)axyz")); // false
     } 
 
     @Test public void lookBehindNegative() {
-        assertFalse(find("axyz", "(!?<=a)xyz")); // pass
+        assertFalse(find("axyz", "(!?<=a)xyz")); // false
     }
 
     @Test public void lookAheadNegative() {
-        assertFalse(find("axyz", "(?!x)xyz")); // pass
+        assertFalse(find("axyz", "(?!x)xyz"));   // false
     }
 }
