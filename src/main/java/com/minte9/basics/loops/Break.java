@@ -28,20 +28,19 @@ public class Break {
                     System.out.println("Break from A");
                     break A;
                 }
+                
+                /**
+                i=0 / j=0
+                i=0 / j=1
+                i=0 / j=2
+                i=1 / j=0
+                Break from B 
 
-
+                i=2 / j=0
+                Break from A
+                */
             }    
         }
     }
 }
 
-/**
-i=0 / j=0
-i=0 / j=1
-i=0 / j=2
-i=1 / j=0
-Break from B 
-
-i=2 / j=0
-Break from A
-*/
