@@ -13,8 +13,11 @@ import java.util.regex.Pattern;
 public class Greedy {
     public static void main(String[] args) {
 
-        Pattern p = Pattern.compile("e.+d"); // Greedy
-        Matcher m = p.matcher("extend cup end table");
+        Pattern p;
+        Matcher m;
+
+        p = Pattern.compile("e.+d"); // Greedy
+        m = p.matcher("extend cup end table");
         while(m.find()) {
             System.out.println(m.group()); // extend cup end
         }
