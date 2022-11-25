@@ -6,7 +6,6 @@
  */
 
 package com.minte9.basics.regexp;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
