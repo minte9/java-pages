@@ -25,7 +25,6 @@ public class Throws {
 }
 
 class A {
-
     static boolean check(String s) throws Exception { // Look Here
         
         if (s.equals("wrong")) {
