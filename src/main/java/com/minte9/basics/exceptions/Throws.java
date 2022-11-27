@@ -1,8 +1,9 @@
 /**
- * Throws Exception, forces the developer ...
- * to wrap the code with try/catch
+ * Throws Exception
  * 
- * It will know that you are using a risky method
+ * Using throws Exception forces the developer ...
+ * to wrap the code with try/catch
+ * She will know that you are using a risky method
  */
 
 package com.minte9.basics.exceptions;
@@ -25,9 +26,8 @@ public class Throws {
 
 class A {
 
-    static boolean check(String s) throws Exception {
+    static boolean check(String s) throws Exception { // Look Here
         
-        if (s.equals("correct")) return true;
         if (s.equals("wrong")) {
             throw new Exception("Wrong value!");
         }
