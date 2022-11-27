@@ -2,8 +2,8 @@
  * Multiple exceptions
  * 
  * A method can throw multiple exceptions
- * When you don't want to handle an exception, 
- * you can declaring it
+ * Declare it, when you don't want to handle an exception
+ * The code inside finally block is always executed
  */
 
 package com.minte9.basics.exceptions;
@@ -14,16 +14,15 @@ public class Multiple {
 
         try {
 
-            test(-10);      
-                // Exception: Positive number required!
-
-            System.out.println(args[2]);
-                // Exception: Index 2 out of bounds ... 
+            test(-10); // Positive number required!
+            System.out.println(args[2]); // Index 2 out of bounds! 
 
         } catch (ArrayIndexOutOfBoundsException ex) { // Look Here
             System.out.println(ex.getMessage());
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
+        } finally {
+            System.out.println("Always executed!");
         }
     }
         
@@ -31,7 +30,7 @@ public class Multiple {
         throws Exception, ArrayIndexOutOfBoundsException {
         
         if (n < 0) {
-            throw new Exception("Exception: Positive number required");
+            throw new Exception("Positive number required");
         }
     }
 }
