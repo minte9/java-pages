@@ -1,9 +1,9 @@
 /**
- * To span strings on multiple lines, use:
+ * Span strings on multiple lines
  * 
- * a) concatenation operator +
- * b) String.join()
- * c) Text Block """ (starting with JDK15)
+ * Concatenation operator +
+ * String.join()
+ * Text Block """ (only with JDK15)
  */
 
 package com.minte9.basics.strings;
@@ -11,22 +11,16 @@ package com.minte9.basics.strings;
 public class Multilines {
     public static void main(String[] args) {
         
-        //concatation
-        String msg = ""
+        String a = ""
             + "AAA "
             + "BBB"
         ;
-        System.out.println(msg);
-            // AAA BBB
-
-
-        // join
-        String msg2 = String.join("\n",
+        String b = String.join("\n",
             "CCC",
             "DDD"
         );
-        System.out.println(msg2);
-            // CCC 
-            // DDD
+
+        System.out.println(a); // AAA BBB
+        System.out.println(b); // CCC DDD
     }
 }

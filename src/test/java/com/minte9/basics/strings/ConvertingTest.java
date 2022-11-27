@@ -7,19 +7,23 @@ public class ConvertingTest {
     
     @Test public void toNumberTest() {
 
-        String a1 = "1";
-        String a2 = "1.11";
-        Integer b1 = Integer.valueOf(a1);
-        Float b2 = Float.valueOf(a2);
-        assertEquals(2.1100, b1+b2, 4);         // pass
-        assertNotEquals("2.1100", b1+b2, 4);    // pass
+        String  a = "1";
+        String  b = "2.22";
+        Integer c = Integer.valueOf(a); // 1
+        Float   d = Float.valueOf(b);   // 2.22
+        
+        assertEquals(c, 1, 0);
+        assertEquals(d, 2.23, 0.1);
+
+        assertNotEquals(c, "1");
+        assertNotEquals(d, 2.23, 0);
     }
 
     @Test public void toStringTest() {
 
         int i = 11;
-        assertEquals("11", "" + i);                     // pass
-        assertEquals("11", "" + String.valueOf(i));     // pass
-        assertEquals("11", "" + Integer.toString(i));   // pass
+        assertEquals("11", "" + i);
+        assertEquals("11", "" + String.valueOf(i));
+        assertEquals("11", "" + Integer.toString(i));
     }
 }
