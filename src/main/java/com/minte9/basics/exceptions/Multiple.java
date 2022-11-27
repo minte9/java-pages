@@ -1,6 +1,9 @@
 /**
- * A method can throw multiple exceptions.
- * If you don't want to handle an exception, you can declaring it.
+ * Multiple exceptions
+ * 
+ * A method can throw multiple exceptions
+ * When you don't want to handle an exception, 
+ * you can declaring it
  */
 
 package com.minte9.basics.exceptions;
