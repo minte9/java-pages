@@ -11,16 +11,16 @@ import static org.junit.Assert.assertEquals;
 public class StaticMethod {
   public static void main(String[] args) {
       
-    int sum = MyStream.of(1, 2, 3)
+    int a = MyStream.of(1, 2, 3)
       .reduce(0, (acc, x) -> acc + x) // addition
     ;
 
-    int sub = MyStream.of(1, 2, 3)
+    int b = MyStream.of(1, 2, 3)
       .reduce(0, (acc, x) -> acc - x) // substraction
     ;
 
-    assertEquals(sum, 6);
-    assertEquals(sub, -6);
+    assertEquals(a, 6);
+    assertEquals(b, -6);
     
     System.out.println("Tests passed");
   }
