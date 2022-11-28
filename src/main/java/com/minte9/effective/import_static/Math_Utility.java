@@ -1,9 +1,13 @@
 /**
- * Import static
+ * Import static, to avoid qualifying with the class name 
  * 
- * To avoid qualifying with the class name 
  * Dumping potentialy large classes into your namespace, 
- * might have a negative impact on readabilty and testability
+ * might have a negative impact on readabilty and testability.
+ * Use it with care!
+ * 
+ * Effective Java: 
+ * "Use static imports if you find yourself 
+ * heavily using constants from a utility class"
  */
 
 package com.minte9.effective.import_static;
