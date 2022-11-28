@@ -18,8 +18,8 @@ public class Math_Utility {
     public static void main(String[] args) {
 
         assertEquals(PI == Math.PI, true);
+        assertEquals(PI == java.lang.Math.PI, true);
         assertEquals(Math.round(42.2) == round(42.2), true);
-        assertEquals(java.lang.Math.E == 2.718281828459045, true);
 
         System.out.println("Tests passed");
     }
