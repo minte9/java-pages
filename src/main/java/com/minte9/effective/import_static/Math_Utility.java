@@ -10,9 +10,9 @@
  */
 
 package com.minte9.effective.import_static;
-import static java.lang.Math.PI; // Look Here 
 import static org.junit.Assert.assertEquals;
-import static java.lang.Math.*;
+import static java.lang.Math.PI; // Look Here 
+import static java.lang.Math.*; // Look Here
 
 public class Math_Utility {
     public static void main(String[] args) {
