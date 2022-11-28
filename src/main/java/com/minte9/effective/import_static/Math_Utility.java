@@ -4,10 +4,9 @@
  * Dumping potentialy large classes into your namespace, 
  * might have a negative impact on readabilty and testability.
  * Use it with care!
- * 
- * Effective Java: 
+ *  
  * "Use static imports if you find yourself 
- * heavily using constants from a utility class"
+ * heavily using constants from a utility class" (Effective Java)
  */
 
 package com.minte9.effective.import_static;
