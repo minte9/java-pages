@@ -11,21 +11,16 @@
 
 package com.minte9.effective.import_static;
 import static java.lang.Math.PI; // Look Here 
+import static org.junit.Assert.assertEquals;
 import static java.lang.Math.*;
 
 public class Math_Utility {
     public static void main(String[] args) {
 
-        System.out.println(
-            PI // Math.PI =3.141592653589793
-        );
-        
-        System.out.println(
-            java.lang.Math.E // 2.718281828459045
-        );
+        assertEquals(PI == Math.PI, true);
+        assertEquals(Math.round(42.2) == round(42.2), true);
+        assertEquals(java.lang.Math.E == 2.718281828459045, true);
 
-        System.out.println(
-            round(42.2) // Math.round(42.2)) = 42
-        );
+        System.out.println("Tests passed");
     }
 }
