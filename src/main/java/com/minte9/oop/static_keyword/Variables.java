@@ -1,28 +1,34 @@
 /**
- * Static variables are initialized only once.
+ * Static variables
  * 
- * A static class variable is common to all objects created with that class. 
- * It can be called without object instantiation.
+ * Initialized only once
+ * Common to all objects created with that class
+ * Can be called without object instantiation
  */
 
 package com.minte9.oop.static_keyword;
-
 public class Variables {
     public static void main(String[] args) {
 
-        A a1 = new A();
-        A a2 = new A();
+        X a = new X();
+        X b = new X();
         
-        System.out.println(a1.getCount()); // 2 (not 1)
-        System.out.println(a2.getCount()); // 2
+        System.out.println(
+            b.getCount() // 2
+        );
+        System.out.println(
+            a.getCount() // 2, not 1
+        );
+        System.out.println(
+            X.count // 2
+        );
     }
 }
 
-class A {
+class X {
+    public static int count; // Look Here
 
-    private static int count;
-
-    public A() {
+    public X() {
         count++;
     }
 

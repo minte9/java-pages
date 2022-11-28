@@ -1,10 +1,12 @@
 /**
- * Static methods belong to the class and not every instance of the class.
- * Example: Java.lang.Math has a round() static method.
+ * Static method
+ * 
+ * Belongs to the class and not every instance of the class
+ * Java.lang.Math has a round() private static method
+ *      Math m = new Math(); // Error: private access
  */
 
 package com.minte9.oop.static_keyword;
-
 public class Methods {
     public static void main(String[] args) {
 
@@ -15,8 +17,6 @@ public class Methods {
         System.out.println(
             Methods.myRound(33.5) // 34
         );
-
-        // Math m = new Math(); // Error: private access
     }
 
     private static long myRound(Double n) {

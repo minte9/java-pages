@@ -1,10 +1,11 @@
 /**
- * Only nested classes can be static.
- * You can use the nested class without an instance for outer class.
+ * Static classes
+ * 
+ * Only nested classes can be static
+ * You can use the nested class without an instance for outer class
  */
 
 package com.minte9.oop.static_keyword;
-
 public class Classes {
 
     static int a = 10;
