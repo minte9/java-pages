@@ -11,13 +11,11 @@ import static org.junit.Assert.assertEquals;
 public class StaticMethod {
   public static void main(String[] args) {
       
-    int a = MyStream
-      .of(1, 2, 3)
+    int a = MyStream.of(1, 2, 3)
       .reduce(0, (acc, x) -> acc + x) // addition
     ;
 
-    int b = MyStream
-      .of(1, 2, 3)
+    int b = MyStream.of(1, 2, 3)
       .reduce(0, (acc, x) -> acc - x) // substraction
     ;
 
