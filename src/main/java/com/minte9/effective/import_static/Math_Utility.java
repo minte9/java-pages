@@ -10,7 +10,7 @@ package com.minte9.effective.import_static;
 import static java.lang.Math.PI; // Look Here 
 import static java.lang.Math.*;
 
-public class Utility {
+public class Math_Utility {
     public static void main(String[] args) {
 
         System.out.println(
