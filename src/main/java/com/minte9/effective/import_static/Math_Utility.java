@@ -19,7 +19,7 @@ public class Math_Utility {
 
         assertEquals(PI == Math.PI, true);
         assertEquals(PI == java.lang.Math.PI, true);
-        assertEquals(Math.round(42.2) == round(42.2), true);
+        assertEquals(round(42.2) == Math.round(42.2), true);
 
         System.out.println("Tests passed");
     }
