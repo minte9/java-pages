@@ -2,7 +2,7 @@
  * A reference to an object can be overridden
  * 
  * After a overrites b, the b reference to object 2 is destroyed
- * (eligible for Garbage Collection)
+ * Eligible for Garbage Collection
  */
 
 package com.minte9.basics.objects;

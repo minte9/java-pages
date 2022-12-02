@@ -1,8 +1,8 @@
-/**
+/** 
  * To use an object you must declare a reference variable
  * JVM allocates space for the object
  * 
- * The reference variable is forever of type Dog!
+ * The reference variable is forever of that type
  * myDog = new Cat(); // will throw a type mismatch error
  */
 
