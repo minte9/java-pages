@@ -9,19 +9,9 @@
 package com.minte9.basics.variables;
 public class PassedByValue {
     public static void main(String[] args) {
-        new MyClass();
-    }
-}
 
-class MyClass {
-    int x;
-
-    public MyClass() {
-        x = 7;      // 00000111
-        change(x);  // x bits are copied in z
-    }
-
-    public void change(int z) {
+        int x = 7; // 00000111
+        int z = x; // x bits are copied in z
         System.out.println("x == z " + (x == z));
 
         z = 0;
