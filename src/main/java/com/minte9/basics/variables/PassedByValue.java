@@ -1,9 +1,9 @@
 /**
- * Variables in Java are passed by copy, 
- * not by reference
+ * Variables in Java are passed by copy, not by reference
  * 
- * x bits are copied / this copy goes in z
- * z changes / x not changed
+ * In this example, first variable x = 7 bits are copied (00000111).
+ * Second this copy goes in z variable.
+ * Third, after variable z changes, we can see that x is not changed.
  */
 
 package com.minte9.basics.variables;
@@ -17,14 +17,21 @@ class MyClass {
     int x;
 
     public MyClass() {
-        x = 7; // 00000111
-        go(x); // x bits are copied in z
+        x = 7;      // 00000111
+        change(x);  // x bits are copied in z
     }
 
-    public void go(int z) {
-        System.out.println(x == z); // true
+    public void change(int z) {
+        System.out.println("x == z " + (x == z));
 
-        z = 0; // x doesn't change
-        System.out.println(x == z); // false
+        z = 0;
+        System.out.println("z changed / x doesn't change");
+        System.out.println("x != z " + (x != z));
     }
 }
+
+/*
+    x == z true
+    z changed / x doesn't change
+    x != z true
+*/
