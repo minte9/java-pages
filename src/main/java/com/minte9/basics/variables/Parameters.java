@@ -9,9 +9,7 @@ public class Parameters {
     public static void main(String[] args) {
     
         Math math = new Math();
-        int sum = math.sum(1,2); 
-               // math.sum(1, "2"); // compile error
-
+        int sum = math.sum(1,2); // math.sum(1, "2"); // compile error
         System.out.println(
             "Sum(1,2) = " + sum
         );
