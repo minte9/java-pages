@@ -1,5 +1,5 @@
 /**
- * Variables in Java are passed by copy, not by reference
+ * Variables in Java are passed by value (copy), not by reference
  * 
  * In this example, first variable x = 7 bits are copied (00000111).
  * Second this copy goes in z variable.
