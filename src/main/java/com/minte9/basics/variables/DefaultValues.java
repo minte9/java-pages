@@ -1,31 +1,36 @@
 /**
- * Class instance variables always have default value
- * Local variables must be initialized before use
+ * Class instance variables always have default value.
+ * Local variable does not have a default value, they must initialized.
  */
 package com.minte9.basics.variables;
 
 public class DefaultValues {
     public static void main(String[] args) {
-
-        Values obj = new Values();  
-        obj.showValues();
+        new Values().showValues();
     }
 }
 
 class Values {
-    
-    int a; // default value 0
-    float b;
-    boolean c;
-    Values v;
+    int a;      // 0
+    float b;    // 0.0
+    boolean c;  // false
+    Values v;   // null
 
     public void showValues() {
-        System.out.println(a); // 0
-        System.out.println(b); // 0.0
-        System.out.println(c); // false
-        System.out.println(v); // null
+        String local_variable = "a"; // no default value
 
-        String a = "a"; // local variable, no default value
-        System.out.println(a); // a
+        System.out.println("int a = " + a);
+        System.out.println("float b = " + b);
+        System.out.println("boolean c = " + c);
+        System.out.println("object v = " + v);
+        System.out.println("String local_var = " + local_variable);
     }
 }
+
+/*
+    int a = 0
+    float b = 0.0
+    boolean c = false
+    object v = null
+    String local_var = a
+*/
