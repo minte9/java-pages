@@ -17,18 +17,14 @@ public class PassedByValue {
         System.out.println("First: x == z " + (x == z));
 
         z = 0;  // x is not changed
-
+        
         System.out.println("Second: x != z " + (x != z));
 
-        /**
-            First: x == z true
-            Second: x != z true
-         */
+        
     }
 }
 
-/*
-    x == z true
-    z changed / x doesn't change
-    x != z true
+/**
+    First: x == z true
+    Second: x != z true
 */
