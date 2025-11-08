@@ -5,14 +5,14 @@
 
 package com.minte9.basics.variables;
 
-public class Parameters {
+public class Variables {
     public static void main(String[] args) {
     
         Math math = new Math();
-        int sum = math.sum(1,2); // math.sum(1, "2"); // compile error
-        System.out.println(
-            "Sum(1,2) = " + sum
-        );
+        int sum = math.sum(1,2); 
+        // math.sum(1, "2");  // ❌ compile error
+
+        System.out.println("sum(1,2) = " + sum);  // sum(1,2) = 3
     }
 }
 
