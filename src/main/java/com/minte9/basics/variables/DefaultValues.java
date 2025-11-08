@@ -13,6 +13,8 @@ public class DefaultValues {
     }
 }
 
+class MyObj {}
+
 class Values {
     int a;  // 0
     float b;  // 0.0
@@ -38,12 +40,3 @@ class Values {
     }
 }
 
-class MyObj {}
-
-/*
-    int a = 0
-    float b = 0.0
-    boolean c = false
-    object v = null
-    String local_var = a
-*/
