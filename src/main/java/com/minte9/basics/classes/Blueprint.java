@@ -13,7 +13,7 @@ public class Blueprint {
         MyClass obj = new MyClass();
         obj.setName("John");
 
-        System.out.println("Hello " + obj.name); // Hello John
+        System.out.println("Hello " + obj.name);  // Hello John
     }
 }
 
