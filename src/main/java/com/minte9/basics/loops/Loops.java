@@ -1,7 +1,7 @@
 /** 
- * For Loop, when you know how many loops
- * Enhanced For Loop, index not needed
- * ForEach, loop over a Collection, ofthen used with ...
+ * The 'for' is used when you know how many loops.
+ * The enhanced 'for' is used whne index is not needed.
+ * The 'forEach' loops over a Collection, it is ofthen used with
  * lambdas or  method reference
  */
 
@@ -12,17 +12,27 @@ import java.util.List;
 public class Loops {            
     public static void main(String[] args) {
         
+        System.out.println("\nFor loop:");
+
         for (int i=0; i<3; i++) {
-            System.out.println(i); // 0 1 2
+            System.out.print(i);  // 012
         }
 
-        int[] nums = {10, 20, 30};
+        System.out.println("\nEnhanced for:");
+
+        int[] nums = {0, 1, 2};
         for (int no : nums) {
-            System.out.println(no); // 10 20 30
+            System.out.print(no);  // 012
         }
 
-        List<Integer> data = Arrays.asList(100, 200, 300);
-        data.forEach(x -> System.out.println(x));  // 100 200 300
-        data.forEach(System.out::println); // 100 200 300
+        System.out.println("\nforEach with lambdas:");
+
+        List<Integer> A = Arrays.asList(0, 1, 2);
+        A.forEach(x -> System.out.print(x));  // 012
+
+        System.out.println("\nforEach with method reference:");
+
+        List<Integer> B = Arrays.asList(0, 1, 2);
+        B.forEach(System.out::print);  // 012
     }
 }

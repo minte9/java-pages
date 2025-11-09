@@ -1,6 +1,6 @@
 /**
- * Break statement, to exit from a loop
- * For multiple loops use labels 
+ * The 'break' statement is used to exit from a loop.
+ * For multiple loops we use labels.
  */
 
 package com.minte9.basics.loops;
@@ -28,10 +28,12 @@ public class Break {
                     System.out.println("Break from A");
                     break A;
                 }
-                
-                // 0:0 0:1 0:2 1:0 Break from B 
-                // 2:0 Break from A
             }    
         }
     }
 }
+
+/**
+    0:0 0:1 0:2 1:0 Break from B 
+    2:0 Break from A
+ */
