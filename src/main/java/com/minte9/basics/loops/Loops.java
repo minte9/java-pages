@@ -12,27 +12,34 @@ import java.util.List;
 public class Loops {            
     public static void main(String[] args) {
         
-        System.out.println("\nFor loop:");
+        System.out.print("\nFor loop: ");
 
         for (int i=0; i<3; i++) {
-            System.out.print(i);  // 012
+            System.out.print(i);
         }
 
-        System.out.println("\nEnhanced for:");
+        System.out.print("\nEnhanced for: ");
 
         int[] nums = {0, 1, 2};
         for (int no : nums) {
-            System.out.print(no);  // 012
+            System.out.print(no);
         }
 
-        System.out.println("\nforEach with lambdas:");
+        System.out.print("\nforEach with lambdas: ");
 
         List<Integer> A = Arrays.asList(0, 1, 2);
-        A.forEach(x -> System.out.print(x));  // 012
+        A.forEach(x -> System.out.print(x));
 
-        System.out.println("\nforEach with method reference:");
+        System.out.print("\nforEach with method reference: ");
 
         List<Integer> B = Arrays.asList(0, 1, 2);
-        B.forEach(System.out::print);  // 012
+        B.forEach(System.out::print);
     }
 }
+
+/**
+    For loop: 012
+    Enhanced for: 012
+    forEach with lambdas: 012
+    forEach with method reference: 012
+ */
