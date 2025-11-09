@@ -1,6 +1,6 @@
 /** 
  * The 'for' is used when you know how many loops.
- * The enhanced 'for' is used whne index is not needed.
+ * The 'enchanced-for' is used whne index is not needed.
  * The 'forEach' loops over a Collection, it is ofthen used with
  * lambdas or  method reference
  */
