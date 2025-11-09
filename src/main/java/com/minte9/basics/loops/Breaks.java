@@ -5,7 +5,7 @@
 
 package com.minte9.basics.loops;
 
-public class Break {            
+public class Breaks {            
     public static void main(String[] args) {
         
         int[][] numbers = { 
