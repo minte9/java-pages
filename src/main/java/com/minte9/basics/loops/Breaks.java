@@ -9,7 +9,7 @@ public class Breaks {
     public static void main(String[] args) {
         
         int[][] numbers = { 
-            {1,2,8}, 
+            {1,2,3}, 
             {4,5,6}, 
             {7,8,9},
         };
@@ -20,12 +20,12 @@ public class Breaks {
                 System.out.print(i + ":" + j + " ");
                 
                 if (numbers[i][j] == 4) {
-                    System.out.println("Break from B");
+                    System.out.println("\nBreak from B");
                     break B;
                 }
 
-                if (numbers[i][j] == 7) {
-                    System.out.println("Break from A");
+                if (numbers[i][j] == 8) {
+                    System.out.println("\nBreak from A");
                     break A;
                 }
             }    
@@ -34,6 +34,9 @@ public class Breaks {
 }
 
 /**
-    0:0 0:1 0:2 1:0 Break from B 
-    2:0 Break from A
+    0:0 0:1 0:2 1:0 
+    Break from B
+    
+    2:0 2:1 
+    Break from A
  */
