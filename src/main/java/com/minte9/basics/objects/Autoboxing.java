@@ -9,12 +9,12 @@
  * Unboxing is the automatic conversion of objects into their coresponding primitives.
  */
 
-package com.minte9.basics.numbers;
+package com.minte9.basics.objects;
 
 import java.util.List;
 import java.util.ArrayList;
 
-public class Primitives {
+public class Autoboxing {
     public static void main(String[] args) {
         
         List<Integer> li = new ArrayList<>();
