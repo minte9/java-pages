@@ -12,7 +12,7 @@ public class Padding {
         String b = String.format("%6s", "123").replace(" ", "0");
         String c = String.format("%-6s", "123").replace(" ", "0");
 
-        System.out.println(a); // 000   123
+        System.out.println(a); // 0  123
         System.out.println(b); // 000123
         System.out.println(c); // 123000
     }
