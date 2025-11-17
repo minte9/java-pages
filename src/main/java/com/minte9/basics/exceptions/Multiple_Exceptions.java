@@ -1,21 +1,18 @@
 /**
- * Multiple exceptions
- * 
- * A method can throw multiple exceptions
- * Declare it, when you don't want to handle an exception
- * The code inside finally block is always executed
+ * A method can throw multiple exceptions.
+ * When you don't want to handle an exception, you can declare it.
+ * The code inside finally block is always executed.
  */
 
 package com.minte9.basics.exceptions;
 
-public class Multiple {
+public class Multiple_Exceptions {
     public static void main(String[] args) 
         throws NullPointerException { // Look Here
 
         try {
-
             test(-10); // Positive number required!
-            System.out.println(args[2]); // Index 2 out of bounds! 
+            test(Integer.valueOf(args[2])); // Index 2 out of bounds! 
 
         } catch (ArrayIndexOutOfBoundsException ex) { // Look Here
             System.out.println(ex.getMessage());
