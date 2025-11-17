@@ -1,5 +1,5 @@
 /**
- * The Pattern matches() if all the string match the pattern.
+ * The Pattern matches() returns true only when preciseley matches the pattern.
  * To check only parts of the string find() is used.
  */
 
