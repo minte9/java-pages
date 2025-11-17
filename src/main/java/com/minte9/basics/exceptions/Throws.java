@@ -1,6 +1,7 @@
 /**
- * Using 'throws Exception' forces you to wrap the code with try/catch.
+ * To force an exception use 'throws Exception' in method definition.
  * The developer will know that you are using a risky method.
+ * The developer is forced to wrap the code with try/catch.
  */
 
 package com.minte9.basics.exceptions;
