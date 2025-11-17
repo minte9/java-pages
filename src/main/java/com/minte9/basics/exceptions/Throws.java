@@ -1,9 +1,6 @@
 /**
- * Throws Exception
- * 
- * Using throws Exception forces the developer ...
- * to wrap the code with try/catch
- * She will know that you are using a risky method
+ * Using 'throws Exception' forces you to wrap the code with try/catch.
+ * The developer will know that you are using a risky method.
  */
 
 package com.minte9.basics.exceptions;
@@ -12,12 +9,9 @@ public class Throws {
     public static void main(String[] args) {
 
         try {
-            A.check("correct"); 
-            A.check("wrong"); // OK for compiler
+            A.check("wrong"); // the line is ok for compiler
         } catch (Exception e) {
-            System.out.print(
-                "Exception: " + e.getMessage() // Exception: Wrong value!
-            );
+            System.out.print(e.getMessage());  // Wrong value exception!
         }
     }
     
@@ -28,7 +22,7 @@ class A {
     static boolean check(String s) throws Exception { // Look Here
         
         if (s.equals("wrong")) {
-            throw new Exception("Wrong value!");
+            throw new Exception("Wrong value exception!");
         }
         return true;
     }
