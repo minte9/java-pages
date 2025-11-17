@@ -1,6 +1,6 @@
 /**
- * Greedy behavior match the longest sequence
- * Use "?" modifier for ungreedy behavior
+ * Greedy behavior match the longest sequence.
+ * Use "?" modifier for ungreedy behavior.
  */
 
 package com.minte9.basics.regexp;
