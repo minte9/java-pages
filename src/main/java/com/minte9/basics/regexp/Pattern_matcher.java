@@ -10,10 +10,13 @@ import java.util.regex.Pattern;
 public class Pattern_matcher {
     public static void main(String[] args) {
 
-        Pattern p = Pattern.compile("Java");
-        Matcher m = p.matcher("Java SE 8");
+        Pattern p = Pattern.compile("Version");  // regex pattern
+        Matcher m = p.matcher("Version 1.0");  // content
 
-        System.out.println(m.matches()); // false 
-        System.out.println(m.find());    // true
+        Boolean match_exactly = m.matches();
+        Boolean found_parts = m.find();
+
+        System.out.println(match_exactly);  // false
+        System.out.println(found_parts);   // true
     }
 }
