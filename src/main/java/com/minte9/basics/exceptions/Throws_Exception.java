@@ -6,7 +6,7 @@
 
 package com.minte9.basics.exceptions;
 
-public class Throws {
+public class Throws_Exception {
     public static void main(String[] args) {
 
         try {
