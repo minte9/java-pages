@@ -1,6 +1,6 @@
 /**
  * Payments System / Refund are not supported
- * We add a new method refundPayment() without breaking existing classes.
+ * We add a new default method without breaking existing classes.
  */
 package com.minte9.oop.examples.interfaces;
 
