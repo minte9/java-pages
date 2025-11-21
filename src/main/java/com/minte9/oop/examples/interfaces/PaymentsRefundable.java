@@ -1,5 +1,5 @@
 /**
- * Refundable Payments (real-world interface usage)
+ * Payments System / Refundable payments
  * Not all payments types support refunds, so only those that do will implement this interface.
  */
 

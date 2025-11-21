@@ -1,5 +1,5 @@
 /**
- * Payment systems (real-world inheritance example):
+ * Payment systems / CreditCard & PayPal
  * Payment class defines common behavior, while subclasses implement specific logic.
  * Adding new payment methods (CryptoPayment) is easy without changing existing code.
  */
