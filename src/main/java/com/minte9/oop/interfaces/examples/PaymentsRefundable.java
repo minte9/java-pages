@@ -5,7 +5,7 @@
 
 package com.minte9.oop.interfaces.examples;
 
-public class RefundablePayments {
+public class PaymentsRefundable {
     public static void main(String[] args) {
 
         Payment creditCardPayment = new CreditCardPayment("1234-5678-9012-3456");
