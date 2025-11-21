@@ -1,19 +1,28 @@
 /**
- * Payment systems (real-world inheritance example):
- * Payment class defines common behavior, while subclasses implement specific logic.
- * Adding new payment methods (CryptoPayment) is easy without changing existing code.
+ * Interface real-world scenario: Refundable
+ * Not all payments types support refunds, so only those that do will implement this interface.
+ * 
  */
 
 package com.minte9.oop.inheritance.examples;
 
-public class PaymentsSystem{
+public class PaymentsDemo {
     public static void main(String[] args) {
 
-        Payment p1 = new CreditCardPayment("1234-5678-9012-3456");
-        p1.processPayment(150.00);  // CreditCard processing payment of $150.0
+        Payment creditCardPayment = new CreditCardPayment("1234-5678-9012-3456");
+        creditCardPayment.processPayment(150.00);
 
-        Payment p2 = new PayPalPayment("user@example.com");
-        p2.processPayment(75.50);  // PayPall processing payment of $75.5
+        Payment payPalPayment = new PayPalPayment("user@example.com");
+        payPalPayment.processPayment(75.50);
+
+        // Refund example
+        if (creditCardPayment instanceof Refundable) {
+            ((Refundable) creditCardPayment).refund(50.00);
+        }
+
+        if (payPalPayment instanceof Refundable) {
+            ((Refundable) payPalPayment).refund(20.00);
+        }
     }
 }
 
@@ -23,8 +32,13 @@ abstract class Payment {
     public abstract boolean validatePayment();
 }
 
+// Interface for refundable payments
+interface Refundable {
+    void refund(double amount);
+}
+
 // Subclass
-class CreditCardPayment extends Payment {
+class CreditCardPayment extends Payment implements Refundable {
     private String cardNumber;
 
     public CreditCardPayment(String s) {
@@ -44,10 +58,15 @@ class CreditCardPayment extends Payment {
     public boolean validatePayment() {
         return cardNumber != null && cardNumber.length() == 19;  // simple validation
     }
+
+    @Override
+    public void refund(double amount) {
+        System.out.println("Refunding $" + amount +" to Credit Card.");
+    }
 }
 
 // Subclass
-class PayPalPayment extends Payment {
+class PayPalPayment extends Payment implements Refundable {
     private String email;
 
     public PayPalPayment(String s) {
@@ -66,5 +85,10 @@ class PayPalPayment extends Payment {
     @Override
     public boolean validatePayment() {
         return email != null && email.contains("@"); // simple validation
+    }
+
+    @Override
+    public void refund(double amount) {
+        System.out.println("Refunding $" + amount +" via PayPal.");
     }
 }

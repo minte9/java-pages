@@ -1,9 +1,5 @@
 package com.minte9.io.robot;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
-
 import java.io.IOException;
 
 public class SoundControl {
