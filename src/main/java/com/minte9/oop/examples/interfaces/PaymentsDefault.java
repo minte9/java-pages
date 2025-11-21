@@ -2,7 +2,7 @@
  * Interface real-world scenario: Refund not supported
  * We add a new method refundPayment() without breaking existing classes.
  */
-package com.minte9.oop.interfaces.examples;
+package com.minte9.oop.examples.interfaces;
 
 public class PaymentsDefault {
     public static void main(String[] args) {
