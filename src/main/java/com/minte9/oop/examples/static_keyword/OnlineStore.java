@@ -1,18 +1,18 @@
+/**
+ * Online store checkout stystem.
+ * Thre is one shared taxed rate (static variable), one shared calculator (static method), 
+ * and a helper class that belongs to the store (static inner class).
+ */
 package com.minte9.oop.examples.static_keyword;
 
 public class OnlineStore {
     public static void main(String[] args) {
-        double total = PriceCalculator.finalPrice(100);
+        double total = Calculator.finalPrice(100);
         System.out.println(total);  // 110.0
     }
 
-    // 1. Static variable - shared by the whole store
     static double TAX_RATE = 0.10;
-
-    // 2. Static inner class - a helper that belongs to the store
-    static class PriceCalculator {
-
-        // 3. Static method - a shared rule for calculation
+    static class Calculator {
         static double finalPrice(double price) {
             return price + (price * TAX_RATE); 
         }
