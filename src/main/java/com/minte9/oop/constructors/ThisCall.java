@@ -1,26 +1,19 @@
 /**
- * To call another constructor from the same class ...
- * use this() method.
+ * To call another constructor from the same class use this() method.
  */
 
 package com.minte9.oop.constructors;
 
-public class This {
+public class ThisCall {
     public static void main(String[] args) {
         
         Rectangle a = new Rectangle();
         Rectangle b = new Rectangle(100, 200);
         Rectangle c = new Rectangle(300, 400, 11, 22); // Look Here
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-
-        /*
-            W: 0 H: 0 x: 0 y: 0
-            W: 100 H: 200 x: 0 y: 0
-            W: 300 H: 400 x: 11 y: 22
-        */
+        System.out.println(a);  // W: 0 H: 0 x: 0 y: 0
+        System.out.println(b);  // W: 100 H: 200 x: 0 y: 0
+        System.out.println(c);  // W: 300 H: 400 x: 11 y: 22
     }
     
 }
