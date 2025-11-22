@@ -4,7 +4,7 @@
 
 package com.minte9.oop.constructors;
 
-public class ThisCall {
+public class ThisMethod {
     public static void main(String[] args) {
         
         Rectangle a = new Rectangle();

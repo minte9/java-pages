@@ -6,7 +6,7 @@
 
 package com.minte9.oop.constructors;
 
-public class Constructors {
+public class MultipleConstructors {
     public static void main(String[] args) {
 
         new A();  // Default constructor used
