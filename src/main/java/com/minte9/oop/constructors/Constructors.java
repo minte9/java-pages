@@ -1,5 +1,6 @@
 /**
  * Constructor use the class name and has no return type.
+ * Every class you create has a default constructor, even if you don't write one.
  * You could have more than one constructor in a class.
  */
 
