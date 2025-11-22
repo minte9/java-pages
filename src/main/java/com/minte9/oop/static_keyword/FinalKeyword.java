@@ -6,11 +6,11 @@
 
 package com.minte9.oop.static_keyword;
 
-public class FilnalKeyword {
+public class FinalKeyword {
     public static void main(String[] args) {
         
         IDCard id = new IDCard();
-        id.showInfo();
+        id.showInfo();  // Official ID Card
 
         // ❌ Not allowed
         // IDCard.LABEL = "New ID Card";
