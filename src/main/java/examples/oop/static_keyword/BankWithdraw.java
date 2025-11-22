@@ -3,7 +3,7 @@
  * Because the method withdraw() is not final, a subclass secretly changes the rule.
  */
 
-package com.minte9.oop.examples.static_keyword;
+package examples.oop.static_keyword;
 
 public class BankWithdraw {
     public static void main(String[] args) {

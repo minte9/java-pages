@@ -1,4 +1,9 @@
-package com.minte9.oop.examples.static_keyword;
+/**
+ * Hospital waiting room (one shared counter of patients).
+ * There is one waiting room screen, no matter how many doctors or rooms there are.
+ */
+
+package examples.oop.static_keyword;
 
 public class HospitalSystem {
     public static void main(String[] args) {

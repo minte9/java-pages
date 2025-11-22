@@ -3,7 +3,7 @@
  * Not all payments types support refunds, so only those that do will implement this interface.
  */
 
-package com.minte9.oop.examples.interfaces;
+package examples.oop.interfaces;
 
 public class PaymentsRefundable {
     public static void main(String[] args) {

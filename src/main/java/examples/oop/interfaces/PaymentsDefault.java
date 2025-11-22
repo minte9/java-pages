@@ -2,7 +2,7 @@
  * Payments System / Refund are not supported
  * We add a new default method without breaking existing classes.
  */
-package com.minte9.oop.examples.interfaces;
+package examples.oop.interfaces;
 
 public class PaymentsDefault {
     public static void main(String[] args) {

@@ -3,7 +3,8 @@
  * Thre is one shared taxed rate (static variable), one shared calculator (static method), 
  * and a helper class that belongs to the store (static inner class).
  */
-package com.minte9.oop.examples.static_keyword;
+
+package examples.oop.static_keyword;
 
 public class StoreCalculator {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@
  * Adding new payment methods (CryptoPayment) is easy without changing existing code.
  */
 
-package com.minte9.oop.examples.inheritance;
+package examples.oop.inheritance;
 
 public class PaymentsSystem{
     public static void main(String[] args) {
