@@ -7,7 +7,9 @@ package com.minte9.oop.examples.static_keyword;
 
 public class BankWithdraw {
     public static void main(String[] args) {
-
+        HackAccount acc = new HackAccount();
+        acc.withdraw(1000);
+        System.out.println(acc.balance);  // -900 😱
     }    
 }
 
