@@ -5,7 +5,7 @@
  */
 package com.minte9.oop.examples.static_keyword;
 
-public class OnlineStore {
+public class StoreCalculator {
     public static void main(String[] args) {
         double total = Calculator.finalPrice(100);
         System.out.println(total);  // 110.0
