@@ -1,5 +1,5 @@
 /**
- * It allows us to dynamicaly resize the array when needed.
+ * ArrayList allows us to dynamicaly resize the array when needed.
  * It has operations like `add()`, `remove()`, `get()`, `contains()`.
  * Use `size()` to get the length.
  */
