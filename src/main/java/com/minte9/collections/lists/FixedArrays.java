@@ -1,6 +1,6 @@
 /** 
  * The number of elements in an array is fixed and known.
- * The array allows fast indexed access.
+ * The array allows fast index access.
  * 
  * You must provide array size: 
  *      myArray = new String[];  ❌ This won't work
