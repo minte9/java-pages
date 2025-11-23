@@ -1,24 +1,25 @@
 /**
- * TreeSet is similar to HashSet in that it prevents duplicates.
- * But it also keeps the list sorted (very small performance hit).
+ * TreeSet stores UNIQUE elements and automatically keeps them sorted.
+ * 
+ * Operations like add(), remove(), contains() run in O(log n),
+ * which is slightly slower than HashSet (O(1) average)
+ * but still very efficient.
  */
 
 package com.minte9.collections.sets;
 
-import java.util.ArrayList;
 import java.util.TreeSet;
+import java.util.Set;
 
 public class TreeSets {
     public static void main(String[] args) {
 
-        ArrayList<A> myList = new ArrayList<>();
-        myList.add(new A("F", "1"));
-        myList.add(new A("G", "2"));
-        myList.add(new A("H", "4"));
-        myList.add(new A("H", "3"));
-        
-        TreeSet<A> myTree = new TreeSet<A>();
-        myTree.addAll(myList);
+        Set<A> myTree = new TreeSet<>();
+        myTree.add(new A("F", "1"));
+        myTree.add(new A("G", "2"));
+        myTree.add(new A("H", "4"));
+        myTree.add(new A("H", "3"));
+
         System.out.println(myTree); // [F:1, G:2, H:4]
     }
 }
@@ -27,17 +28,19 @@ class A implements Comparable<A> {
 
     public String title;
     public String artist;
-    
+
     public A(String t, String a) {
         title = t;
         artist = a;
     }
 
-    @Override public int compareTo(A a) {
+    @Override
+    public int compareTo(A a) {
         return title.compareTo(a.title);
     }
-    
-    @Override public String toString() {
+
+    @Override
+    public String toString() {
         return title + ":" + artist;
     }
 }
