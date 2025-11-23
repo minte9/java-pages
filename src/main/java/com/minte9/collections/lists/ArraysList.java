@@ -19,7 +19,7 @@ public class ArraysList {
         grades.add(90);
         grades.add(78);
 
-        System.out.println("Initial grades: " + grades);  // Initial grades: [85, 90, 78]
+        System.out.println("Initial: " + grades);  // Initial: [85, 90, 78]
         System.out.println("Size: " + grades.size());  // Size: 3
 
         // Add more later
