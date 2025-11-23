@@ -40,7 +40,8 @@ public class HashSets {
         songs.add(new Song("Africa", "Toto"));
         songs.add(new Song("Africa", "Weezer"));  // not a duplicate
 
-        System.out.println(songs); // Imagine (John Lennon), Africa (Weezer), Africa (Toto)
+        System.out.println(songs); 
+            // Imagine (John Lennon), Africa (Weezer), Africa (Toto)
 
     }
 }
