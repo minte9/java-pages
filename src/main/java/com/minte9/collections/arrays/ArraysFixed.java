@@ -7,7 +7,7 @@
  * You must provide array size: 
  *      myArray = new String[];  ❌ This won't work
  * 
- * Use `for()` to iterate through an array.
+ * Use enhanced `for` to iterate through an array.
  * Use `length` to get the size of an array. 
  * 
  * Arrays are faster, smaller in memory and used internally in many frameworks.
