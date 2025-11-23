@@ -14,7 +14,7 @@ package examples.collections.lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShoppingCard {
+public class ShoppingCart {
     public static void main(String[] args) {
 
         // Prefered: code to the List interface
