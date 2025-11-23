@@ -9,7 +9,7 @@
  * without breaking the current code.
  */
 
-package examples.collections.arrays;
+package examples.collections.lists;
 
 import java.util.ArrayList;
 import java.util.List;

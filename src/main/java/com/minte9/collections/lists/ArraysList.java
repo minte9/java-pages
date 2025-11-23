@@ -4,7 +4,7 @@
  * Use `size()` to get the length.
  */
 
-package com.minte9.collections.arrays;
+package com.minte9.collections.lists;
 
 import java.util.ArrayList;
 

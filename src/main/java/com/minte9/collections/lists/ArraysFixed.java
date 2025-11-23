@@ -12,7 +12,7 @@
  * You will see array used in low-level parsing, high-performance code.
  */
 
-package com.minte9.collections.arrays;
+package com.minte9.collections.lists;
 
 public class ArraysFixed {
     public static void main(String[] args) {
