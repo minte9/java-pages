@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 
-public class ArraysSort {
+public class ArraysSorting {
     public static void main(String[] args) {
 
         List<String> myList = new ArrayList<>();
