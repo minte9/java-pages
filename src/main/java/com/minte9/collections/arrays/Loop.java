@@ -5,7 +5,7 @@
  * If you are modifing the tail only, the ArrayList is a preferred.
  */
 
-package com.minte9.collections.lists;
+package com.minte9.collections.arrays;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

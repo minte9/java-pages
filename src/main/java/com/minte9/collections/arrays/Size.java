@@ -1,9 +1,9 @@
 /**
- * ArrayList class is a resizable array,
- * ArrayList don't need an index and are parameterized.
+ * In Java ArrayList class is a resizable array.
+ * It doesn't need an index and are parameterized.
  */
 
-package com.minte9.collections.lists;
+package com.minte9.collections.arrays;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,8 @@ public class Size {
         String[] myList = new String[2]; // Corect, with dimension
         System.out.println(myList.length); // 2
 
-        // myList = new String[]; // Error: must provide dimension
+        // ❌ This won't work, you must provide array size
+        // myList = new String[];
 
         ArrayList<String> myArrayList;
         myArrayList = new ArrayList<>(); // no dimension needed
@@ -29,6 +30,4 @@ public class Size {
     }
 }
 
-class Button {
-
-}
+class Button {}
