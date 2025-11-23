@@ -14,7 +14,7 @@
 
 package com.minte9.collections.lists;
 
-public class ArraysFixed {
+public class FixedArrays {
     public static void main(String[] args) {
 
         // We know the students has EXACTLY 5 exam grades
