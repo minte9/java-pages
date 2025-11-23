@@ -1,6 +1,4 @@
-/**
- * Arrays in Java;
- * 
+/** 
  * The number of elements in an array is fixed and known.
  * The array allows fast indexed access.
  * 
