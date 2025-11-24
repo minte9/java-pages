@@ -1,18 +1,22 @@
 /**
- * A generic type may have multiple type parameters.
- * Each parameter must be unique.
+ * A generic class can have more than one type parameter.
+ * Example: Box<T, U>, Map<K, V>, Entry<K, V>, etc.
+ * 
+ * Each type parameter must have a UNIQUE NAME.
  */
 
 package com.minte9.collections.generics;
 
-public class Multiple {
+public class MultipleTypes {
     public static void main(String[] args) {
         
+        // Box<T, U> can accept two different types
         Box<Integer, Integer> box = new Box<>();
         box.set(10);
         System.out.println(box.get()); // 10
     }
 
+    // Generic class with one type parameters: T
     static class Box<T, U> {
 
         private T t;
@@ -24,5 +28,5 @@ public class Multiple {
         }
     }
 
-    // static class Word<T, T> {} // Error: Duplicate type parameter T
+    // static class Word<T, T> {} // ❌ Error: Duplicate type parameter T
 }

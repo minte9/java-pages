@@ -26,7 +26,7 @@
 
 package com.minte9.collections.generics;
 
-public class Type {
+public class TypePlaceholder {
 
     public static void main(String[] args) {
         
