@@ -19,12 +19,12 @@
 
 package com.minte9.collections.maps;
 import java.util.HashMap;
+import java.util.Map;
 
 public class HashMaps {
     public static void main(String[] args) {
     
-        HashMap<String, Integer> scores = new HashMap<>();
-        
+        Map<String, Integer> scores = new HashMap<>();
         scores.put("Mary", 10);
         scores.put("Mary", 20); // overrites value for key "Mary"
         scores.put("John", 20);
