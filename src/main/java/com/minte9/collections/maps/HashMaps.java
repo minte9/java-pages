@@ -26,7 +26,7 @@ public class HashMaps {
         HashMap<String, Integer> scores = new HashMap<>();
         
         scores.put("Mary", 10);
-        scores.put("Mary", 20); // overrites
+        scores.put("Mary", 20); // overrites value for key "Mary"
         scores.put("John", 20);
         scores.put("Boby", 16);
 
