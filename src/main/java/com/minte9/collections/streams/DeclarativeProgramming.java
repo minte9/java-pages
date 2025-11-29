@@ -55,7 +55,9 @@ public class DeclarativeProgramming {
     
     public static void main(String[] args) {
 
+        // ======================================================
         // Imperative programming (old Java style)
+        // ======================================================
         for(Integer n : mylist) {
             if (n % 2 == 0) {
                 mySquareList.add(n * n);
@@ -64,7 +66,9 @@ public class DeclarativeProgramming {
         System.out.println(mySquareList); // [4, 16, 36, 64, 100]
 
 
+        // =====================================================
         // Declarative - without lambdas (Java 8 before lambdas)
+        // =====================================================
         mySquareList = mylist.stream()
             .filter(
                 new Predicate<Integer>() {
@@ -83,11 +87,19 @@ public class DeclarativeProgramming {
         System.out.println(mySquareList); // [4, 16, 36, 64, 100]
 
 
+        // =======================================================
         // Declarative - with lambdas (modern and preffered)
+        // =======================================================
         mySquareList = mylist.stream()
             .filter(x -> x % 2 == 0)
             .map(y -> y * y)
             .collect(Collectors.toList());
         System.out.println(mySquareList); // [4, 16, 36, 64, 100]
+
+
+        // ==============================================================
+        // Declarative - reusable (operations can be extracted and tested)
+        // ===============================================================
+        
     }
 }
