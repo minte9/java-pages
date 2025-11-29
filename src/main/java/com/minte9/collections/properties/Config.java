@@ -42,10 +42,7 @@ public class Config {
              * db.url=localhost
              */
 
-        String user = props.getProperty("db.user");
-        int port = Integer.parseInt(props.getProperty("db.port"));
-
-        System.out.println("user: " + user);  // my_user
-        System.out.println("port: " + port);  // 9000
+        System.out.println(props.getProperty("db.user"));  // my_user
+        System.out.println(props.getProperty("db.port"));  // 9000
     }
 }
