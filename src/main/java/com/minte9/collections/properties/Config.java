@@ -1,15 +1,17 @@
 /**
- * Java properties file is normaly used to store project configuration 
- * data or settings.
-
- * Use getProperty() to get values.
- *
- * Example: 
- * main/resouces/config.properties:
- *      db.url = localhost
- *      db.user = my_user
- *      db.pass = my_password
- *      db.port = 9000
+ * Loading a properties file (best practice)
+ * 
+ * Configuration files should be placed in:
+ *      src/main/resources
+ * 
+ * Example:
+ *      src/main/resources/config.properties
+ * 
+ * Maven/Gradle automatically puts everything in /resources
+ * onto the application's CLASSPATH - even inside a JAR.
+ * 
+ * Classpath loading works everywhere, we can get it using:
+ *      Config.class.getClassLoader().getResourceAsStream()
  */
 
 package com.minte9.collections.properties;
@@ -31,6 +33,14 @@ public class Config {
 
         Properties props = new Properties();
         props.load(input);
+        props.list(System.out);
+
+            /**
+             * db.user=my_user
+             * db.pass=my_password
+             * db.port=9000
+             * db.url=localhost
+             */
 
         String user = props.getProperty("db.user");
         int port = Integer.parseInt(props.getProperty("db.port"));
