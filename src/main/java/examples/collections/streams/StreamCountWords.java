@@ -1,3 +1,9 @@
+/**
+ * Stream API usage example.
+ * 
+ * Count how many times each word appears in a text. 
+ */
+
 package examples.collections.streams;
 
 import java.util.Arrays;
