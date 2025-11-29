@@ -1,0 +1,11 @@
+{
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk",
+      "default": true
+    }
+  ],
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.compile.nullAnalysis.mode": "automatic"
+}
