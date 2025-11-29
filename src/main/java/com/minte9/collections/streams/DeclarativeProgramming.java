@@ -95,11 +95,6 @@ public class DeclarativeProgramming {
             .map(y -> y * y)
             .collect(Collectors.toList());
         System.out.println(mySquareList); // [4, 16, 36, 64, 100]
-
-
-        // ==============================================================
-        // Declarative - reusable (operations can be extracted and tested)
-        // ===============================================================
         
     }
 }
