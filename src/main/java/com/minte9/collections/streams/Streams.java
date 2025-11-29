@@ -51,4 +51,4 @@ public class Streams {
     }
 }
 
-record Order(String name, double price) {}
+record Order(String name, double price) {}  // Java 17+
