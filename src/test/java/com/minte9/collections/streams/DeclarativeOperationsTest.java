@@ -1,3 +1,7 @@
+/**
+ * Unit tests for Declarative Operations
+ */
+
 package com.minte9.collections.streams;
 
 import static org.junit.Assert.assertEquals;

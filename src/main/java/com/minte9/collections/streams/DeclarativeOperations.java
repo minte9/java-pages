@@ -1,3 +1,13 @@
+/**
+ * Declarative operations - reusability + testability
+ * 
+ * This class demonstrates how declarative programming enables
+ * clean, reusable, and independently testable business logic.
+ * 
+ * This file pairs with DeclarativeOperationsTest.java,
+ * which proves reusability through unit tests.
+ */
+
 package com.minte9.collections.streams;
 
 import java.util.Arrays;
