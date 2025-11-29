@@ -36,13 +36,13 @@ public class Config {
         props.list(System.out);
 
             /**
-             * db.user=my_user
-             * db.pass=my_password
+             * db.user=myuser
+             * db.pass=mypassword
              * db.port=9000
              * db.url=localhost
              */
 
-        System.out.println(props.getProperty("db.user"));  // my_user
+        System.out.println(props.getProperty("db.user"));  // myuser
         System.out.println(props.getProperty("db.port"));  // 9000
     }
 }
