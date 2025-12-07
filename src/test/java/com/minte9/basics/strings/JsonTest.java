@@ -1,4 +1,4 @@
-package com.minte9.collections.json;
+package com.minte9.basics.strings;
 import static org.junit.Assert.assertEquals;
 
 import org.json.JSONObject;

@@ -5,7 +5,7 @@
  * You might need to add hamcrest to Referenced Libraries.
 */
 
-package com.minte9.junit.about_junit;
+package com.minte9.junit.introduction;
 import org.junit.Test;
 import static org.junit.Assert.fail;
 

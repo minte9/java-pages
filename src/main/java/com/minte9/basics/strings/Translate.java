@@ -2,7 +2,7 @@
  * Translate custom formats to json for easy parsing.
  */
 
-package com.minte9.collections.json;
+package com.minte9.basics.strings;
 import org.json.JSONObject;
 
 public class Translate {

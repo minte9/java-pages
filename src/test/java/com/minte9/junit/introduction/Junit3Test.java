@@ -5,7 +5,7 @@
  * The methods must start with the word test.
  */
 
-package com.minte9.junit.about_junit;
+package com.minte9.junit.introduction;
 import junit.framework.TestCase;
 
 public class Junit3Test extends TestCase {

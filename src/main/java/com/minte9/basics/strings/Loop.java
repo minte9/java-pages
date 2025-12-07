@@ -2,7 +2,7 @@
  * Use getJSONArray() in order to loop an json
  */
 
-package com.minte9.collections.json;
+package com.minte9.basics.strings;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
