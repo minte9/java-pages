@@ -1,7 +1,12 @@
 /**
- * BeforeClass method - executed once before all tests.
+ * @BeforeClass - RUNCE ONCE BEFORE ALL TEST
+ * -----------------------------------------
+ * JUnit provides @BeforeClass for expensive setup operations that should
+ * run only a single time before any test methods are executed.
  * 
- * JUnit creates a new instance for each test it runs.
+ * In this example:
+ *  - Square collection is created ONLY ONCE.
+ *  - Both tests use the same initialized data.
  */
 
 package com.minte9.junit.annotations;
@@ -24,15 +29,17 @@ public class BeforeClassAnnotationTest {
         squares.add(5);  // 25
 
         System.out.println("Squares initialized!");
-        
+        // Exectuted once for the entire class
     }
     
-    @Test public void average() {
-        assertEquals(squares.average(), 17); // passed
+    @Test 
+    public void average() {
+        assertEquals(squares.average(), 17);
     }
 
-    @Test public void sum() {
-        assertEquals(squares.sum(), 34); // passed
+    @Test 
+    public void sum() {
+        assertEquals(squares.sum(), 34);
     }
 }
 

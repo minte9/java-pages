@@ -48,7 +48,8 @@ public class BeforeAnnotationTest {
         squares.add(3);  // 9
         squares.add(5);  // 25
 
-        System.out.println("Squares initialized!");  // Prints twice (once per each test)
+        System.out.println("Squares initialized!");  
+        // Prints twice (once per each test)
     }
     
     @Test 
