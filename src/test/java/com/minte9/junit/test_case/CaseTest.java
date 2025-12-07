@@ -16,8 +16,8 @@
 
 package com.minte9.junit.test_case;
 
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
