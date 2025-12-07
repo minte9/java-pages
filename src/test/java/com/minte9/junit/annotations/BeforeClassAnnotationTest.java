@@ -5,23 +5,26 @@
  */
 
 package com.minte9.junit.annotations;
+
 import static org.junit.Assert.assertEquals;
-import java.util.ArrayList;
-import java.util.List;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import java.util.ArrayList;
+import java.util.List;
 
-public class BeforeClassApp {
+public class BeforeClassAnnotationTest {
+
     private static SQ squares;
 
-    @BeforeClass static public void executedBeforeOnce() { // Look Here
+    @BeforeClass 
+    static public void executedBeforeOnce() {
         
         squares = new SQ();
-        squares.add(3); // 9
-        squares.add(5); // 25
+        squares.add(3);  // 9
+        squares.add(5);  // 25
 
-        System.out.println("Squares initialized!"); // executed once
-            // Squares initialized!
+        System.out.println("Squares initialized!");
+        
     }
     
     @Test public void average() {
