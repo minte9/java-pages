@@ -9,7 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class AfterApp {
+public class AfterAnnotationTest {
     
     @Before public void start() {
         System.out.println("Db connection start");
