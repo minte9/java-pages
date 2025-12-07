@@ -21,7 +21,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExpectedTest {
+public class ExpectedExceptionTest {
 
     @Test(expected = ArithmeticException.class)
     public void no_squares_expected() {
