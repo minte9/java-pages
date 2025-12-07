@@ -1,32 +1,35 @@
 /**
- * Expected exception parameter ...
+ * EXPECTED EXCEPTIONS IN JUNIT 4
+ * ------------------------------
+ * JUnit allows you to verify that a specific exceptin is thrown.
  * 
- * You can pass an expected exception into the ...
- * Test annotation definition.
+ * Using:
+ *      @Test(expected = SomeException.class)
+ * 
+ * The test PASSES if the exception is thrown.
+ * The test FAILS if:
+ *  - no exception is thrown
+ *  - a different exception is thrown
+ * 
+ * This makes it easy to test error conditions or preconditions.
  */
 
 package com.minte9.junit.exceptions;
 
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
-import org.junit.Test;
 
-public class Expected {
-
-    @Test public void no_squares() { // Failed
-        Squares squares = new Squares();
-        squares.average(); 
-            // ArithmeticException: / by zero
-    }
+public class ExpectedTest {
 
     @Test(expected = ArithmeticException.class)
     public void no_squares_expected() {
-        Squares squares = new Squares(); // Passed
-        squares.average();  
+        Squares squares = new Squares();
+        squares.average();  // division by zero (exception thrown) - test passes
     }
 
-    @Test public void average() { // Passed
+    @Test public void average() {
         Squares squares = new Squares();
         squares.add(3); // 9
         squares.add(5); // 25
