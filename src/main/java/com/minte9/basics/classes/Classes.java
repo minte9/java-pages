@@ -6,7 +6,7 @@
  * (target/classes/Class.class)
  * 
  * Every java program starts in main() method.
- * Return type void means there is no returned value.
+ * Return type `void` means there is no returned value.
  * Every statement must end in semicolon.
  */
 
