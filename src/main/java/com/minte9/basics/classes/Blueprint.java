@@ -20,7 +20,7 @@ public class Blueprint {
 class MyClass {
     public String name;
 
-    public void setName(String name) { // This is a class' method
+    public void setName(String name) { // This is a class method
         this.name = name;
     }
 }
