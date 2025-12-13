@@ -5,7 +5,7 @@
  * Javac is inferring the type of event from its context.
  */
 
-package com.minte9.lambdas.expressions;
+package com.minte9.lambdas.lambdas_expressions;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 

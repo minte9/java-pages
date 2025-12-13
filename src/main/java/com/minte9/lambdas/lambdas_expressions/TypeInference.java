@@ -2,7 +2,7 @@
  * Javac type inference is smart, but it needs enought information. 
  */
 
-package com.minte9.lambdas.expressions;
+package com.minte9.lambdas.lambdas_expressions;
 import java.util.function.Function;
 
 public class TypeInference {
