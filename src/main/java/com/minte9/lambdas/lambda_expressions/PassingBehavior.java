@@ -12,7 +12,7 @@
  *  - implements a functional interface
  */
 
-package com.minte9.lambdas.lambdas_expressions;
+package com.minte9.lambdas.lambda_expressions;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

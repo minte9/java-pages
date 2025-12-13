@@ -6,7 +6,7 @@
  * even if the final keyword it is not required (Java 8)
  */
 
-package com.minte9.lambdas.lambdas_expressions;
+package com.minte9.lambdas.lambda_expressions;
 import java.util.Arrays;
 import javax.xml.ws.Holder;
 

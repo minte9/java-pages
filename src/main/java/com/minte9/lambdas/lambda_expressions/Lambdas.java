@@ -10,7 +10,7 @@
  *  
  */
 
-package com.minte9.lambdas.lambdas_expressions;
+package com.minte9.lambdas.lambda_expressions;
 import java.util.function.BinaryOperator;
 
 public class Lambdas {
