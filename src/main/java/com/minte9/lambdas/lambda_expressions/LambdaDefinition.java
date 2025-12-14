@@ -4,17 +4,10 @@
  * A lambda expression is a concise way to represent implementations
  * of functional interfaces.
  * 
+ * A functional interface is an interface with one abstract method.
+ * 
  * Insteed of creating an object with an anonymous inner class,
  * lambdas allow us to pass 'behavior' (executable code) directly.
- * 
- * FUNCTIONAL INTERFACES:
- * ------------------------------
- * A functional interface is an interface with one abstract method.
- * Example:
- *  - Runnable
- *  - Comparator<T>
- *  - Predicate<T>
- *  - BinaryOperator<T>
  * 
  * COMMON LAMBDAS FORMS:
  * ---------------------
@@ -27,7 +20,7 @@ package com.minte9.lambdas.lambda_expressions;
 
 import java.util.function.BinaryOperator;
 
-public class LambdasDefinition {
+public class LambdaDefinition {
     public static void main(String[] args) {
 
         // -----------------------------------
