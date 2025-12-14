@@ -49,6 +49,5 @@ public class MethodReferences {
         // Method reference version
         // ---------------------------------------
         names.forEach(System.out::println);
-
     }
 }
