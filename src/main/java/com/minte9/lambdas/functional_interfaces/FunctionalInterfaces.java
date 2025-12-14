@@ -9,6 +9,11 @@
  *  - Predicate<T>
  *  - BinaryOperator<T>
  * 
+ * @FunctionalInterface
+ * public interface Predicate<T> {
+ *      boolean test(T var1); // abstract
+ *      ...
+ * 
  * Functional interfaces are commonly used with lambdas, streams, 
  * and method references. 
  */
@@ -34,10 +39,3 @@ public class FunctionalInterfaces {
         System.out.println(increment.apply(20L));  // 21
     }
 }
-
-/*
-@FunctionalInterface
-public interface Predicate<T> {
-   boolean test(T var1);
-   ...
-*/
