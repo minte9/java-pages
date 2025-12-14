@@ -34,3 +34,10 @@ public class FunctionalInterfaces {
         System.out.println(increment.apply(20L));  // 21
     }
 }
+
+/*
+@FunctionalInterface
+public interface Predicate<T> {
+   boolean test(T var1);
+   ...
+*/
