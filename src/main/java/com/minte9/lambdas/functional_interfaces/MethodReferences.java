@@ -30,7 +30,7 @@
  * So Java can safely connect them.
  */
 
-package com.minte9.lambdas.method_references;
+package com.minte9.lambdas.functional_interfaces;
 
 import java.util.Arrays;
 import java.util.List;
