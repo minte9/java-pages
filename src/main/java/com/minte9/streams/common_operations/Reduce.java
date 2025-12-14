@@ -8,7 +8,7 @@
  * Declarative - acc is the "accumulator" (current sum)
  */
 
-package com.minte9.lambdas.common_operations;
+package com.minte9.streams.common_operations;
 
 import static org.junit.Assert.assertEquals;
 import java.util.stream.Stream;

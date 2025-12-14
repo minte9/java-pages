@@ -4,7 +4,7 @@
  * Comparing to find minimum or maximum of an element (example)
  */
 
-package com.minte9.lambdas.common_operations;
+package com.minte9.streams.common_operations;
 
 import static org.junit.Assert.assertEquals;
 import java.util.Arrays;

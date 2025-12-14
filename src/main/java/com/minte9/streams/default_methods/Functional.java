@@ -3,7 +3,7 @@
  * Functional interface must contain only one abstract method.
  */
 
-package com.minte9.lambdas.default_methods;
+package com.minte9.streams.default_methods;
 import java.util.Arrays;
 import java.util.List;
 

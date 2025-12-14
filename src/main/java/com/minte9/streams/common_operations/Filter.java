@@ -4,7 +4,7 @@
  * Strings that starts with a number (example)
  */
 
-package com.minte9.lambdas.common_operations;
+package com.minte9.streams.common_operations;
 
 import static java.lang.Character.isDigit;
 import static java.util.Arrays.asList;

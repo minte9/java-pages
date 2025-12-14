@@ -2,7 +2,7 @@
  * Stream map (to uppercase)
  */
 
-package com.minte9.lambdas.common_operations;
+package com.minte9.streams.common_operations;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -5,7 +5,7 @@
  * Use first char as key (example) 
  */
 
-package com.minte9.lambdas.common_operations;
+package com.minte9.streams.common_operations;
 
 import java.util.List;
 import java.util.Map;

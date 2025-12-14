@@ -4,7 +4,7 @@
  * Partitioning a Stream into two collections of values (example)
  */
 
-package com.minte9.lambdas.common_operations;
+package com.minte9.streams.common_operations;
 
 import java.util.List;
 import java.util.Map;

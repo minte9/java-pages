@@ -8,7 +8,7 @@
  * Classes implementations win over default methods.
  */
 
-package com.minte9.lambdas.default_methods;
+package com.minte9.streams.default_methods;
 
 public class DefaultMethod {
     public static void main(String[] args) {

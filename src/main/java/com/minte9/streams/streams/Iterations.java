@@ -6,7 +6,7 @@
  * Stream - internal interation
  */
 
-package com.minte9.lambdas.streams;
+package com.minte9.streams.streams;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;

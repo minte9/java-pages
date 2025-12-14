@@ -5,7 +5,7 @@
  * Standard form of method reference is ClassName::methodName
  * The code is not only more shorter, also a lot easier to read
  */
-package com.minte9.lambdas.static_methods;
+package com.minte9.streams.static_methods;
 
 import java.util.Arrays;
 import java.util.List;

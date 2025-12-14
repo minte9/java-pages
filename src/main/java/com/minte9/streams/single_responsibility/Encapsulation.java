@@ -5,7 +5,7 @@
  * Counting prime numbers - no looping encapsuation!
  */
 
-package com.minte9.lambdas.single_responsibility;
+package com.minte9.streams.single_responsibility;
 
 import static org.junit.Assert.assertEquals;
 

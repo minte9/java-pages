@@ -3,7 +3,7 @@
  * It's always better to put related methods in the same place
  */
 
-package com.minte9.lambdas.static_methods;
+package com.minte9.streams.static_methods;
 import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
 import static org.junit.Assert.assertEquals;

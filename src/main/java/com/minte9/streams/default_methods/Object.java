@@ -3,7 +3,7 @@
  * doesn't work!
  */
 
-package com.minte9.lambdas.default_methods;
+package com.minte9.streams.default_methods;
 
 import static org.junit.Assert.assertEquals;
 

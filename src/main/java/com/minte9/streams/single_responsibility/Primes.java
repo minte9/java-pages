@@ -7,7 +7,7 @@
  * that is not a product of two smaller natural numbers. 
  */
 
-package com.minte9.lambdas.single_responsibility;
+package com.minte9.streams.single_responsibility;
 import static org.junit.Assert.assertEquals;
 
 public class Primes {

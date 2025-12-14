@@ -6,7 +6,7 @@
  * and provide the choosen interface method
  */
 
-package com.minte9.lambdas.default_methods;
+package com.minte9.streams.default_methods;
 
 public class Super {
     public static void main(String[] args) {
