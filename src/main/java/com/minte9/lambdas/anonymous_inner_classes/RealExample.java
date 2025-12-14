@@ -11,7 +11,7 @@
  * Both approaches pass behavior (comparition logic) to the sort() method.
  */
 
-package com.minte9.lambdas.lambda_expressions;
+package com.minte9.lambdas.anonymous_inner_classes;
 
 import java.util.ArrayList;
 import java.util.Comparator;

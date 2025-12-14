@@ -16,7 +16,7 @@
  * (x, y) -> x + y          // multiple parameters
  */
 
-package com.minte9.lambdas.lambda_expressions;
+package com.minte9.lambdas.anonymous_inner_classes;
 
 import java.util.function.BinaryOperator;
 

@@ -28,7 +28,6 @@ public class CustomFunctionalInterface {
         System.out.println(question.run("Java Lambdas"));  // Java Lambdas?
 
         System.out.println(exclaim.describe());  // MyFuncInterface: transforms a String
-
     }
 }
 
