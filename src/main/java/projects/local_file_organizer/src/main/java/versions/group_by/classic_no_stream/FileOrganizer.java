@@ -1,37 +1,26 @@
 /**
- * READ FILES / GROUP BY EXTENSION - STREAMS
- * ------------------------------------------
- * Stream version (recommended for production)
- * This is exactly how production Java code is written.
+ * READ FILES / GROUP BY EXTENSION
+ * -------------------------------
+ * Classic way (no streams) to understand the logic.
  * 
- * You just combined:
- *  - Files
- *  - Strings
- *  - Maps
- *  - Lists
- *  - Streams
- *  - Method references
- *  - Static methods
- * 
- * What You Just Mastered:
- *  - Stream ordering
- * - Predicate filtering
- * - Set for O(1) lookups
- * - Real-world stream pipelines
- * - Overall complexity is O(n)
+ * Encapsulate get extension logic:
+ *  - Reusable
+ *  - Testable
+ *  - Safe
  */
 
-package projects.local_file_organizer.src.main.java;
+package projects.local_file_organizer.src.main.java.versions.group_by.classic_no_stream;
 
 import java.io.File;
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class FileOrganizer {
     public static void main(String[] args) {
+
         File dir = new File(System.getProperty("user.home"), "Downloads");
 
         if (!dir.exists() || !dir.isDirectory()) {
@@ -44,12 +33,21 @@ public class FileOrganizer {
 
         Set<String>allowedExtensions = Set.of("pdf", "sql");
 
-        // HashMap (with stream)
-        Map<String, List<File>> filesByExtensions = 
-            Arrays.stream(files)
-                  .filter(File::isFile)
-                  .filter(f -> allowedExtensions.contains(getExtension(f)))
-                  .collect(Collectors.groupingBy(FileOrganizer::getExtension));
+        // HashMap (key, value / no duplicates)
+        Map<String, List<File>> filesByExtensions = new HashMap<>();
+
+        // Group by extension
+        for(File file : files) {
+            if (!file.isFile()) continue;
+
+            String ext = getExtension(file);
+            
+            if (!allowedExtensions.contains(ext)) continue;
+
+            filesByExtensions
+                .computeIfAbsent(ext, k -> new ArrayList<>())
+                .add(file);
+        }
 
         // Print the result
         filesByExtensions.forEach((ext, list) -> {

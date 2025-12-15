@@ -21,7 +21,7 @@
  * - Overall complexity is O(n)
  */
 
-package projects.local_file_organizer.src.main.java;
+package projects.local_file_organizer.src.main.java.versions.group_by.streams;
 
 import java.io.File;
 import java.util.Arrays;
