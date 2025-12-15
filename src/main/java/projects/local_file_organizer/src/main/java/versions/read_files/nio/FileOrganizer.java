@@ -6,6 +6,12 @@
  *  - Clear exception handling
  *  - Safer resource management
  *  - More powerful API
+ * 
+ * Concepts used:
+ *  - Streams
+ *  - Lambdas
+ *  - Method References
+ *  - Exceptions
  */
 
 package projects.local_file_organizer.src.main.java.versions.read_files.nio;
