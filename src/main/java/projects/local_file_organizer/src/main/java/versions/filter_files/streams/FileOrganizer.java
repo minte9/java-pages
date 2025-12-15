@@ -1,6 +1,6 @@
 /**
- * READ FILES - STREAMS
- * ---------------------
+ * READ FILES - STREAMS API
+ * ------------------------
  *  - Strings
  *  - Collections
  *  - Streams
@@ -8,7 +8,7 @@
  *  - Method references
  */
 
-package projects.local_file_organizer.src.versions.filter_files.streams;
+package projects.local_file_organizer.src.main.java.versions.filter_files.streams;
 
 import java.io.File;
 import java.util.Arrays;

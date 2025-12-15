@@ -26,4 +26,4 @@
 
 ### Why it’s good
 
-👉 You’ll actually use it and learn java.io / java.nio.file
+ - You’ll actually use it and learn java.io / java.nio.file

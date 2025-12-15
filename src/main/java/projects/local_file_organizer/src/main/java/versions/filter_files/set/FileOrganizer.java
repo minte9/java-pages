@@ -1,11 +1,14 @@
 /**
  * READ FILES - FILTER BY EXTENSION
  * --------------------------------
+ *  - Set<String> = Set.of()
+ *  - String lastIndexOf()
  */
 
-package projects.local_file_organizer.src.versions.filter_files.endsWidth;
+package projects.local_file_organizer.src.main.java.versions.filter_files.set;
 
 import java.io.File;
+import java.util.Set;
 
 public class FileOrganizer {
     public static void main(String[] args) {
@@ -21,15 +24,21 @@ public class FileOrganizer {
             return;
         }
 
+        Set<String>allowedExtensions = Set.of("pdf", "sql");
+
         for(File file : files) {
-            if (hasExtension(file, ".pdf")) {
+            if (!file.isFile()) continue;
+
+            String name = file.getName().toLowerCase();
+            int dotIndex = name.lastIndexOf(".");
+
+            if (dotIndex == -1) continue;
+
+            String ext = name.substring(dotIndex + 1);
+
+            if (allowedExtensions.contains(ext)) {
                 System.out.println(file.getName());
             }
         }
-    }
-
-    private static boolean hasExtension(File file, String extension) {
-        return file.isFile() &&
-               file.getName().endsWith(extension);
     }
 }

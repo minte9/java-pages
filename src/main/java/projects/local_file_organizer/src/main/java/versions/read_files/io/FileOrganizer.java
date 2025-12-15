@@ -1,5 +1,5 @@
 /**
- * READ FILES - IN A DIRECTORY
+ * READ FILES - FROM A DIRECTORY
  * ---------------------------
  * Concepts used:
  *  - Classes / Objects
@@ -14,7 +14,7 @@
  *  - Old API 
  */
 
-package projects.local_file_organizer.src.versions.read_files;
+package projects.local_file_organizer.src.main.java.versions.read_files.io;
 
 import java.io.File;
 
