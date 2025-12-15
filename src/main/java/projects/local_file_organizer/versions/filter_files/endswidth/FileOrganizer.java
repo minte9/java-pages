@@ -4,7 +4,7 @@
  *   - String endsWidth()
  */
 
-package projects.local_file_organizer.src.main.java.versions.filter_files.endsWidth;
+package projects.local_file_organizer.versions.filter_files.endswidth;
 
 import java.io.File;
 

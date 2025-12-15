@@ -14,7 +14,7 @@
  *  - Old API 
  */
 
-package projects.local_file_organizer.src.main.java.versions.read_files.io;
+package projects.local_file_organizer.versions.read_files.io;
 
 import java.io.File;
 

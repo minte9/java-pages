@@ -5,7 +5,7 @@
  * Use regex only if the rule is complex
  */
 
-package projects.local_file_organizer.src.main.java.versions.filter_files.regex;
+package projects.local_file_organizer.versions.filter_files.regex;
 
 import java.io.File;
 import java.util.regex.Pattern;

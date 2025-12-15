@@ -9,7 +9,7 @@
  *  - Safe
  */
 
-package projects.local_file_organizer.src.main.java.versions.group_by.classic_no_stream;
+package projects.local_file_organizer.versions.group_by.classic_no_stream;
 
 import java.io.File;
 import java.util.ArrayList;

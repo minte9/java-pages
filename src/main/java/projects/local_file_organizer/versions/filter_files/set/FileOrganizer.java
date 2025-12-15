@@ -5,7 +5,7 @@
  *  - String lastIndexOf()
  */
 
-package projects.local_file_organizer.src.main.java.versions.filter_files.set;
+package projects.local_file_organizer.versions.filter_files.set;
 
 import java.io.File;
 import java.util.Set;

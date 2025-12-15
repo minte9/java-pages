@@ -4,7 +4,7 @@
  * Scan all subfolders
  */
 
-package projects.local_file_organizer.src.main.java.versions.read_files.recursive;
+package projects.local_file_organizer.versions.read_files.recursive;
 
 import java.io.IOException;
 import java.nio.file.*;
