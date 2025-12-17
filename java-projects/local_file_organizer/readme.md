@@ -82,7 +82,6 @@ Run:
 
 ### Project
 
-Open ONLY the project you want to run:
-Instead of opening java-pages or java-projects, do this:
+Open ONLY the project you want to run in VsCode.
 
     code java-projects/local_file_organizer
