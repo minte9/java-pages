@@ -24,3 +24,10 @@ git clone https://github.com/minte9/java-pages.git
 # Update
 git pull origin main
 ~~~
+
+##
+
+# Maven 
+
+Root java-pages project as a parent (multi-module) POM.  
+Parent pom.xml has NO dependencies.  

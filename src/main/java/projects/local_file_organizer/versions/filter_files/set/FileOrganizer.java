@@ -40,5 +40,7 @@ public class FileOrganizer {
                 System.out.println(file.getName());
             }
         }
+
+        System.out.println("Done!");
     }
 }

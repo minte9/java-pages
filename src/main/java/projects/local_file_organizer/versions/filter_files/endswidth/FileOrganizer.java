@@ -27,6 +27,8 @@ public class FileOrganizer {
                 System.out.println(file.getName());
             }
         }
+
+        System.out.println("Done!");
     }
 
     private static boolean hasExtension(File file, String extension) {

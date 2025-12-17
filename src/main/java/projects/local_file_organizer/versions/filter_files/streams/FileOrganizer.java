@@ -39,7 +39,7 @@ public class FileOrganizer {
                            extensions.contains(name.substring(dot + 1).toLowerCase());
               })
               .forEach(System.out::println);
-
-
+              
+        System.out.println("Done!");
     }
 }

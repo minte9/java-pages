@@ -57,6 +57,8 @@ public class FileOrganizer {
             list.forEach(f -> System.out.println("  " + f.getName()));
         });
 
+        System.out.println("Done!");
+
     }
     
     private static String getExtension(File file) {

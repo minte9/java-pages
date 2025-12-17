@@ -62,6 +62,8 @@ public class FileOrganizer {
             }
         });
 
+        System.out.println("Done!");
+
     }
 
     private static void organizeFiles(Path baseDir, String extension, List<File> files) 
