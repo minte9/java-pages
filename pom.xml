@@ -119,20 +119,6 @@
             </archive>
           </configuration>
         </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifactId>
-          <configuration>
-            <archive>
-              <manifest>
-                <mainClass>
-                  projects.local_file_organizer.FileOrganizer
-                </mainClass>
-              </manifest>
-            </archive>
-          </configuration>
-        </plugin>
         
       </plugins>
     </pluginManagement>
