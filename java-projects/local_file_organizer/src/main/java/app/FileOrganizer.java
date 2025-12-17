@@ -85,10 +85,10 @@ public class FileOrganizer {
             if (!DRY_RUN) {
 
                 // Prevent accidental overriting
-                if (Files.exists(target)) {
-                    System.out.println("Skipping existing file: " + target);
-                    return;
-                }
+                // if (Files.exists(target)) {
+                //     System.out.println("Skipping existing file: " + target);
+                //     return;
+                // }
 
                 // Move files
                 Files.move(source, target, StandardCopyOption.REPLACE_EXISTING);
