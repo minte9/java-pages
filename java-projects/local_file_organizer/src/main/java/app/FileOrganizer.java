@@ -2,7 +2,7 @@
  * READ FILES / CREATE FOLDERS & MOVE FILES
  * ------------------------------------------
  *  - Create folders per extension
- *  - Move files into them
+ *  - Move files into the folders
  *  - Dry-run safety (very important)
  * 
  * We use NIO for File Operations (Recommended)
