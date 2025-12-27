@@ -25,7 +25,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.sql.ClientInfoStatus;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -33,7 +32,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class FileOrganizer {
-    private static boolean dryRun = false; // change to files to actually move files
     public static void main(String[] args) {
         File dir = new File(System.getProperty("user.home"), "Downloads");
 
