@@ -18,7 +18,7 @@
  *  - Works on Linux / Windows / macOS
  */
 
-package app;
+package app.versions.cli_options;
 
 import java.io.File;
 import java.io.IOException;
