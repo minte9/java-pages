@@ -3,7 +3,7 @@
  * ------------------------------------------
  *  - Create folders per extension
  *  - Move files into the folders
- *  - Dry-run safety option (very important)
+ *  - Dry-run safety CLI option (very important)
  * 
  * We use NIO for File Operations (Recommended)
  *  - Safe
