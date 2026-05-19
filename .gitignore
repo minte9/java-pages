@@ -39,3 +39,8 @@ hs_err_pid*
 # OS editor junk
 .DS_Store
 Thumbs.db
+
+.gradle/
+build/
+target/
+bin/
