@@ -1,51 +1,44 @@
-## IoC (Inversion of Control)
+## Inversion of Control (IoC)
 
-### What IoC means
+With IoC the control of creating and wiring objects is moved out of your code  
+and into a container/framework.
 
-The control of creating and wiring objects is moved out of your code and  
-into a container/framework.
-
-In plain java, we often do this ourselves with `new`.  
+In plain java, we often wire objects ourselves (with new).  
 
 In Spring, the IoC `container` creates objects and connects their dependencies.  
 In Spring, that container is commonly represented by `ApplicationContext`.  
 
-When a framework manages object creation, your classes can `focus` on business logic,  
-not on:
-
-- deciding which implementation to create
-- creating dependency chains manually
-- wiring objects together everywhere
+When a framework manages object creation, your classes can focus on business logic.
 
 Spring's container is responsible for instantianting, configuring, and assembling `beans`  
 based on configuration metadata such as configuration classes and `@Bean` methods. 
 
 
-### Manual object creation
+### 1. Manual creation (objects)
 
-Without IoC: manual object creation.
+We crete dependencies manually with new keyword.  
+This is simple for small programs, but in larger apps it becomes hard to manage.  
 
 ~~~java
 /**
- * Plain Java without Spring
- * 
- * We crete dependencies manually with new 
+ * Manual Creation (plain Java)
+ * ============================
  */
+package manual_creation;
 
-package com.example.manual_creation;
-
-public class Main {
+public class ManualCreationApp {
     public static void main(String[] args) {
-        MessageService service = new MessageService();
-        NotificationController controller = new NotificationController(service);
 
-        controller.print();  // Hello from MessageService
+        MessageService service = new MessageService();
+
+        NotificationController controller = new NotificationController(service);
+        controller.print();  // Hello from Service / Manual Creation
     }
 }
 
 class MessageService {
     public String getMessage() {
-        return "Hello from MessageService";
+        return "Hello from Service / Manual Creation";
     }
 }
 
@@ -62,32 +55,29 @@ class NotificationController {
 }
 ~~~
 
-This is simple for small programs, but in larger apps it becomes hard to manage.  
+### 2. Factory pattern
 
-
-### With Factory pattern
+Using Factory Pattern the creation is centralized, but still controlled by our code. 
 
 ~~~java
 /**
- * Factory pattern
- * 
- * Creation is centralized, but still controlled by our code 
+ * Factory pattern (plain Java)
+ * ============================
  */
+package factory_pattern;
 
-package com.example.factory_pattern;
-
-public class Main {
+public class FactoryPatternApp {
     public static void main(String[] args) {
-        NotificationController controller = AppFactory.createNotificationController();
 
+        NotificationController controller = AppFactory.createNotificationController();
         controller.print();  // Hello from MessageService
     }
 }
 
 class AppFactory {
     public static NotificationController createNotificationController() {
+
         MessageService service = new MessageService();
-        
         return new NotificationController(service);
     }
 }
@@ -107,19 +97,24 @@ class NotificationController {
 
 class MessageService {
     public String getMessage() {
-        return "Hello from MessageService";
+        return "Hello from Service / Factory Pattern";
     }
 }
 ~~~
 
-What improved: 
-- The creation logic is centralized
 
-What did not change: 
-- The code still controlls object creation
+### 3. Spring IoC
 
+Spring Framework does the important wiring work:
 
-### With Spring IoC
+- creates MessageService
+- creates NotificationController
+- injects MessageService into NotificationController
+
+That is IoC: control moved from you app code to the Spring container.  
+
+Spring supports Java-based configuration through `@Configuration` and `@Bean`,  
+and `ApplicationContext` is the central IoC container interface.  
 
 ~~~xml
 <!-- ========================================
@@ -156,22 +151,23 @@ What did not change:
 ~~~
 
 ~~~java
-package com.example.ioc;
+package spring_ioc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-public class Main {
+public class SpringIocApp {
     public static void main(String[] args) {
+
         ApplicationContext context =
                  new AnnotationConfigApplicationContext(AppConfig.class);
 
         NotificationController controller = 
             context.getBean(NotificationController.class);
 
-        controller.print();  // Hello from MessageService
+        controller.print();  // Hello from Service / Spring IoC
     }
 }
 
@@ -195,7 +191,7 @@ class AppConfig {
 
 class MessageService {
     public String getMessage() {
-        return "Hello from MessageService";
+        return "Hello from Service / Spring IoC";
     }
 }
 
@@ -211,14 +207,3 @@ class NotificationController {
     }
 }
 ~~~
-
-Now Spring does the important wiring work:
-
-- creates MessageService
-- creates NotificationController
-- injects MessageService into NotificationController
-
-That is IoC: control moved from you app code to the Spring container.  
-
-Spring supports Java-based configuration through `@Configuration` and `@Bean`,  
-and `ApplicationContext` is the central IoC container interface.  
