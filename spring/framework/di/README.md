@@ -1,19 +1,15 @@
 ### Dependency Injection (DI)
 
-What DI means:
-
-Provide an object's dependencies from the outside  
-instead of creating them inside the class.  
+With DI an object receive its dependencies from outside.  
+It doesn't create the dependencies inside the class.   
 
 DI is how IoC is implemented in Spring.
 
 ~~~java
-// BAD (no DI):
 class A {
     B b = new B(); // tightly coupled
 }
 
-// GOOD (DI):
 class A {
     private final B b;
 
@@ -26,7 +22,12 @@ class A {
 
 ### Types of DI
 
-1) Constructor Injection (RECOMMENDED)
+1) Constructor Injection
+
+This is the recommended way because: 
+- dependencies are required
+- object is always valid
+- easier to test
 
 ~~~java
 class MessageService {
@@ -50,12 +51,12 @@ class NotificationController {
 }
 ~~~
 
-Best practice because:
-- dependencies are required
-- object is always valid
-- easier to test
+2) Field Injection
 
-2) Field Injection (NOT recommended)
+Not recommended because: 
+- hard to test
+- hidden dependencies
+- not immutable
 
 ~~~java
 import org.springframework.beans.factory.annotation.Autowired;
@@ -71,11 +72,6 @@ class NotificationController {
 }
 ~~~
 
-Problems:
-- hard to test
-- hidden dependencies
-- not immutable
-
 
 ### IoC using DI
 
@@ -90,7 +86,7 @@ Problems:
 ~~~
 
 ~~~java
-package com.example.di;
+package dependency_injection;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -98,15 +94,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
-public class Main {
+public class DependencyInjectionApp {
     public static void main(String[] args) {
 
         ApplicationContext context = 
             new AnnotationConfigApplicationContext(AppConfig.class);
 
-        OrderService service =
-            context.getBean(OrderService.class);
-
+        OrderService service = context.getBean(OrderService.class);
         service.processOrder();
             // Payment executed ...
             // Order processed.
@@ -114,9 +108,8 @@ public class Main {
 }
 
 @Configuration
-@ComponentScan(basePackages = "com.example.di")
+@ComponentScan(basePackages = "dependency_injection")
 class AppConfig {
-
 }
 
 @Service

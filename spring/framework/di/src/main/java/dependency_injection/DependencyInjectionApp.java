@@ -1,4 +1,4 @@
-package com.example.di;
+package dependency_injection;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -6,15 +6,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
-public class Main {
+public class DependencyInjectionApp {
     public static void main(String[] args) {
 
         ApplicationContext context = 
             new AnnotationConfigApplicationContext(AppConfig.class);
 
-        OrderService service =
-            context.getBean(OrderService.class);
-
+        OrderService service = context.getBean(OrderService.class);
         service.processOrder();
             // Payment executed ...
             // Order processed.
@@ -22,9 +20,8 @@ public class Main {
 }
 
 @Configuration
-@ComponentScan(basePackages = "com.example.di")
+@ComponentScan(basePackages = "dependency_injection")
 class AppConfig {
-
 }
 
 @Service
