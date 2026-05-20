@@ -6,15 +6,22 @@ It doesn't create the dependencies inside the class.
 DI is how IoC is implemented in Spring.
 
 ~~~java
-class A {
-    B b = new B(); // tightly coupled
+class NotificationController {
+
+    private final MessageService service;
+
+    public NotificationController() {
+        this.service = new MessageService();  // tightly coupled
+    }
 }
 
-class A {
-    private final B b;
+class NotificationController {
 
-    public A(B b) { // dependency is injected
-        this.b = b;
+    private final MessageService service;
+
+    // dependency is REQUIRED and immutable
+    public NotificationController(MessageService service) {  // injected
+        this.service = service;
     }
 }
 ~~~
