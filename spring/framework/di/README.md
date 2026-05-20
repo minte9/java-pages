@@ -85,7 +85,21 @@ class NotificationController {
 </dependencies>
 ~~~
 
+@Service: Marks a class as a service component.  
+@Configuration: Indicates that the class contains Spring configuration. 
+@ComponentScan: Tells Spring to scan for components in the specified package. 
+
+ApplicationContext: The Spring container that manages beans and their dependencies.  
+ 
+In this example, OrderService depends on PaymentService, and Spring injects   
+the dependency automatically when creating the OrderService bean.  
+
 ~~~java
+/**
+ * Dependecny Injection with Spring Framework:
+ * ===========================================
+ * Spring manages the creation and injection of dependencies.
+ */
 package dependency_injection;
 
 import org.springframework.context.ApplicationContext;
