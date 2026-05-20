@@ -4,7 +4,10 @@ Annotation mechanism (@Something) is a Java language feature.
 The @Configuration, @Bean are Spring Framework features.  
 
 Annotations do nothing by themselves unless something process them.  
-Spring reads these annotations and changes behavior at runtime.  
+Spring reads these annotations and changes behavior at runtime. 
+
+@Configuration → marks class as source of bean  definitions
+@Bean → tell Springs: "this method creates an object you should manage"
 
 ~~~java
 @Configuration
@@ -17,24 +20,22 @@ class AppConfig {
 }
 ~~~
 
-What Spring interprets:
-
-- scan AppConfig
-- find @Bean methods
-- call messageService()
-- register result as a "bean"
-
-@Configuration → marks class as source of bean  definitions
-@Bean → tell Springs: "this method creates an object you should manage"
-
-
-### IoC using annotations only
+### IoC using annotations
 
 Instead of writing "recipes" (@Bean methods), we mark classes and let Spring:
 
 - detect them
 - create them
 - inject dependencies
+
+We did NOT write:
+
+~~~java
+new MessageService()
+new NotificationController(...)
+~~~
+
+Spring did everything based on annotations + classpath scanning. 
 
 ~~~java
 import org.springframework.stereotype.Component;
@@ -46,6 +47,9 @@ class MessageService {
     }
 }
 ~~~
+
+### Annotations Example App
+
 ~~~xml
 <dependencies>
     <dependency>
@@ -58,13 +62,13 @@ class MessageService {
 ~~~java
 /**
  * IoC example (using only annotations)
- * 
- * - Enable component scanning (Configuration minimal)
- * - Mark classes as Spring-managed (@Component)
- * - Constructor injection (NotificationController)
+ * ====================================
+ * Enable component scanning (Configuration minimal)
+ * Mark classes as Spring-managed (@Component)
+ * Constructor injection (NotificationController)
  */
 
-package com.example.ioc;
+package annotations_example;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -72,7 +76,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-public class Main {
+public class AnnotationsExampleApp {
     public static void main(String[] args) {
         
         ApplicationContext context = 
@@ -81,20 +85,21 @@ public class Main {
         NotificationController controller = 
             context.getBean(NotificationController.class);
 
-        controller.print();  // Hello from MessageService
+        controller.print();  
+            // Hello from Message Service
     }    
 }
 
 @Configuration
-@ComponentScan(basePackages = "com.example.ioc")
+@ComponentScan(basePackages = "annotations_example")
 class AppConfig {
-
+    // No explicit bean definitions needed due to @ComponentScan
 }
 
 @Component
 class MessageService {
     public String getMessage() {
-        return "Hello from MessageService";
+        return "Hello from Message Service";
     }
 }
 
@@ -111,14 +116,3 @@ class NotificationController {
     }
 }
 ~~~
-
-We did NOT write:
-
-~~~java
-new MessageService()
-new NotificationController(...)
-
-@Bean
-~~~
-
-Spring did everything based on annotations + classpath scanning. 

@@ -1,12 +1,12 @@
 /**
  * IoC example (using only annotations)
- * 
- * - Enable component scanning (Configuration minimal)
- * - Mark classes as Spring-managed (@Component)
- * - Constructor injection (NotificationController)
+ * ====================================
+ * Enable component scanning (Configuration minimal)
+ * Mark classes as Spring-managed (@Component)
+ * Constructor injection (NotificationController)
  */
 
-package com.example.ioc;
+package annotations_example;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-public class Main {
+public class AnnotationsExampleApp {
     public static void main(String[] args) {
         
         ApplicationContext context = 
@@ -23,20 +23,21 @@ public class Main {
         NotificationController controller = 
             context.getBean(NotificationController.class);
 
-        controller.print();  // Hello from MessageService
+        controller.print();  
+            // Hello from Message Service
     }    
 }
 
 @Configuration
-@ComponentScan(basePackages = "com.example.ioc")
+@ComponentScan(basePackages = "annotations_example")
 class AppConfig {
-
+    // No explicit bean definitions needed due to @ComponentScan
 }
 
 @Component
 class MessageService {
     public String getMessage() {
-        return "Hello from MessageService";
+        return "Hello from Message Service";
     }
 }
 
