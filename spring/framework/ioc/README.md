@@ -1,4 +1,7 @@
-## Inversion of Control (IoC)
+## JVM / Spring / Framework / Inversion of Control
+
+
+### 1. Inversion of Control (IoC)
 
 With IoC the control of creating and wiring objects is moved out of your code  
 and into a container/framework.
@@ -14,7 +17,7 @@ Spring's container is responsible for instantianting, configuring, and assemblin
 based on configuration metadata such as configuration classes and `@Bean` methods. 
 
 
-### 1. Manual creation (objects)
+### 2. Manual creation (objects)
 
 We crete dependencies manually with new keyword.  
 This is simple for small programs, but in larger apps it becomes hard to manage.  
@@ -55,7 +58,7 @@ class NotificationController {
 }
 ~~~
 
-### 2. Factory pattern
+### 3. Factory pattern
 
 Using Factory Pattern the creation is centralized, but still controlled by our code. 
 
@@ -103,7 +106,7 @@ class MessageService {
 ~~~
 
 
-### 3. Spring IoC
+### 4. Spring IoC
 
 Spring Framework does the important wiring work:
 
@@ -208,7 +211,7 @@ class NotificationController {
 }
 ~~~
 
-### 4. Spring Boot
+### 5. Spring Boot
 
 Spring Boot still uses Spring IoC and ApplicationContext.  
 

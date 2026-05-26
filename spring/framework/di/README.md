@@ -1,4 +1,7 @@
-### Dependency Injection (DI)
+## JVM / Spring / Framework / Dependency Injection
+
+
+### 1. Dependency Injection (DI)
 
 With DI an object receive its dependencies from outside.  
 It doesn't create the dependencies inside the class.   
@@ -27,7 +30,7 @@ class NotificationController {
 ~~~
 
 
-### Types of DI
+### 2. Types of DI
 
 1) Constructor Injection
 
@@ -80,7 +83,7 @@ class NotificationController {
 ~~~
 
 
-### IoC using DI
+### 3. IoC using DI
 
 ~~~xml
 <dependencies>
