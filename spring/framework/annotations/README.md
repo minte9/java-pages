@@ -1,6 +1,6 @@
 ## JVM / Spring / Framework / Annotations
 
-### Annotations
+### 1. Annotations
 
 Annotation mechanism (@Something) is a Java language feature.    
 The @Configuration, @Bean are Spring Framework features.  
@@ -22,7 +22,7 @@ class AppConfig {
 }
 ~~~
 
-### IoC using annotations
+### 2. IoC using annotations
 
 Instead of writing "recipes" (@Bean methods), we mark classes and let Spring:
 
