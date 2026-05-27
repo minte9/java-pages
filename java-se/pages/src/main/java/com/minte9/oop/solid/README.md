@@ -1,10 +1,12 @@
-# SOLID 
+## Java / OOP / SOLID
+
+### 1. SOLID overview
 
 Solid is a set of five OOP design principles in order to write  
 clean, maintainable, flexible, and scalable code - expecially in languages like Java.
 
 
-## Single Responsibility Principle (SRP)
+### 2. Single Responsibility Principle (SRP)
 
 A class should have only one reason to change.
 
@@ -33,7 +35,7 @@ Now each class has one responsibility.
 
 
 
-## Open/Closed Principle (OCP)
+### 3. Open/Closed Principle (OCP)
 
 Open for extension, closed for modification.  
 Sofware entities should be open for extension, but closed for modification.  
